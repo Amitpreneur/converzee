@@ -1,0 +1,48 @@
+.main-Preview {
+  /* width: calc(100% - 135px); */
+  position: fixed;
+  background-color: rgb(16, 16, 206);
+  left: 0px;
+  z-index: 10000;
+  width: 100%;
+  /* margin-left: 135px; */
+}
+.previewDiv {
+  margin-left: 20%;
+}
+.btn-preview {
+  height: 40px;
+}
+.horDiv {
+  position: relative;
+}
+.image-popup {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+.sidebar {
+  z-index: 0;
+}
+.image-main-preview {
+  height: auto;
+  width: auto;
+  background-color: unset !important;
+}
+.image-main-preview > div{
+  position: relative;
+}
+.image-preview {
+  position: relative;
+  display: inherit;
+}
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+.popupCloseButton{
+  position: absolute !important;
+}

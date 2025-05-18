@@ -1,0 +1,36 @@
+.reviewIcon {
+  display: flex;
+  width: 250px;
+  margin: 10px;
+  padding: 7px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0px;
+  border-radius: 10px;
+  font-size: 16px;
+  word-break: break-word;
+}
+.mck_avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.mxk_review-icon {
+  padding-left: 2px;
+  padding-right: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.mck_reviewIcon_left {
+  left: 0px;
+}
+.mck_hideReview {
+  display: none !important;
+  opacity: 0;
+}
+
+.mck_reviewIcon_right {
+  right: 0px;
+}

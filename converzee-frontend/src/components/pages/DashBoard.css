@@ -1,0 +1,257 @@
+[name="Dashboard"] {
+  font-family: "Exo", sans-serif !important;
+}
+.dashboard-card {
+  display: flex;
+  border-radius: 8px;
+  padding: 70px 30px 20px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+}
+.dashboard-card img {
+  position: absolute;
+  right: 20px;
+  top: -48px;
+}
+.card-text {
+  bottom: 20px;
+  /* position: absolute; */
+  color: #ed8a25;
+  font-family: "Exo", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.card-subtext {
+  bottom: 10px;
+  /* position: absolute; */
+  color: #808080;
+  font-family: "Exo", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-top: 7px;
+}
+
+.chart-container {
+  /* height: 396px; */
+  border-radius: 8px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+  padding: 20px 30px;
+}
+.toggle-chart {
+  height: 34px;
+  width: max-content;
+  display: flex;
+  border-radius: 30px;
+  background-color: #f0f0f0;
+}
+
+.toggle-button {
+  height: 34px;
+  width: 140px;
+  cursor: pointer;
+  display: inline-grid;
+  text-align: center;
+  color: #808080;
+  font-family: "Exo", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.toogle-active {
+  color: #fff;
+  background-color: #ed8a25;
+}
+.card-title {
+  display: inline-grid;
+  margin: unset;
+  padding: unset;
+  align-items: end;
+}
+.cz_chart_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.cz_chart_filter .cz_filter_box {
+  height: 34px;
+  border: 1px solid #d5d5d5;
+  border-radius: 6px;
+  padding: 0 20px;
+  position: relative;
+  font-size: 15px;
+  line-height: 32px;
+  cursor: pointer;
+}
+.cz_chart_filter .cz_filter_box i {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+.cz_chart_filter {
+  width: 290px;
+  max-width: 100%;
+}
+.cz_date_picker {
+  position: absolute;
+  right: 0;
+  background: #ffffff;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 50px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.rdrDefinedRangesWrapper {
+  width: 162px;
+}
+.rdrCalendarWrapper {
+  width: 470px;
+  max-width: 100%;
+}
+.rdrMonthAndYearWrapper {
+  height: 40px;
+  padding: 0;
+}
+.rdrMonth {
+  padding: 0;
+  border-right: 1px solid #f2f2f2;
+}
+.rdrMonthName {
+  background: #eff2f7;
+  font-weight: 800;
+}
+.rdrDayNumber {
+  font-weight: 500 !important;
+}
+.rdrWeekDay {
+  font-weight: 500 !important;
+}
+.rdrStaticRangeLabel {
+  font-family: inherit;
+}
+button.rdrStaticRange {
+  font-family: 'Roboto';
+}
+.rdrInputRange {
+  font-family: 'Roboto';
+  text-transform: capitalize;
+}
+.rdrDateDisplayItem input {
+  border: none !important;
+}
+.cz_chart_filter.active .cz_date_picker {
+  margin-top: 10px;
+  visibility: visible;
+  opacity: 1;
+}
+.cz_chart_filter.active .cz_date_picker .cz_date_overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+@media (max-width: 786px) {
+  .cz_chart_head {
+    flex-wrap: wrap;
+  }
+  .cz_chart_filter {
+      width: 100%;
+  }
+  .cz_chart_head .toggle-chart {
+      margin: 0 0 20px !important;
+  }
+  .rdrDateRangePickerWrapper {
+      flex-direction: column !important;
+      width: 100% !important;
+  }
+  .rdrDefinedRangesWrapper {
+      width: 100% !important;
+  }
+  .rdrStaticRanges {
+      flex-direction: row !important;
+  }
+  .rdrInputRanges {
+      display: flex !important;
+  }
+  .rdrStaticRange {
+    border: none !important;
+  }
+  .rdrStaticRangeLabel {
+      height: 25px;
+      padding: 0 10px !important;
+      background: #eff2f7;
+      margin: 0 7px 7px;
+      border-radius: 100px;
+      font-weight: 500;
+      line-height: 25px !important;
+  }
+  .rdrStaticRanges {
+      padding-top: 13px;
+  }
+  .rdrStaticRanges {
+    flex-wrap: wrap;
+  }
+  .toggle-button {
+    width: 124px;
+  }
+  .rdrCalendarWrapper {
+    width: 100% !important;
+  }
+  .cz_date_picker {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .toggle-chart {
+    /* width: 282px; */
+  }
+  
+}
+@media (max-width: 480px) {
+  .chart-container {
+    padding: 0;
+    box-shadow: none;
+  }
+  .rdrWeekDay {
+      font-size: 10px;
+      font-weight: 700 !important;
+  }
+  .rdrDayNumber {
+      font-size: 10px;
+      font-weight: 700 !important;
+  }
+}
+@media (min-width: 768) {
+  .toggle-chart {
+    /* width: 304px; */
+  }
+  .toggle-button {
+    width: 152px;
+  }
+}
+@media (min-width: 992px) {
+  .toggle-chart {
+    /* width: 304px; */
+  }
+  .toggle-button {
+    width: 152px;
+  }
+}
+@media (min-width: 1200px) {
+  .toggle-chart {
+    /* width: 304px; */
+  }
+  .toggle-button {
+    width: 152px;
+  }
+}

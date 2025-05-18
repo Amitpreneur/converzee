@@ -1,0 +1,1892 @@
+/* --------------- template 1 start --------------------*/
+.dynamic_elements1 {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements1 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+.dynamic_elements1 .mck_toggle span {
+    display: block;
+    width: 35px;
+    height: 6px;
+    background: #313131;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements1 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 13px) rotate(-48deg);
+}
+.dynamic_elements1 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements1 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -6px) rotate(48deg);
+}
+.dynamic_elements1 .mck_social_icon {
+    padding: 10px 5px;
+    position: absolute;
+    border: solid 2px #3A3A3A;
+    border-radius: 50px;
+    width: 40px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    bottom: 100%;
+    right: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+    transition: 300ms ease-in-out;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
+}
+.dynamic_elements1 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements1 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+}
+.dynamic_elements1 .mck_social_icon > ul > li > a {
+    display: inline-block;
+    padding: 10px 0;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 600ms ease-in-out 50ms;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 600ms ease-in-out 100ms;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 600ms ease-in-out 200ms;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 300ms;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 400ms;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 500ms;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 600ms;
+}
+.dynamic_elements1 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(07) {
+    transition: 700ms ease-in-out 700ms;
+}
+.dynamic_elements1 .mck_social_icon > ul > li > a > svg {
+    fill: #3A3A3A;
+    width: 20px;
+    height: 20px;
+}
+/* --------------- template 1 end --------------------*/
+
+/* --------------- template 4 start --------------------*/
+.dynamic_elements4 {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements4 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 20px;
+}
+.dynamic_elements4 .mck_toggle span {
+    display: block;
+    width: 30px;
+    height: 6px;
+    background: #313131;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements4 .mck_toggle span:nth-child(3) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements4 .mck_toggle span:nth-child(2) {
+    width: 20px;
+    margin-left: auto;
+}
+.dynamic_elements4 .mck_toggle:hover span:nth-child(2) {
+    width: 30px;
+}
+.dynamic_elements4 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: -13px;
+}
+.dynamic_elements4 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements4 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+}
+.dynamic_elements4 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements4 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements4 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 400ms ease-in-out;
+}
+.dynamic_elements4 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 400ms ease-in-out 100ms;
+}
+.dynamic_elements4 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 400ms ease-in-out 200ms;
+}
+.dynamic_elements4 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 400ms ease-in-out 300ms;
+}
+.dynamic_elements4 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 400ms ease-in-out 400ms;
+}
+.dynamic_elements4 .mck_social_icon > ul > li > a {
+    display: inline-block;
+    padding: 10px 0;
+}
+.dynamic_elements4 .mck_social_icon > ul > li > a > svg {
+    fill: #3A3A3A;
+    width: 20px;
+    height: 20px;
+}
+.dynamic_elements4 .mck_social_icon > ul > li:nth-child(1) a > svg {
+    fill: #25D366;
+}
+.dynamic_elements4 .mck_social_icon > ul > li:nth-child(2) a > svg {
+    fill: #FF4C3C;
+}
+.dynamic_elements4 .mck_social_icon > ul > li:nth-child(3) a > svg {
+    fill: #00CCFF;
+}
+.dynamic_elements4 .mck_social_icon > ul > li:nth-child(4) a > svg {
+    fill: #4587CC;
+}
+.dynamic_elements4 .mck_social_icon > ul > li:nth-child(5) a > svg {
+    fill: #1677F1;
+}
+/* --------------- template 4 end --------------------*/
+
+/* --------------- template 5 start --------------------*/
+.dynamic_elements5 {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements5 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 20px;
+}
+.dynamic_elements5 .mck_toggle span {
+    display: block;
+    width: 35px;
+    height: 6px;
+    background: #313131;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements5 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 13px) rotate(-48deg);
+}
+.dynamic_elements5 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements5 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -6px) rotate(48deg);
+}
+.dynamic_elements5 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: -12px;
+}
+.dynamic_elements5 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements5 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+}
+.dynamic_elements5 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements5 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements5 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements5 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 500ms ease-in-out 50ms;
+}
+.dynamic_elements5 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 500ms ease-in-out 100ms;
+}
+.dynamic_elements5 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 500ms ease-in-out 200ms;
+}
+.dynamic_elements5 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 300ms;
+}
+.dynamic_elements5 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 400ms;
+}
+.dynamic_elements5 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 500ms ease-in-out 500ms;
+}
+.dynamic_elements5 .mck_social_icon > ul > li > a {
+    display: inline-block;
+    padding: 10px 0;
+}
+.dynamic_elements5 .mck_social_icon > ul > li > a > svg {
+    fill: #3A3A3A;
+    width: 20px;
+    height: 20px;
+}
+.dynamic_elements5 .mck_social_icon > ul > li:nth-child(1) a > svg {
+    fill: #00ACF3;
+}
+.dynamic_elements5 .mck_social_icon > ul > li:nth-child(2) a > svg {
+    fill: #EB1A22;
+}
+.dynamic_elements5 .mck_social_icon > ul > li:nth-child(3) a > svg {
+    fill: #0067FF;
+}
+.dynamic_elements5 .mck_social_icon > ul > li:nth-child(4) a > svg {
+    fill: #FF679A;
+}
+.dynamic_elements5 .mck_social_icon > ul > li:nth-child(5) a > svg {
+    fill: #00ABF4;
+}
+.dynamic_elements5 .mck_social_icon > ul > li:nth-child(6) a > svg {
+    fill: #00B7EB;
+}
+/* --------------- template 5 end --------------------*/
+
+/* --------------- template 6 start --------------------*/
+.dynamic_elements6  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements6 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 10px;
+}
+.dynamic_elements6 .mck_toggle span {
+    display: block;
+    width: 35px;
+    height: 6px;
+    background: #313131;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements6 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 13px) rotate(-48deg);
+}
+.dynamic_elements6 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements6 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -6px) rotate(48deg);
+}
+.dynamic_elements6 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom:100%;
+    right: 12px;
+}
+.dynamic_elements6 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements6 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+    margin-top:10px;
+}
+.dynamic_elements6 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements6 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements6 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements6 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 500ms ease-in-out 50ms;
+}
+.dynamic_elements6 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 500ms ease-in-out 100ms;
+}
+.dynamic_elements6 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 500ms ease-in-out 200ms;
+}
+.dynamic_elements6 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 300ms;
+}
+.dynamic_elements6 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 400ms;
+}
+.dynamic_elements6 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 500ms ease-in-out 500ms;
+}
+.dynamic_elements6 .mck_social_icon > ul > li > a {
+    display: inline-block;
+}
+.dynamic_elements6 .mck_social_icon > ul > li > a > svg {
+    width: 40px;
+    height: 40px;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 6px;
+}
+.dynamic_elements6 .mck_social_icon > ul > li:nth-child(1) a > svg {
+    fill: #00ACF3;
+    border-color: #00ACF3;
+}
+.dynamic_elements6 .mck_social_icon > ul > li:nth-child(2) a > svg {
+    fill: #EB1A22;
+    border-color: #EB1A22;
+}
+.dynamic_elements6 .mck_social_icon > ul > li:nth-child(3) a > svg {
+    fill: #0067FF;
+    border-color: #0067FF;
+}
+.dynamic_elements6 .mck_social_icon > ul > li:nth-child(4) a > svg {
+    fill: #FF679A;
+    border-color: #FF679A;
+}
+.dynamic_elements6 .mck_social_icon > ul > li:nth-child(5) a > svg {
+    fill: #00ABF4;
+    border-color: #00ABF4;
+}
+.dynamic_elements6 .mck_social_icon > ul > li:nth-child(6) a > svg {
+    fill: #00B7EB;
+    border-color: #00B7EB;
+}
+/* --------------- template 6 end --------------------*/
+
+/* --------------- template 8 start --------------------*/
+.dynamic_elements8  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements8 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements8 .mck_toggle span {
+    display: block;
+    width: 30px;
+    height: 6px;
+    background: #6c6c6c;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements8 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 13px) rotate(-48deg);
+}
+.dynamic_elements8 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements8 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -6px) rotate(48deg);
+}
+.dynamic_elements8 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: -15px;
+}
+.dynamic_elements8 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements8 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(60px);
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 600ms ease-in-out 50ms;
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 600ms ease-in-out 100ms;
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 600ms ease-in-out 200ms;
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 300ms;
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 400ms;
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 500ms;
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 600ms;
+}
+.dynamic_elements8 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(07) {
+    transition: 700ms ease-in-out 700ms;
+}
+.dynamic_elements8 .mck_social_icon > ul > li > a {
+    display: inline-block;
+    padding: 8px 0;
+}
+.dynamic_elements8 .mck_social_icon > ul > li > a > svg {
+    width: 25px;
+    height: 25px;
+}
+.dynamic_elements8 .mck_social_icon > ul > li:nth-child(1) a > svg {
+    fill: #FF4C3C;
+}
+.dynamic_elements8 .mck_social_icon > ul > li:nth-child(2) a > svg {
+    fill: #1677F1;
+}
+.dynamic_elements8 .mck_social_icon > ul > li:nth-child(3) a > svg {
+    fill: #00CCFF;
+}
+.dynamic_elements8 .mck_social_icon > ul > li:nth-child(4) a > svg {
+    fill: #1554FC;
+}
+.dynamic_elements8 .mck_social_icon > ul > li:nth-child(5) a > svg {
+    fill: #FF4500;
+}
+.dynamic_elements8 .mck_social_icon > ul > li:nth-child(6) a > svg {
+    fill: #00B7EB;
+}
+/* --------------- template 8 end --------------------*/
+
+/* --------------- template 9 start --------------------*/
+.dynamic_elements9  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements9 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements9 .mck_toggle span {
+    display: block;
+    width: 35px;
+    height: 6px;
+    background: #a1a1a1;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements9 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 13px) rotate(-48deg);
+}
+.dynamic_elements9 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements9 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -6px) rotate(48deg);
+}
+.dynamic_elements9 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: 10px;
+}
+.dynamic_elements9 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements9 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+    margin-top: 10px;
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 600ms ease-in-out 50ms;
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 600ms ease-in-out 100ms;
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 600ms ease-in-out 200ms;
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 300ms;
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 400ms;
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 500ms;
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 600ms;
+}
+.dynamic_elements9 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(07) {
+    transition: 700ms ease-in-out 700ms;
+}
+.dynamic_elements9 .mck_social_icon > ul > li > a > svg {
+    width: 40px;
+    height: 40px;
+}
+.dynamic_elements9 .mck_social_icon > ul > li:nth-child(1) a > svg circle {
+    fill: #FF4500;
+}
+.dynamic_elements9 .mck_social_icon > ul > li:nth-child(2) a > svg circle {
+    fill: #E60023;
+}
+.dynamic_elements9 .mck_social_icon > ul > li:nth-child(3) a > svg circle {
+    fill: #EA4C89;
+}
+.dynamic_elements9 .mck_social_icon > ul > li:nth-child(4) a > svg circle {
+    fill: #0057FF;
+}
+.dynamic_elements9 .mck_social_icon > ul > li:nth-child(5) a > svg circle {
+    fill: #0088CC;
+}
+.dynamic_elements9 .mck_social_icon > ul > li:nth-child(6) a > svg circle {
+    fill: #00ACF3;
+}
+.dynamic_elements9 .mck_social_icon > ul > li:nth-child(7) a > svg circle {
+    fill: #4587CC;
+}
+/* --------------- template 9 end --------------------*/
+
+/* --------------- template 12 start --------------------*/
+.dynamic_elements12  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements12 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements12 .mck_toggle span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background: #6c6c6c;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements12 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 8px) rotate(-48deg);
+}
+.dynamic_elements12 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements12 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -8px) rotate(48deg);
+}
+.dynamic_elements12 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: -19px;
+}
+.dynamic_elements12 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements12 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(60px);
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 600ms ease-in-out 50ms;
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 600ms ease-in-out 100ms;
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 600ms ease-in-out 200ms;
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 300ms;
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 400ms;
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 500ms;
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 600ms;
+}
+.dynamic_elements12 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(07) {
+    transition: 700ms ease-in-out 700ms;
+}
+.dynamic_elements12 .mck_social_icon > ul > li > a {
+    display: inline-block;
+    padding: 8px 0;
+}
+.dynamic_elements12 .mck_social_icon > ul > li > a > svg {
+    width: 30px;
+    height: 30px;
+}
+.dynamic_elements12 .mck_social_icon > ul > li:nth-child(1) a > svg {
+    fill: #FF4C3C;
+}
+.dynamic_elements12 .mck_social_icon > ul > li:nth-child(2) a > svg {
+    fill: #1677F1;
+}
+.dynamic_elements12 .mck_social_icon > ul > li:nth-child(3) a > svg {
+    fill: #00CCFF;
+}
+.dynamic_elements12 .mck_social_icon > ul > li:nth-child(4) a > svg {
+    fill: #1554FC;
+}
+.dynamic_elements12 .mck_social_icon > ul > li:nth-child(5) a > svg {
+    fill: #FF4500;
+}
+.dynamic_elements12 .mck_social_icon > ul > li:nth-child(6) a > svg {
+    fill: #00B7EB;
+}
+/* --------------- template 12 end --------------------*/
+
+/* --------------- template 14 start --------------------*/
+.dynamic_elements14 {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements14 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements14 .mck_toggle span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background: #6c6c6c;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements14 .mck_toggle span:nth-child(1) {
+	width: 10px;
+	margin-left: auto;
+}
+.dynamic_elements14 .mck_toggle span:nth-child(2) {
+	width: 15px;
+	margin-left: auto;
+}
+.dynamic_elements14 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 8px) rotate(-48deg);
+	width: 25px;
+}
+.dynamic_elements14 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements14 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -8px) rotate(48deg);
+}
+.dynamic_elements14 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: -19px;
+}
+.dynamic_elements14 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements14 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(60px);
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 600ms ease-in-out 50ms;
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 600ms ease-in-out 100ms;
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 600ms ease-in-out 200ms;
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 300ms;
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 400ms;
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 500ms;
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 600ms;
+}
+.dynamic_elements14 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(07) {
+    transition: 700ms ease-in-out 700ms;
+}
+.dynamic_elements14 .mck_social_icon > ul > li > a {
+    padding: 10px;
+    background: #d8d8d8;
+    border-radius: 100px;
+    display: inline-flex;
+    margin: 2.5px 0;
+}
+.dynamic_elements14 .mck_social_icon > ul > li > a > svg {
+    fill: #1C1819;
+    width: 30px;
+    height: 30px;
+}
+
+/* --------------- template 14 end --------------------*/
+
+/* --------------- template 16 start --------------------*/
+.dynamic_elements16  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements16 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 19px;
+}
+.dynamic_elements16 .mck_toggle span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #404040;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements16 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 13px) rotate(-48deg);
+}
+.dynamic_elements16 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements16 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -3px) rotate(48deg);
+}
+.dynamic_elements16 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: -20px;
+}
+.dynamic_elements16 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements16 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+}
+.dynamic_elements16 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements16 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements16 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements16 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 500ms ease-in-out 100ms;
+}
+.dynamic_elements16 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 500ms ease-in-out 200ms;
+}
+.dynamic_elements16 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 500ms ease-in-out 300ms;
+}
+.dynamic_elements16 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 400ms;
+}
+.dynamic_elements16 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 500ms;
+}
+.dynamic_elements16 .mck_social_icon > ul > li > a > svg {
+    width: 30px;
+    height: 30px;
+}
+.dynamic_elements16 .mck_social_icon > ul > li > a {
+    background-image: linear-gradient(to right, #58595B , #000020);
+    display: inline-flex;
+    padding: 10px;
+    margin: 0 0 10px;
+    border-radius: 100px;
+}
+/* --------------- template 16 end --------------------*/
+
+
+/* --------------- template 18 start --------------------*/
+.dynamic_elements18  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements18 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements18 .mck_toggle span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #404040;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements18 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 13px) rotate(-48deg);
+}
+.dynamic_elements18 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements18 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -3px) rotate(48deg);
+}
+.dynamic_elements18 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: -5px;
+}
+.dynamic_elements18 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements18 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+}
+.dynamic_elements18 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements18 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements18 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements18 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 500ms ease-in-out 100ms;
+}
+.dynamic_elements18 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 500ms ease-in-out 200ms;
+}
+.dynamic_elements18 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 500ms ease-in-out 300ms;
+}
+.dynamic_elements18 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 400ms;
+}
+.dynamic_elements18 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 500ms;
+}
+.dynamic_elements18 .mck_social_icon > ul > li > a > svg {
+    width: 30px;
+    height: 30px;
+}
+.dynamic_elements18 .mck_social_icon > ul > li > a {
+    background-image: linear-gradient(to right, #FCFCFC , #E5E5E5);
+    display: inline-flex;
+    padding: 10px;
+    margin: 0 0 10px;
+    border-radius: 100px;
+    border: solid 3px #ededed;
+    box-shadow: 10px 10px 15px 0px rgb(177 177 177 / 55%);
+}
+/* --------------- template 18 end --------------------*/
+
+/* --------------- template 20 start --------------------*/
+.dynamic_elements20 {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements20 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements20 .mck_toggle span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background: #464646;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements20 .mck_toggle span:nth-child(1) {
+    width: 15px;
+    margin-left: auto;
+}
+.dynamic_elements20 .mck_toggle span:nth-child(2) {
+	display: none;
+}
+.dynamic_elements20 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 8px) rotate(-48deg);
+    width: 25px;
+}
+.dynamic_elements20 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements20 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -0px) rotate(48deg);
+}
+.dynamic_elements20 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;   
+    right: -18px;
+}
+.dynamic_elements20 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements20 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(60px);
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 600ms ease-in-out 50ms;
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 600ms ease-in-out 100ms;
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 600ms ease-in-out 200ms;
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 300ms;
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 400ms;
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 500ms;
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 600ms;
+}
+.dynamic_elements20 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(07) {
+    transition: 700ms ease-in-out 700ms;
+}
+.dynamic_elements20 .mck_social_icon > ul > li > a {
+    display: inline-block;
+    padding: 0 0 15px;
+}
+.dynamic_elements20 .mck_social_icon > ul > li > a > svg {
+    fill: #283D51;
+    width: 25px;
+    height: 25px;
+}
+
+/* --------------- template 20 end --------------------*/
+/* --------------- template 22 start --------------------*/
+.dynamic_elements22  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements22 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements22 .mck_toggle span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background: #2c2c2c;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements22 .mck_toggle span:nth-child(1) {
+	width: 15px;
+	margin-left:auto;
+}
+.dynamic_elements22 .mck_toggle span:nth-child(3) {
+	width: 15px;
+	margin-left:auto;
+}
+.dynamic_elements22 .mck_toggle:hover span:nth-child(1) {
+	width: 25px;
+}
+.dynamic_elements22 .mck_toggle:hover span:nth-child(3) {
+	width: 25px;
+}
+.dynamic_elements22 .mck_social_icon {
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    bottom:10px;
+    right: 34px;
+    background-color: #E3F2FF;
+    border-radius: 100px;
+    padding: 25px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+    transition: 300ms ease-in-out;
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
+}
+.dynamic_elements22 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements22 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 600ms ease-in-out 50ms;
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 600ms ease-in-out 100ms;
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 600ms ease-in-out 200ms;
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 300ms;
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 400ms;
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 500ms;
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 600ms;
+}
+.dynamic_elements22 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(07) {
+    transition: 700ms ease-in-out 700ms;
+}
+.dynamic_elements22 .mck_social_icon > ul > li > a > svg {
+    width: 35px;
+    height: 35px;
+    margin: 2.5px 0;
+}
+.dynamic_elements22 .mck_social_icon > ul > li:nth-child(1) a > svg circle {
+    fill: #FF4500;
+}
+.dynamic_elements22 .mck_social_icon > ul > li:nth-child(2) a > svg circle {
+    fill: #E60023;
+}
+.dynamic_elements22 .mck_social_icon > ul > li:nth-child(3) a > svg circle {
+    fill: #EA4C89;
+}
+.dynamic_elements22 .mck_social_icon > ul > li:nth-child(4) a > svg circle {
+    fill: #0057FF;
+}
+.dynamic_elements22 .mck_social_icon > ul > li:nth-child(5) a > svg circle {
+    fill: #0088CC;
+}
+.dynamic_elements22 .mck_social_icon > ul > li:nth-child(6) a > svg circle {
+    fill: #00ACF3;
+}
+.dynamic_elements22 .mck_social_icon > ul > li:nth-child(7) a > svg circle {
+    fill: #4587CC;
+}
+/* --------------- template 22 end --------------------*/
+/* --------------- template 24 start --------------------*/
+.dynamic_elements24 {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements24 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements24 .mck_toggle span {
+    display: block;
+    width: 24px;
+    height: 4px;
+    background: #464646;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements24 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 8px) rotate(-48deg);
+}
+.dynamic_elements24 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements24 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -8px) rotate(48deg);
+}
+.dynamic_elements24 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: -10px;
+}
+.dynamic_elements24 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements24 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(60px);
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 600ms ease-in-out 50ms;
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 600ms ease-in-out 100ms;
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 600ms ease-in-out 200ms;
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 300ms;
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 400ms;
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 500ms;
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 600ms;
+}
+.dynamic_elements24 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(07) {
+    transition: 700ms ease-in-out 700ms;
+}
+.dynamic_elements24 .mck_social_icon > ul > li > a > svg {
+    width: 20px;
+    height: 20px;
+}
+.dynamic_elements24 .mck_social_icon > ul > li > a {
+    background-image: linear-gradient(to right, #FCFCFC , #E5E5E5);
+    display: inline-flex;
+    padding: 10px;
+    margin: 0 0 15px;
+    border-radius: 10px;
+    border: solid 3px #EEF2F5;
+    box-shadow: 0px 5px 5px 0px rgb(177 177 177 / 50%);
+}
+.dynamic_elements24 .mck_social_icon > ul > li:nth-child(1) a > svg {
+    fill: #00acf3;
+}
+.dynamic_elements24 .mck_social_icon > ul > li:nth-child(2) a > svg {
+    fill: #eb1a22;
+}
+.dynamic_elements24 .mck_social_icon > ul > li:nth-child(3) a > svg {
+    fill: #0067ff;
+}
+.dynamic_elements24 .mck_social_icon > ul > li:nth-child(4) a > svg {
+    fill: #ff679a;
+}
+.dynamic_elements24 .mck_social_icon > ul > li:nth-child(5) a > svg {
+    fill: #00abf4;
+}
+.dynamic_elements24 .mck_social_icon > ul > li:nth-child(6) a > svg {
+    fill: #00b7eb;
+}
+/* --------------- template 24 end --------------------*/
+/* --------------- template 25 start --------------------*/
+.dynamic_elements25  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements25 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements25 .mck_toggle span {
+    display: block;
+    width: 25px;
+    height: 5px;
+    background: #404040;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.dynamic_elements25 .mck_toggle span:nth-child(3) {
+	 width: 15px;
+	 margin-left: auto;
+}
+.dynamic_elements25 .mck_toggle span:nth-child(2) {
+	display: none;
+}
+.dynamic_elements25 .mck_toggle:hover span:nth-child(3) {
+	width: 25px;
+}
+.dynamic_elements25 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: -10px;
+}
+.dynamic_elements25 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements25 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+}
+.dynamic_elements25 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements25 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements25 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements25 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 500ms ease-in-out 100ms;
+}
+.dynamic_elements25 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 500ms ease-in-out 200ms;
+}
+.dynamic_elements25 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 500ms ease-in-out 300ms;
+}
+.dynamic_elements25 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 400ms;
+}
+.dynamic_elements25 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 500ms;
+}
+.dynamic_elements25 .mck_social_icon > ul > li > a > svg {
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/barbg/svgback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.dynamic_elements25 .mck_social_icon > ul > li:nth-child(1) a > svg {
+    fill: #00c95c;
+}
+.dynamic_elements25 .mck_social_icon > ul > li:nth-child(2) a > svg {
+    fill: #ee023e;
+}
+.dynamic_elements25 .mck_social_icon > ul > li:nth-child(3) a > svg {
+    fill: #0080ff;
+}
+.dynamic_elements25 .mck_social_icon > ul > li:nth-child(4) a > svg {
+    fill: #4587cc;
+}
+.dynamic_elements25 .mck_social_icon > ul > li:nth-child(5) a > svg {
+    fill: #186ee9;
+}
+
+/* --------------- template 25 end --------------------*/
+/* --------------- template 28 start --------------------*/
+.dynamic_elements28  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements28 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements28 .mck_toggle span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #404040;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements28 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 100%;
+    right: -5px;
+}
+.dynamic_elements28 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements28 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+}
+.dynamic_elements28 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements28 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements28 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements28 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 500ms ease-in-out 100ms;
+}
+.dynamic_elements28 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 500ms ease-in-out 200ms;
+}
+.dynamic_elements28 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 500ms ease-in-out 300ms;
+}
+.dynamic_elements28 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 400ms;
+}
+.dynamic_elements28 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 500ms;
+}
+.dynamic_elements28 .mck_social_icon > ul > li > a > svg {
+    width: 20px;
+    height: 20px;
+}
+.dynamic_elements28 .mck_social_icon > ul > li > a {
+    background-image: linear-gradient(to right, #FCFCFC , #E5E5E5);
+    display: inline-flex;
+    padding: 10px;
+    margin: 0 0 15px;
+    border-radius: 100px;
+    border: solid 3px #ededed;
+    box-shadow: 10px 10px 15px 0px rgb(177 177 177 / 55%);
+}
+/* --------------- template 28 end --------------------*/
+/* --------------- template 30 start --------------------*/
+.dynamic_elements30 {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements30 .mck_toggle {
+    display: block;
+    cursor: pointer;
+}
+.dynamic_elements30 .mck_toggle span {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: #666666;
+    margin-top: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-left: auto;
+}
+.dynamic_elements30 .mck_toggle span:nth-child(1) {
+	width: 10px;
+	margin-left: auto;
+}
+.dynamic_elements30 .mck_toggle span:nth-child(2) {
+	width: 15px;
+	margin-left: auto;
+}
+.dynamic_elements30 .mck_toggle:hover span:nth-child(1) {
+	width: 20px;
+}
+.dynamic_elements30 .mck_toggle:hover span:nth-child(2) {
+	width: 20px;
+}
+.dynamic_elements30 .mck_toggle:hover span:nth-child(3) {
+	width: 20px;
+}
+.dynamic_elements30 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    top: -250px;
+    right: 25px;
+}
+.dynamic_elements30 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements30 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px);
+    margin-bottom: -10px;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements30 .mck_social_icon > ul > li > a > svg {
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/barbg/svgback1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 600ms ease-in-out 50ms;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 600ms ease-in-out 100ms;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 600ms ease-in-out 200ms;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 300ms;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 600ms ease-in-out 400ms;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 500ms;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(06) {
+    transition: 600ms ease-in-out 600ms;
+}
+.dynamic_elements30 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(07) {
+    transition: 700ms ease-in-out 700ms;
+}
+
+/* --------------- template 30 end --------------------*/
+/* --------------- template 31 start --------------------*/
+.dynamic_elements31  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements31 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements31 .mck_toggle span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #404040;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements31 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 13px) rotate(-48deg);
+}
+.dynamic_elements31 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements31 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -3px) rotate(48deg);
+}
+.dynamic_elements31 .mck_social_icon {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    bottom: 32%;
+    right: -10px;
+}
+.dynamic_elements31 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements31 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+}
+.dynamic_elements31 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements31 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateX(0px);
+}
+.dynamic_elements31 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements31 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 500ms ease-in-out 100ms;
+}
+.dynamic_elements31 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 500ms ease-in-out 200ms;
+}
+.dynamic_elements31 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 500ms ease-in-out 300ms;
+}
+.dynamic_elements31 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 400ms;
+}
+.dynamic_elements31 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 500ms;
+}
+.dynamic_elements31 .mck_social_icon > ul > li > a > svg {
+    width: 20px;
+    height: 20px;
+}
+.dynamic_elements31 .mck_social_icon > ul > li > a {
+    display: inline-flex;
+    margin: 0 0 25px;
+}
+/* --------------- template 31 end --------------------*/
+/* --------------- template 32 start --------------------*/
+.dynamic_elements32  {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.dynamic_elements32 .mck_toggle {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 15px;
+}
+.dynamic_elements32 .mck_toggle span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #404040;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.dynamic_elements32 .mck_toggle:hover span:nth-child(1) {
+	transform: translate(1px, 13px) rotate(-48deg);
+}
+.dynamic_elements32 .mck_toggle:hover span:nth-child(2) {
+	opacity: 0;
+	visibility: hidden;
+}
+.dynamic_elements32 .mck_toggle:hover span:nth-child(3) {
+	transform: translate(1px, -3px) rotate(48deg);
+}
+.dynamic_elements32 .mck_social_icon {
+    position: absolute;
+    text-align: center;
+    top: -320px;
+    right: 20px;
+}
+.dynamic_elements32 .mck_social_icon > ul {
+    padding: 0;
+    margin: 0;
+}
+.dynamic_elements32 .mck_social_icon > ul > li {
+    list-style: none;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    margin-top: 10px;
+}
+.dynamic_elements32 .mck_toggle:hover .mck_social_icon > ul > li {
+    opacity: 1;
+    visibility: visible;
+}
+.dynamic_elements32 .mck_toggle:hover .mck_social_icon > ul > li {
+    transform: translateY(0px);
+}
+.dynamic_elements32 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(01) {
+    transition: 500ms ease-in-out;
+}
+.dynamic_elements32 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(02) {
+    transition: 500ms ease-in-out 100ms;
+}
+.dynamic_elements32 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(03) {
+    transition: 500ms ease-in-out 200ms;
+}
+.dynamic_elements32 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(04) {
+    transition: 500ms ease-in-out 300ms;
+}
+.dynamic_elements32 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 400ms;
+}
+.dynamic_elements32 .mck_toggle:hover .mck_social_icon > ul > li:nth-child(05) {
+    transition: 500ms ease-in-out 500ms;
+}
+/* --------------- template 32 end --------------------*/

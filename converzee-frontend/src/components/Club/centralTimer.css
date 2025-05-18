@@ -1,0 +1,3270 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.clubItem.CentralTimer {
+    position: relative;
+    margin: 0 auto;
+}
+.clubItem.CentralTimer .mck_club_exitbutton {
+    right: -40px;
+}
+/* --------------- template1 start --------------------*/
+.CentralTimer1 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 10;
+}
+.CentralTimer1 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    min-width: 85px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 8px;
+    position: relative;
+    vertical-align: middle;
+}
+.CentralTimer1 .timerClassdefault li:nth-child(1) {
+    padding: 37px 8px 16px 20px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c1_1.png);
+    background-size: cover;
+    background-position: center center;
+}
+.CentralTimer1 .timerClassdefault li:nth-child(2) {
+    padding: 26px 12px 24px 8px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c1_2.png);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 2px;
+}
+.CentralTimer1 .timerClassdefault li:nth-child(3) {
+    padding: 35px 8px 15px 14px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c1_3.png);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 2px;
+}
+.CentralTimer1 .timerClassdefault li:nth-child(4) {
+    padding: 30px 21px 13px 10px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c1_4.png);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 9px;
+}
+.CentralTimer1 .timerClassdefault li span {
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    padding: 3px 4px 2px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    width: 56px;
+    margin: auto;
+}
+.CentralTimer1 .timerClassdefault li span:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333271;
+    transform: skewX(-15deg);
+    z-index: -1;
+}
+
+@media screen and (max-width: 480px){
+    .CentralTimer1 .timerClassdefault li span {
+        margin-bottom: 15px;
+    }
+    .CentralTimer1 .timerClassdefault li {
+        min-width: 65px;
+    }
+    
+    .CentralTimer1 .timerClassdefault li:nth-child(1) {
+        padding: 23px 11px 16px 23px;
+    }
+    
+    .CentralTimer1 .timerClassdefault li:nth-child(2) {
+        padding: 20px 12px 12px 8px;
+    }
+    
+    .CentralTimer1 .timerClassdefault li:nth-child(3) {
+        padding: 21px 8px 12px 14px;
+    }
+    
+    .CentralTimer1 .timerClassdefault li:nth-child(4) {
+        padding: 14px 21px 13px 11px;
+    }
+    .CentralTimer1 .timerClassdefault li span {
+        bottom: -40px;
+    }
+}
+/* Responsive css */
+/* --------------- template1 end --------------------*/
+/* --------------- template2 start --------------------*/
+.CentralTimer2 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.CentralTimer2 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #141414;
+    margin: 0 6px;
+    padding: 17px 3px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c2.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #c7c7c7;
+    position: relative;
+}
+.CentralTimer2 .timerClassdefault li span {
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 575px){
+    .CentralTimer2 .timerClassdefault li {
+        padding: 15px 5px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    
+}
+/* --------------- template2 end --------------------*/
+/* --------------- template3 start --------------------*/
+.CentralTimer3 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.CentralTimer3 .timerClassdefault li {
+    list-style: none;
+    display: inline-flex;
+    width: 71px;
+    height: 71px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #141414;
+    margin: 0 6px;
+    padding: 17px 10px 12px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c3.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100px;
+    line-height: 24px;
+    flex-direction: column;
+}
+.CentralTimer3 .timerClassdefault li span {
+    font-size: 9px;
+    color: #020202;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+@media screen and (max-width: 575px){
+    .CentralTimer3 .timerClassdefault li {
+        padding: 16px 0;
+        font-size: 22px;
+    }
+    .CentralTimer3 .timerClassdefault li span {
+        font-size: 10px !important;
+    }
+}
+/* --------------- template3 end --------------------*/
+/* --------------- template4 start --------------------*/
+.CentralTimer4 .cz_centralTimer_inner  {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.CentralTimer4 .timerClassdefault {
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c4_banner.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 8px 30px;
+}
+.CentralTimer4 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    width: 88px;
+    height: 86px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 6px;
+    padding: 27px 10px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c4.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100px;
+    box-shadow: 0px 10px 15px 0px rgb(104 178 255 / 50%);
+    position: relative;
+}
+.CentralTimer4 .timerClassdefault li span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #020202;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 15px;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 575px){
+    .CentralTimer4 .timerClassdefault {
+        padding: 8px 20px;
+    }
+    .CentralTimer4 .timerClassdefault li {
+        padding: 20px 0px;
+        font-size: 22px;
+        width: 65px;
+        height: 65px;
+        margin: 0 3px;
+    }
+}
+/* --------------- template4 end --------------------*/
+/* --------------- template5 start --------------------*/
+.CentralTimer5 .cz_centralTimer_inner  {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.CentralTimer5 .timerClassdefault {
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c5_banner.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 25px 20px 50px 150px;
+}
+.CentralTimer5 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 62px;
+    height: 61px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 6px;
+    padding: 15px 10px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c5.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100px;
+    position: relative;
+}
+.CentralTimer5 .timerClassdefault li span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 575px){
+    .CentralTimer5 .timerClassdefault {
+        padding: 25px 20px 50px 70px;
+        background-position: -43px;    
+    }
+    .CentralTimer5 .timerClassdefault li {
+        margin: 0 3px;
+        padding: 11px 4px;
+        width: 55px;
+        height: 56px;
+    }
+}
+
+/* --------------- template5 end --------------------*/
+/* --------------- template6 start --------------------*/
+.CentralTimer6 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.CentralTimer6 .timerClassdefault {
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c6_banner.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 18px 30px;
+}
+.CentralTimer6 .timerClassdefault li {
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+    width: 66px;
+    height: 67px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 6px;
+    padding: 14px 10px 10px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c6.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px 0px rgb(108 108 108 / 50%);
+    line-height: 24px;
+    flex-direction: column;
+}
+.CentralTimer6 .timerClassdefault li span {
+    font-size: 10px;
+    font-weight: 500;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 575px){
+    .CentralTimer6 .timerClassdefault {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .CentralTimer6 .timerClassdefault li {
+        font-size: 24px;
+        margin: 0 2px;
+        padding: 18px 0px;
+        line-height: 18px;
+    }
+}
+/* --------------- template6 end --------------------*/
+/* --------------- template7 start --------------------*/
+.CentralTimer7 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.CentralTimer7 .timerClassdefault {
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c7_banner.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 20px 48px 30px;
+}
+.CentralTimer7 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 59px;
+    height: 65px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 1px;
+    padding: 14px 10px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c7.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100px;
+    position: relative;
+}
+.CentralTimer7 .timerClassdefault li span {
+    font-size: 11px;
+    font-weight: 500;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    line-height: 19px;
+}
+
+@media screen and (max-width: 480px){
+    .CentralTimer7 .timerClassdefault li {
+        font-size: 24px;
+        margin: 0 1px;
+        padding: 15px 0px;
+    }
+    
+    .CentralTimer7 .timerClassdefault li span {
+        font-size: 10px !important;
+    }
+}
+/* --------------- template7 end --------------------*/
+/* --------------- template8 start --------------------*/
+.CentralTimer8 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.CentralTimer8 .timerClassdefault {
+    padding: 20px;
+}
+.CentralTimer8 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 10px;
+    padding: 15px 12px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c8.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    position: relative;
+}
+.CentralTimer8 .timerClassdefault li span {
+    font-size: 12px !important;
+    font-weight: 600;
+    color: #ffffff !important;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 10px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 480px){
+    .CentralTimer8 .timerClassdefault li {
+        font-size: 28px;
+        margin: 0 2px;
+        padding: 15px 5px;
+    }
+}
+
+/* --------------- template8 end --------------------*/
+/* --------------- template9 start --------------------*/
+.CentralTimer9 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.CentralTimer9 .timerClassdefault {
+    padding: 20px;
+}
+.CentralTimer9 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    width: 85px;
+    height: 86px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color: #5CFFA4;
+    margin: 0 10px;
+    padding: 22px 12px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c9.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100px;
+    position: relative;
+}
+.CentralTimer9 .timerClassdefault li span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 575px){
+    .CentralTimer9 .timerClassdefault {
+        padding: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .CentralTimer9 .timerClassdefault li {
+        font-size: 26px;
+        margin: 0 3px;
+        padding: 15px 3px;
+        width: 65px;
+        height: 65px;
+    }
+}
+/* --------------- template9 end --------------------*/
+/* --------------- template10 start --------------------*/
+.CentralTimer10 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.CentralTimer10 .timerClassdefault {
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c10_banner.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 15px 45px 30px;
+}
+.CentralTimer10 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 6px;
+    padding: 14px 5px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c10.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100px;
+    box-shadow: 0px 10px 15px 0px rgb(86 0 4);
+    position: relative;
+}
+.CentralTimer10 .timerClassdefault li span {
+    font-size: 11px;
+    font-weight: 500;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 10px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 575px){
+    .CentralTimer10 .timerClassdefault {
+        padding: 15px 15px 30px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .CentralTimer10 .timerClassdefault li {
+        margin: 0 4px;
+        padding: 12px 0px;
+    }
+}
+/* --------------- template10 end --------------------*/
+/* --------------- template11 start --------------------*/
+.CentralTimer11 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.CentralTimer11 .timerClassdefault {
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c11_banner.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 10px 20px 0px;
+}
+.CentralTimer11 .timerClassdefault li {
+    list-style: none;
+    display: inline-flex;
+    width: 76px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #317CBA;
+    margin: 0 5px;
+    padding: 30px 15px 35px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c11.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100px;
+    line-height: 20px;
+    flex-direction: column;
+}
+
+.CentralTimer11 .timerClassdefault li span {
+    font-size: 8px !important;
+    font-weight: 600 !important;
+    color: #030303;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 575px){
+    .CentralTimer11 .timerClassdefault {
+        padding: 15px 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .CentralTimer11 .timerClassdefault li {
+        min-width: 50px;
+        font-size: 24px;
+        margin: 0;
+        padding: 25px 10px 30px;
+        line-height: 18px;
+    }
+}
+/* --------------- template11 end --------------------*/
+/* --------------- template12 start --------------------*/
+.CentralTimer12 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.CentralTimer12 .timerClassdefault {
+    padding: 10px 30px;
+    margin: 10px;
+    position: relative;
+}
+.CentralTimer12 .timerClassdefault::after {
+    position: absolute;
+    content: "";
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c12_banner1.png);
+    background-size: cover;
+    background-position: center center;
+    width: 15px;
+    height: 77px;
+    left: 0;
+}
+.CentralTimer12 .timerClassdefault::before {
+    position: absolute;
+    content: "";
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c12_banner2.png);
+    background-size: cover;
+    background-position: center center;
+    width: 14px;
+    height: 77px;
+    right: 0;
+}
+.CentralTimer12 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 62px;
+    height: 64px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 5px;
+    padding: 13px 0px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c12.png);
+    background-size: cover;
+    background-position: center center;
+    text-shadow: 2px 2px 1px #b9b9b9;
+    position: relative;
+}
+.CentralTimer12 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #e1d800;
+    border-radius: 50px;
+    top: -10px;
+    right: -10px;
+    bottom: 0;
+    margin: auto;
+}
+.CentralTimer12 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #e1d800;
+    border-radius: 50px;
+    top: 20px;
+    right: -10px;
+    bottom: 0;
+    margin: auto;
+}
+.CentralTimer12 .timerClassdefault li:last-child:after, .CentralTimer12 .timerClassdefault li:last-child:before {
+    display: none;
+}
+
+.CentralTimer12 .timerClassdefault li span {
+    font-size: 11px !important;
+    font-weight: 500;
+    color: #000000;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 5px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 575px){
+    .CentralTimer12 .timerClassdefault {
+        padding: 5px;
+        margin: 0;
+    }
+    .CentralTimer12 .cz_timer_box {
+        min-width: 55px;
+    }
+    .CentralTimer12 .timerClassdefault::after,.CentralTimer12 .timerClassdefault::before {
+        display: none;
+    }
+    .CentralTimer12 .timerClassdefault li:after,.CentralTimer12 .timerClassdefault li::before {
+        display: none;
+    }
+}
+/* --------------- template12 end --------------------*/
+/* --------------- template13 start --------------------*/
+.CentralTimer13 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    /* background: #070404; */
+}
+.CentralTimer13 .timerClassdefault {
+    padding: 25px 30px 50px;
+}
+
+.CentralTimer13 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    min-width: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 10px;
+    padding: 20px 0px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c13.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.CentralTimer13 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: -30px;
+    right: -13px;
+    bottom: 0;
+    margin: auto;
+}
+.CentralTimer13 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: 20px;
+    right: -13px;
+    bottom: 0;
+    margin: auto;
+}
+.CentralTimer13 .timerClassdefault li:last-child:after, .CentralTimer13 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.CentralTimer13 .timerClassdefault li span {
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 10px;
+    background: linear-gradient(#818181, #070404, #818181);
+    padding: 2px 8px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 575px){
+    .CentralTimer13 .timerClassdefault::after,.CentralTimer13 .timerClassdefault::before {
+        display: none;
+    }
+    .CentralTimer13 .timerClassdefault li:after,.CentralTimer13 .timerClassdefault li::before {
+        display: none;
+    }
+    .CentralTimer13 .timerClassdefault li {
+        min-width: 60px;
+        margin: 0 2px;
+        padding: 20px 4px;
+    }
+}
+/* --------------- template13 end --------------------*/
+/* --------------- template14 start --------------------*/
+.CentralTimer14 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    /* background: #0B2135; */
+}
+.CentralTimer14 .timerClassdefault {
+    padding: 25px 30px 50px;
+}
+.CentralTimer14 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    min-width: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 10px;
+    padding: 20px 0px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c14.png);
+    background-size: cover;
+    background-position: center center;
+}
+.CentralTimer14 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: -30px;
+    right: -13px;
+    bottom: 0;
+    margin: auto;
+}
+.CentralTimer14 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: 20px;
+    right: -13px;
+    bottom: 0;
+    margin: auto;
+}
+.CentralTimer14 .timerClassdefault li:last-child:after, .CentralTimer14 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.CentralTimer14 .timerClassdefault li span {
+    font-size: 10px !important;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    background: linear-gradient(#144883, #0b2135, #67aeff);
+    padding: 2px 8px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@media screen and (max-width: 575px){
+    
+    .CentralTimer14 .timerClassdefault::after,.CentralTimer14 .timerClassdefault::before {
+        display: none;
+    }
+    .CentralTimer14 .timerClassdefault li:after,.CentralTimer14 .timerClassdefault li::before {
+        display: none;
+    }    
+    .CentralTimer14 .timerClassdefault li {
+        min-width: 60px;
+        margin: 0 2px;
+        padding: 20px 4px;
+    }
+}
+/* --------------- template14 end --------------------*/
+/* --------------- template15 start --------------------*/
+.CentralTimer15 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 550px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    /* background: #242451; */
+    padding: 0;
+    z-index: 1;
+}
+.CentralTimer15 .timerClassdefault {
+    padding: 20px 0 40px;
+}
+
+.CentralTimer15 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 5px;
+    padding: 23px 0px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c15_1.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.CentralTimer15 .timerClassdefault li:nth-child(even) {
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c15_2.png);
+}
+.CentralTimer15 .timerClassdefault li span {
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    background: linear-gradient(#87003b, #c34883, #d90576);
+    padding: 23px 0px 4px;
+    z-index: -1;
+    position: absolute;
+    bottom: -22px;
+    left: 15px;
+    right: 15px;
+    margin: auto;
+}
+.CentralTimer15 .timerClassdefault li:nth-child(even) span {
+    background: linear-gradient(#41065e, #8e3ccb, #9f53df);
+}
+@media screen and (max-width: 575px){
+    
+    
+    .CentralTimer15 .timerClassdefault::after,.CentralTimer15 .timerClassdefault::before {
+        display: none;
+    }
+    .CentralTimer15 .timerClassdefault li:after,.CentralTimer15 .timerClassdefault li::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .CentralTimer15 .timerClassdefault li {
+        margin: 0 0px;
+    }
+}
+/* --------------- template15 end --------------------*/
+/* --------------- template16 start --------------------*/
+.CentralTimer16 .cz_centralTimer_inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 950px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.CentralTimer16 .timerClassdefault {
+    /* background: #ffffff; */
+    padding: 20px 20px 40px;
+}
+.CentralTimer16 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 6px;
+    padding: 21px 6px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c16_1.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100px;
+    position: relative;
+}
+.CentralTimer16 .timerClassdefault li:nth-child(even) {
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c16_2.png);
+}
+.CentralTimer16 .timerClassdefault li span {
+    font-size: 11px;
+    font-weight: 600;
+    color: #1e1e1e;
+    display: inline-block;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -21px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@media screen and (max-width: 480px){
+    .CentralTimer16 .timerClassdefault {
+        padding: 0;
+    }
+    .CentralTimer16 .timerClassdefault li {
+        margin: 0 0px;
+    }
+}
+/* --------------- template16 end --------------------*/
+/* --------------- template17 start --------------------*/
+.cz_flip_timerbox.CentralTimer17 {
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+.CentralTimer17 .mck_club_exitbutton {
+    right: -28px;
+}
+.CentralTimer17 .flipclock {
+    display: flex;
+    justify-content: center;
+    padding: 53px 60px 120px 0;
+    box-sizing: border-box;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c17.png);
+    background-position: -5px -1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #484848d9;
+}
+.CentralTimer17 .flipclock * {
+    box-sizing: inherit;
+}
+.CentralTimer17 .leaf {
+    display: flex;
+    flex-direction: column;
+    margin: 0 4px;
+    perspective: 300px;
+}
+.CentralTimer17 .leaf::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 8px;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.CentralTimer17 .top, .CentralTimer17 .bottom, .CentralTimer17 .leaf-front, .CentralTimer17 .leaf-back {
+    position: relative;
+    display: block;
+    height: 64px;
+    width: 110px;
+    background-color: #235D91;
+    color: #EAEAEA;
+    overflow: hidden;
+    border-color: #4C96D8;
+}
+.CentralTimer17 .top span, .CentralTimer17 .bottom span, .CentralTimer17 .leaf-front span, .CentralTimer17 .leaf-back span {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 128px;
+    text-align: center;
+    font-family: "Impact", sans serif;
+    font-size: 50px;
+    line-height: 128px;
+    transform: translateX(-50%);
+}
+
+.CentralTimer17 .top, .CentralTimer17 .leaf-front {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.CentralTimer17 .top span, .CentralTimer17 .leaf-front span {
+    top: -2px;
+}
+.CentralTimer17 .leaf-front {
+    position: absolute;
+    z-index: 10;
+}
+.CentralTimer17 .bottom, .CentralTimer17 .leaf-back {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    background: #2B6FAD;
+}
+.CentralTimer17 .bottom span, .CentralTimer17 .leaf-back span {
+    bottom: 2px;
+}
+.CentralTimer17 .leaf-back {
+    position: absolute;
+    top: 64px;
+    z-index: 10;
+}
+@media screen and (max-width: 600px) {
+    .CentralTimer18 .leaf {
+        padding: 0 5px 0 0;
+        background-image: none;
+    }
+    .CentralTimer17 .flipclock {
+        padding: 12.666667vw;
+   }
+   .CentralTimer17 .leaf {
+        margin: 0 0.6666666667vw;
+   }
+   .CentralTimer17 .leaf::after {
+        margin-top: 1.3333333333vw;
+        font-size: 2.3333333333vw;
+   }
+   .CentralTimer17 .top, .CentralTimer17 .bottom, .CentralTimer17 .leaf-front, .CentralTimer17 .leaf-back {
+        height: 10.6666666667vw;
+        width: 20vw;
+   }
+   .CentralTimer17 .top span, .CentralTimer17 .bottom span, .CentralTimer17 .leaf-front span, .CentralTimer17 .leaf-back span {
+        height: 21.3333333333vw;
+        font-size: 40px;
+        line-height: 21.3333333333vw;
+   }
+   .CentralTimer17 .leaf._3-digits .top, .CentralTimer17 .leaf._3-digits .bottom, .CentralTimer17 .leaf._3-digits .leaf-front, .CentralTimer17 .leaf._3-digits .leaf-back {
+        width: 24.6666666667vw;
+   }
+   .CentralTimer17 .top, .CentralTimer17 .leaf-front {
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+   }
+   .CentralTimer17 .bottom, .CentralTimer17 .leaf-back {
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+   }
+   .CentralTimer17 .leaf-back {
+        top: 10.6666666667vw;
+   }
+}
+.CentralTimer17 .leaf-front {
+    transform-origin: bottom center;
+    transform: rotateX(0deg);
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+}
+.CentralTimer17 .leaf-back {
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    transition-delay: 0s;
+}
+.CentralTimer17 .bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(10px);
+}
+.CentralTimer17 .flip .leaf-front {
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0s;
+    color: #000;
+    background-color: #737373;
+}
+.CentralTimer17 .flip .leaf-back {
+    transform: rotateX(0deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0.3s;
+}
+.CentralTimer17 .flip .bottom::before {
+    transition: height 0.3s ease-in-out;
+    transition-delay: 0.15s;
+    height: 100%;
+}
+/* --------------- template17 end --------------------*/
+/* --------------- template18 start --------------------*/
+.cz_flip_timerbox.CentralTimer18 {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+.CentralTimer18 .flipclock {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+    box-sizing: border-box;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c18.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CentralTimer18 .flipclock * {
+    box-sizing: inherit;
+}
+.CentralTimer18 .leaf {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 0;
+    perspective: 300px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c18_dots.png);
+    background-position: top 35px right 0;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+.CentralTimer18 .leaf:last-child {
+    background-image: none;
+    padding-right: 0;
+}
+.CentralTimer18 .leaf::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 8px;
+    transform: translateX(-50%);
+    color: #ffff00;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    z-index: 10;
+    opacity: 1;
+}
+.CentralTimer18 .top, .CentralTimer18 .bottom, .CentralTimer18 .leaf-front, .CentralTimer18 .leaf-back {
+    position: relative;
+    display: block;
+    height: 64px;
+    width: 105px;
+    background-color: #a7a7a7;
+    color: #EAEAEA;
+    overflow: hidden;
+    border-color: #707070;
+}
+.CentralTimer18 .top span, .CentralTimer18 .bottom span, .CentralTimer18 .leaf-front span, .CentralTimer18 .leaf-back span {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 128px;
+    text-align: center;
+    font-family: "Impact", sans serif;
+    font-size: 60px;
+    line-height: 128px;
+    transform: translateX(-50%);
+}
+
+.CentralTimer18 .top, .CentralTimer18 .leaf-front {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+.CentralTimer18 .top span, .CentralTimer18 .leaf-front span {
+    top: -2px;
+}
+.CentralTimer18 .leaf-front {
+    position: absolute;
+    z-index: 10;
+}
+.CentralTimer18 .bottom, .CentralTimer18 .leaf-back {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    background: #4a4a4a;
+}
+.CentralTimer18 .bottom span, .CentralTimer18 .leaf-back span {
+    bottom: 2px;
+}
+.CentralTimer18 .leaf-back {
+    position: absolute;
+    top: 64px;
+    z-index: 10;
+}
+@media screen and (max-width: 600px) {
+    .CentralTimer18 .flipclock {
+        padding: 6.6666666667vw;
+   }
+   .CentralTimer18 .leaf {
+        margin: 0 0.6666666667vw;
+   }
+   .CentralTimer18 .leaf::after {
+        margin-top: 1.3333333333vw;
+        font-size: 2.3333333333vw;
+   }
+   .CentralTimer18 .top, .CentralTimer18 .bottom, .CentralTimer18 .leaf-front, .CentralTimer18 .leaf-back {
+        height: 10.6666666667vw;
+        width: 20vw;
+   }
+   .CentralTimer18 .top span, .CentralTimer18 .bottom span, .CentralTimer18 .leaf-front span, .CentralTimer18 .leaf-back span {
+        height: 21.3333333333vw;
+        font-size: 13.3333333333vw;
+        line-height: 21.3333333333vw;
+   }
+   .CentralTimer18 .leaf._3-digits .top, .CentralTimer18 .leaf._3-digits .bottom, .CentralTimer18 .leaf._3-digits .leaf-front, .CentralTimer18 .leaf._3-digits .leaf-back {
+        width: 24.6666666667vw;
+   }
+   .CentralTimer18 .top, .CentralTimer18 .leaf-front {
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+   }
+   .CentralTimer18 .bottom, .CentralTimer18 .leaf-back {
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+   }
+   .CentralTimer18 .leaf-back {
+        top: 10.6666666667vw;
+   }
+}
+.CentralTimer18 .leaf-front {
+    transform-origin: bottom center;
+    transform: rotateX(0deg);
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+}
+.CentralTimer18 .leaf-back {
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    transition-delay: 0s;
+}
+.CentralTimer18 .bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(10px);
+}
+.CentralTimer18 .flip .leaf-front {
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0s;
+    color: #000;
+    background-color: #737373;
+}
+.CentralTimer18 .flip .leaf-back {
+    transform: rotateX(0deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0.3s;
+}
+.CentralTimer18 .flip .bottom::before {
+    transition: height 0.3s ease-in-out;
+    transition-delay: 0.15s;
+    height: 100%;
+}
+/* --------------- template18 end --------------------*/
+/* --------------- template19 start --------------------*/
+.cz_flip_timerbox.CentralTimer19 {
+    width: 100%;
+    max-width: 790px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+.CentralTimer19 .flipclock {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0 40px;
+    box-sizing: border-box;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c19.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CentralTimer19 .flipclock * {
+    box-sizing: inherit;
+}
+.CentralTimer19 .leaf {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 0;
+    perspective: 300px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c19_dots.png);
+    background-position: top 38px right 0;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+.CentralTimer19 .leaf:last-child {
+    background-image: none;
+}
+.CentralTimer19 .leaf::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 8px;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.CentralTimer19 .leaf::before {
+    position: absolute;
+    content: "";
+    border: solid 2px #fddea8;
+    top: 6px;
+    left: 6px;
+    right: 22px;
+    bottom: 6px;
+    border-radius: 10px;
+    z-index: 999;
+}
+.CentralTimer19 .top, .CentralTimer19 .bottom, .CentralTimer19 .leaf-front, .CentralTimer19 .leaf-back {
+    position: relative;
+    display: block;
+    height: 64px;
+    width: 128px;
+    background: linear-gradient(#936c13, #ffe0ab, #936c13);
+    color: #211818;
+    overflow: hidden;
+    border-color: #936c13;
+}
+.CentralTimer19 .top span, .CentralTimer19 .bottom span, .CentralTimer19 .leaf-front span, .CentralTimer19 .leaf-back span {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 128px;
+    text-align: center;
+    font-family: "Impact", sans serif;
+    font-size: 60px;
+    line-height: 128px;
+    transform: translateX(-55%);
+    font-style: italic;
+}
+
+.CentralTimer19 .top, .CentralTimer19 .leaf-front {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+}
+.CentralTimer19 .top span, .CentralTimer19 .leaf-front span {
+    top: -2px;
+}
+.CentralTimer19 .leaf-front {
+    position: absolute;
+    z-index: 10;
+}
+.CentralTimer19 .bottom, .CentralTimer19 .leaf-back {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    background: linear-gradient(#936c13, #ffe0ab, #936c13);
+}
+.CentralTimer19 .bottom span, .CentralTimer19 .leaf-back span {
+    bottom: 2px;
+}
+.CentralTimer19 .leaf-back {
+    position: absolute;
+    top: 64px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .CentralTimer19 .leaf {
+        padding: 0 5px 0 0;
+        background-image: none;
+    }
+    .CentralTimer19 .leaf::before {
+        display: none;
+    }
+    .CentralTimer19 .flipclock {
+        padding: 6.6666666667vw;
+   }
+   .CentralTimer19 .leaf {
+        margin: 0 0.6666666667vw;
+   }
+   .CentralTimer19 .leaf::after {
+        margin-top: 1.3333333333vw;
+        font-size: 2.3333333333vw;
+   }
+   .CentralTimer19 .top, .CentralTimer19 .bottom, .CentralTimer19 .leaf-front, .CentralTimer19 .leaf-back {
+        height: 10.6666666667vw;
+        width: 20vw;
+   }
+   .CentralTimer19 .top span, .CentralTimer19 .bottom span, .CentralTimer19 .leaf-front span, .CentralTimer19 .leaf-back span {
+        height: 21.3333333333vw;
+        font-size: 40px;
+        line-height: 21.3333333333vw;
+   }
+   .CentralTimer19 .leaf._3-digits .top, .CentralTimer19 .leaf._3-digits .bottom, .CentralTimer19 .leaf._3-digits .leaf-front, .CentralTimer19 .leaf._3-digits .leaf-back {
+        width: 24.6666666667vw;
+   }
+   .CentralTimer19 .top, .CentralTimer19 .leaf-front {
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+   }
+   .CentralTimer19 .bottom, .CentralTimer19 .leaf-back {
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+   }
+   .CentralTimer19 .leaf-back {
+        top: 10.6666666667vw;
+   }
+}
+.CentralTimer19 .leaf-front {
+    transform-origin: bottom center;
+    transform: rotateX(0deg);
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+}
+.CentralTimer19 .leaf-back {
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    transition-delay: 0s;
+}
+.CentralTimer19 .bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(10px);
+}
+.CentralTimer19 .flip .leaf-front {
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0s;
+    color: #000;
+    background-color: #737373;
+}
+.CentralTimer19 .flip .leaf-back {
+    transform: rotateX(0deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0.3s;
+}
+.CentralTimer19 .flip .bottom::before {
+    transition: height 0.3s ease-in-out;
+    transition-delay: 0.15s;
+    height: 100%;
+}
+/* --------------- template19 end --------------------*/
+/* --------------- template20 start --------------------*/
+.cz_flip_timerbox.CentralTimer20 {
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+.CentralTimer20 .flipclock {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 65px 115px;
+    box-sizing: border-box;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c20.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CentralTimer20 .flipclock * {
+    box-sizing: inherit;
+}
+.CentralTimer20 .leaf {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 0;
+    perspective: 300px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c20_dots.png);
+    background-position: top 38px right 0;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+.CentralTimer20 .leaf:last-child {
+    background-image: none;
+}
+.CentralTimer20 .leaf::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 100%;
+    left: 44%;
+    margin-top: 10px;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: solid 2px #977734;
+    padding: 2px 10px;
+    border-radius: 50px;
+    min-width: 60px;
+    text-align: center;
+    opacity: 1;
+}
+.CentralTimer20 .leaf::before {
+    position: absolute;
+    content: "";
+    border: solid 8px #784415;
+    top: 1px;
+    left: 1px;
+    right: 16px;
+    bottom: 1px;
+    border-radius: 15px;
+    z-index: 999;
+}
+.CentralTimer20 .top, .CentralTimer20 .bottom, .CentralTimer20 .leaf-front, .CentralTimer20 .leaf-back {
+    position: relative;
+    display: block;
+    height: 54px;
+    width: 100px;
+    background: linear-gradient(#af821c, #ffe8bf, #ab7e19);
+    color: #211818;
+    overflow: hidden;
+    border-color: #936c13;
+}
+.CentralTimer20 .top span, .CentralTimer20 .bottom span, .CentralTimer20 .leaf-front span, .CentralTimer20 .leaf-back span {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 108px;
+    text-align: center;
+    font-family: "Impact", sans serif;
+    font-size: 44px;
+    line-height: 115px;
+    transform: translateX(-55%);
+    font-style: italic;
+}
+
+.CentralTimer20 .top, .CentralTimer20 .leaf-front {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+}
+.CentralTimer20 .top span, .CentralTimer20 .leaf-front span {
+    top: -2px;
+}
+.CentralTimer20 .leaf-front {
+    position: absolute;
+    z-index: 10;
+}
+.CentralTimer20 .bottom, .CentralTimer20 .leaf-back {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    background: linear-gradient(#d69c47, #d69c47, #704710);
+}
+.CentralTimer20 .bottom span, .CentralTimer20 .leaf-back span {
+    bottom: 2px;
+}
+.CentralTimer20 .leaf-back {
+    position: absolute;
+    top: 54px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .CentralTimer20 .leaf {
+        padding: 0 5px 0 0;
+        background-image: none;
+    }
+    .CentralTimer20 .leaf::before {
+        display: none;
+    }
+    .CentralTimer20 .leaf::after {
+        min-width: 35px;
+    }
+    .CentralTimer20 .flipclock {
+        padding: 20px 10px 50px;
+   }
+   .CentralTimer20 .leaf {
+        margin: 0 0.6666666667vw;
+   }
+   .CentralTimer20 .leaf::after {
+        margin-top: 1.3333333333vw;
+        font-size: 2.3333333333vw;
+   }
+   .CentralTimer20 .top, .CentralTimer20 .bottom, .CentralTimer20 .leaf-front, .CentralTimer20 .leaf-back {
+        height: 10.6666666667vw;
+        width: 20vw;
+   }
+   .CentralTimer20 .top span, .CentralTimer20 .bottom span, .CentralTimer20 .leaf-front span, .CentralTimer20 .leaf-back span {
+        height: 21.3333333333vw;
+        font-size: 40px;
+        line-height: 21.3333333333vw;
+   }
+   .CentralTimer20 .leaf._3-digits .top, .CentralTimer20 .leaf._3-digits .bottom, .CentralTimer20 .leaf._3-digits .leaf-front, .CentralTimer20 .leaf._3-digits .leaf-back {
+        width: 24.6666666667vw;
+   }
+   .CentralTimer20 .top, .CentralTimer20 .leaf-front {
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+   }
+   .CentralTimer20 .bottom, .CentralTimer20 .leaf-back {
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+   }
+   .CentralTimer20 .leaf-back {
+        top: 10.6666666667vw;
+   }
+}
+.CentralTimer20 .leaf-front {
+    transform-origin: bottom center;
+    transform: rotateX(0deg);
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+}
+.CentralTimer20 .leaf-back {
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    transition-delay: 0s;
+}
+.CentralTimer20 .bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(10px);
+}
+.CentralTimer20 .flip .leaf-front {
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0s;
+    color: #000;
+    background-color: #737373;
+}
+.CentralTimer20 .flip .leaf-back {
+    transform: rotateX(0deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0.3s;
+}
+.CentralTimer20 .flip .bottom::before {
+    transition: height 0.3s ease-in-out;
+    transition-delay: 0.15s;
+    height: 100%;
+}
+/* --------------- template20 end --------------------*/
+/* --------------- template21 start --------------------*/
+.cz_flip_timerbox.CentralTimer21 {
+    width: 100%;
+    max-width: 620px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+.CentralTimer21 .flipclock {
+    display: flex;
+    justify-content: center;
+    padding: 31px 100px 50px 0;
+    box-sizing: border-box;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c21.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CentralTimer21 .flipclock * {
+    box-sizing: inherit;
+}
+.CentralTimer21 .leaf {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 0;
+    perspective: 300px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c21_dots.png);
+    background-position: top 38px right 0;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+.CentralTimer21 .leaf:last-child {
+    background-image: none;
+}
+.CentralTimer21 .leaf::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 100%;
+    left: 44%;
+    margin-top: 8px;
+    transform: translateX(-50%);
+    color: #ffffff;
+    background: #5b679b;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 50px;
+    box-shadow: 0 6px 0 0 #000000;
+    min-width: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+.CentralTimer21 .leaf::before {
+    position: absolute;
+    content: "";
+    border: solid 2px #131c51;
+    top: 5px;
+    left: 5px;
+    right: 20px;
+    bottom: 5px;
+    border-radius: 15px;
+    z-index: 999;
+}
+.CentralTimer21 .top, .CentralTimer21 .bottom, .CentralTimer21 .leaf-front, .CentralTimer21 .leaf-back {
+    position: relative;
+    display: block;
+    height: 54px;
+    width: 100px;
+    background: linear-gradient(#39437a, #5b679b, #444f8b);
+    color: #5CFFA4;
+    overflow: hidden;
+    border-color: #131c51;
+}
+.CentralTimer21 .top span, .CentralTimer21 .bottom span, .CentralTimer21 .leaf-front span, .CentralTimer21 .leaf-back span {
+    position: absolute;
+    left: 55%;
+    width: 100%;
+    height: 108px;
+    text-align: center;
+    font-family: "Impact", sans serif;
+    font-size: 44px;
+    line-height: 115px;
+    transform: translateX(-55%);
+}
+
+.CentralTimer21 .top, .CentralTimer21 .leaf-front {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+}
+.CentralTimer21 .top span, .CentralTimer21 .leaf-front span {
+    top: -2px;
+}
+.CentralTimer21 .leaf-front {
+    position: absolute;
+    z-index: 10;
+}
+.CentralTimer21 .bottom, .CentralTimer21 .leaf-back {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    background: #39437a;
+}
+.CentralTimer21 .bottom span, .CentralTimer21 .leaf-back span {
+    bottom: 2px;
+}
+.CentralTimer21 .leaf-back {
+    position: absolute;
+    top: 54px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .CentralTimer21 .leaf {
+        padding: 0 5px 0 0;
+        background-image: none;
+    }
+    .CentralTimer21 .leaf::before {
+        display: none;
+    }
+    .CentralTimer21 .leaf::after {
+        min-width: 35px;
+    }
+    
+    .CentralTimer21 .flipclock {
+        padding: 20px 10px 40px;
+   }
+   .CentralTimer21 .leaf {
+        margin: 0 0.6666666667vw;
+   }
+   .CentralTimer21 .leaf::after {
+        margin-top: 1.3333333333vw;
+        font-size: 2.3333333333vw;
+   }
+   .CentralTimer21 .top, .CentralTimer21 .bottom, .CentralTimer21 .leaf-front, .CentralTimer21 .leaf-back {
+        height: 10.6666666667vw;
+        width: 20vw;
+   }
+   .CentralTimer21 .top span, .CentralTimer21 .bottom span, .CentralTimer21 .leaf-front span, .CentralTimer21 .leaf-back span {
+        height: 21.3333333333vw;
+        font-size: 40px;
+        line-height: 21.3333333333vw;
+   }
+   .CentralTimer21 .leaf._3-digits .top, .CentralTimer21 .leaf._3-digits .bottom, .CentralTimer21 .leaf._3-digits .leaf-front, .CentralTimer21 .leaf._3-digits .leaf-back {
+        width: 24.6666666667vw;
+   }
+   .CentralTimer21 .top, .CentralTimer21 .leaf-front {
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+   }
+   .CentralTimer21 .bottom, .CentralTimer21 .leaf-back {
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+   }
+   .CentralTimer21 .leaf-back {
+        top: 10.6666666667vw;
+   }
+}
+.CentralTimer21 .leaf-front {
+    transform-origin: bottom center;
+    transform: rotateX(0deg);
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+}
+.CentralTimer21 .leaf-back {
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    transition-delay: 0s;
+}
+.CentralTimer21 .bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(10px);
+}
+.CentralTimer21 .flip .leaf-front {
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0s;
+    color: #000;
+    background-color: #737373;
+}
+.CentralTimer21 .flip .leaf-back {
+    transform: rotateX(0deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0.3s;
+}
+.CentralTimer21 .flip .bottom::before {
+    transition: height 0.3s ease-in-out;
+    transition-delay: 0.15s;
+    height: 100%;
+}
+/* --------------- template21 end --------------------*/
+/* --------------- template22 start --------------------*/
+.cz_flip_timerbox.CentralTimer22 {
+    width: 100%;
+    max-width: 620px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+.CentralTimer22 .flipclock {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+    box-sizing: border-box;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c22.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CentralTimer22 .flipclock * {
+    box-sizing: inherit;
+}
+.CentralTimer22 .leaf {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 0;
+    perspective: 300px;
+    overflow: visible;
+}
+.CentralTimer22 .leaf:last-child {
+    background-image: none;
+}
+.CentralTimer22 .leaf::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 100%;
+    left: 42%;
+    margin-top: 8px;
+    transform: translateX(-50%);
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+.CentralTimer22 .leaf::before {
+    position: absolute;
+    content: "";
+    border: solid 2px rgb(255 255 255 / 61%);
+    top: 5px;
+    left: 5px;
+    right: 20px;
+    bottom: 5px;
+    border-radius: 15px;
+    z-index: 999;
+}
+.CentralTimer22 .top, .CentralTimer22 .bottom, .CentralTimer22 .leaf-front, .CentralTimer22 .leaf-back {
+    position: relative;
+    display: block;
+    height: 54px;
+    width: 100px;
+    background: linear-gradient(#d53e4a, #d14851, #c53943);
+    color: #ffffff;
+    overflow: hidden;
+    border-color: #a61c28;
+}
+.CentralTimer22 .top span, .CentralTimer22 .bottom span, .CentralTimer22 .leaf-front span, .CentralTimer22 .leaf-back span {
+    position: absolute;
+    left: 55%;
+    width: 100%;
+    height: 108px;
+    text-align: center;
+    font-family: "Impact", sans serif;
+    font-size: 44px;
+    line-height: 115px;
+    transform: translateX(-55%);
+}
+
+.CentralTimer22 .top, .CentralTimer22 .leaf-front {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+}
+.CentralTimer22 .top span, .CentralTimer22 .leaf-front span {
+    top: -2px;
+}
+.CentralTimer22 .leaf-front {
+    position: absolute;
+    z-index: 10;
+}
+.CentralTimer22 .bottom, .CentralTimer22 .leaf-back {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    background: #a61c28;
+}
+.CentralTimer22 .bottom span, .CentralTimer22 .leaf-back span {
+    bottom: 2px;
+}
+.CentralTimer22 .leaf-back {
+    position: absolute;
+    top: 54px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .CentralTimer22 .leaf {
+        padding: 0 5px 0 0;
+        background-image: none;
+    }
+    .CentralTimer22 .leaf::before {
+        display: none;
+    }
+    .CentralTimer22 .leaf::after {
+        min-width: 35px;
+    }
+    
+    .CentralTimer22 .flipclock {
+        padding: 20px 10px 40px;
+   }
+    
+   .CentralTimer22 .leaf {
+        margin: 0 0.6666666667vw;
+   }
+   .CentralTimer22 .leaf::after {
+        margin-top: 1.3333333333vw;
+        font-size: 2.3333333333vw;
+   }
+   .CentralTimer22 .top, .CentralTimer22 .bottom, .CentralTimer22 .leaf-front, .CentralTimer22 .leaf-back {
+        height: 10.6666666667vw;
+        width: 20vw;
+   }
+   .CentralTimer22 .top span, .CentralTimer22 .bottom span, .CentralTimer22 .leaf-front span, .CentralTimer22 .leaf-back span {
+        height: 21.3333333333vw;
+        font-size: 40px;
+        line-height: 21.3333333333vw;
+   }
+   .CentralTimer22 .leaf._3-digits .top, .CentralTimer22 .leaf._3-digits .bottom, .CentralTimer22 .leaf._3-digits .leaf-front, .CentralTimer22 .leaf._3-digits .leaf-back {
+        width: 24.6666666667vw;
+   }
+   .CentralTimer22 .top, .CentralTimer22 .leaf-front {
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+   }
+   .CentralTimer22 .bottom, .CentralTimer22 .leaf-back {
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+   }
+   .CentralTimer22 .leaf-back {
+        top: 10.6666666667vw;
+   }
+}
+.CentralTimer22 .leaf-front {
+    transform-origin: bottom center;
+    transform: rotateX(0deg);
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+}
+.CentralTimer22 .leaf-back {
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    transition-delay: 0s;
+}
+.CentralTimer22 .bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(10px);
+}
+.CentralTimer22 .flip .leaf-front {
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0s;
+    color: #000;
+    background-color: #737373;
+}
+.CentralTimer22 .flip .leaf-back {
+    transform: rotateX(0deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0.3s;
+}
+.CentralTimer22 .flip .bottom::before {
+    transition: height 0.3s ease-in-out;
+    transition-delay: 0.15s;
+    height: 100%;
+}
+/* --------------- template22 end --------------------*/
+/* --------------- template23 start --------------------*/
+.cz_flip_timerbox.CentralTimer23 {
+    width: 100%;
+    max-width: 620px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+.CentralTimer23 .flipclock {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+    box-sizing: border-box;
+}
+.CentralTimer23 .flipclock * {
+    box-sizing: inherit;
+}
+.CentralTimer23 .leaf {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 0;
+    perspective: 300px;
+    overflow: visible;
+}
+.CentralTimer23 .leaf:last-child {
+    background-image: none;
+}
+.CentralTimer23 .leaf::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 100%;
+    left: 42%;
+    margin-top: 16px;
+    transform: translateX(-50%);
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+.CentralTimer23 .leaf::before {
+    position: absolute;
+    content: "";
+    border-top: solid 7px #ff778c;
+    border-left: solid 7px #ff778c;
+    border-right: solid 7px #ff778c;
+    top: -4px;
+    left: -4px;
+    right: 11px;
+    bottom: 0;
+    border-radius: 20px 20px 0 0;
+    z-index: 999;
+    height: 53px;
+}
+.CentralTimer23 .top, .CentralTimer23 .bottom, .CentralTimer23 .leaf-front, .CentralTimer23 .leaf-back {
+    position: relative;
+    display: block;
+    height: 54px;
+    width: 105px;
+    background: #16232D;
+    color: #ffffff;
+    overflow: hidden;
+    border-color: #16232D;
+}
+.CentralTimer23 .top span, .CentralTimer23 .bottom span, .CentralTimer23 .leaf-front span, .CentralTimer23 .leaf-back span {
+    position: absolute;
+    left: 55%;
+    width: 100%;
+    height: 108px;
+    text-align: center;
+    font-family: "Impact", sans serif;
+    font-size: 44px;
+    line-height: 115px;
+    transform: translateX(-55%);
+}
+
+.CentralTimer23 .top, .CentralTimer23 .leaf-front {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+}
+.CentralTimer23 .top span, .CentralTimer23 .leaf-front span {
+    top: -2px;
+}
+.CentralTimer23 .leaf-front {
+    position: absolute;
+    z-index: 10;
+}
+.CentralTimer23 .bottom, .CentralTimer23 .leaf-back {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    background: #1E3B4C;
+    box-shadow: 0px 10px 0px 0px #162370;
+}
+.CentralTimer23 .bottom span, .CentralTimer23 .leaf-back span {
+    bottom: 2px;
+}
+.CentralTimer23 .leaf-back {
+    position: absolute;
+    top: 54px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .CentralTimer23 .leaf {
+        padding: 0 5px 0 0;
+        background-image: none;
+    }
+    .CentralTimer23 .leaf::before {
+        display: none;
+    }
+    .CentralTimer23 .leaf::after {
+        min-width: 35px;
+    }
+    
+    .CentralTimer23 .flipclock {
+        padding: 20px 10px 40px;
+    }
+   
+   .CentralTimer23 .leaf {
+        margin: 0 0.6666666667vw;
+   }
+   .CentralTimer23 .leaf::after {
+        margin-top: 16px;
+        font-size: 10px;
+    }
+   .CentralTimer23 .top, .CentralTimer23 .bottom, .CentralTimer23 .leaf-front, .CentralTimer23 .leaf-back {
+        height: 10.6666666667vw;
+        width: 20vw;
+   }
+   .CentralTimer23 .top span, .CentralTimer23 .bottom span, .CentralTimer23 .leaf-front span, .CentralTimer23 .leaf-back span {
+        height: 21.3333333333vw;
+        font-size: 40px;
+        line-height: 21.3333333333vw;
+   }
+   .CentralTimer23 .leaf._3-digits .top, .CentralTimer23 .leaf._3-digits .bottom, .CentralTimer23 .leaf._3-digits .leaf-front, .CentralTimer23 .leaf._3-digits .leaf-back {
+        width: 24.6666666667vw;
+   }
+   .CentralTimer23 .top, .CentralTimer23 .leaf-front {
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+   }
+   .CentralTimer23 .bottom, .CentralTimer23 .leaf-back {
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+   }
+   .CentralTimer23 .leaf-back {
+        top: 10.6666666667vw;
+   }
+}
+.CentralTimer23 .leaf-front {
+    transform-origin: bottom center;
+    transform: rotateX(0deg);
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+}
+.CentralTimer23 .leaf-back {
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    transition-delay: 0s;
+}
+.CentralTimer23 .bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(10px);
+}
+.CentralTimer23 .flip .leaf-front {
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0s;
+    color: #000;
+    background-color: #737373;
+}
+.CentralTimer23 .flip .leaf-back {
+    transform: rotateX(0deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0.3s;
+}
+.CentralTimer23 .flip .bottom::before {
+    transition: height 0.3s ease-in-out;
+    transition-delay: 0.15s;
+    height: 100%;
+}
+/* --------------- template23 end --------------------*/
+/* --------------- template24 start --------------------*/
+.cz_flip_timerbox.CentralTimer24 {
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+.CentralTimer24 .flipclock {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 60px;
+    box-sizing: border-box;
+    /* background: #0B2054; */
+}
+.CentralTimer24 .flipclock * {
+    box-sizing: inherit;
+}
+.CentralTimer24 .leaf {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px 0 0;
+    perspective: 300px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c24_dots.png);
+    background-position: top 38px right 4px;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+.CentralTimer24 .leaf:last-child {
+    background-image: none;
+}
+.CentralTimer24 .leaf::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 100%;
+    left: 41%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 50px;
+    min-width: 60px;
+    text-align: center;
+    background: linear-gradient(#6274bd, #2c3d81, #2c3d81);
+    padding: 4px 10px;
+    opacity: 1;
+}
+.CentralTimer24 .leaf::before {
+    position: absolute;
+    content: "";
+    top: -5px;
+    left: -5px;
+    right: 20px;
+    bottom: -4px;
+    border-radius: 15px;
+    border: solid 5px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(60deg, #5dfca7, #6102ff, #5dfca7);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #12153b inset;
+    z-index: 0;
+}
+.CentralTimer24 .top, .CentralTimer24 .bottom, .CentralTimer24 .leaf-front, .CentralTimer24 .leaf-back {
+    position: relative;
+    display: block;
+    height: 54px;
+    width: 100px;
+    background: #0B2083;
+    color: #ffffff;
+    overflow: hidden;
+    border-color: #0B2083;
+}
+.CentralTimer24 .top span, .CentralTimer24 .bottom span, .CentralTimer24 .leaf-front span, .CentralTimer24 .leaf-back span {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 108px;
+    text-align: center;
+    font-family: "Impact", sans serif;
+    font-size: 40px;
+    line-height: 115px;
+    transform: translateX(-50%);
+}
+.CentralTimer24 .top, .CentralTimer24 .leaf-front {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+}
+.CentralTimer24 .top span, .CentralTimer24 .leaf-front span {
+    top: -2px;
+}
+.CentralTimer24 .leaf-front {
+    position: absolute;
+    z-index: 10;
+}
+.CentralTimer24 .bottom, .CentralTimer24 .leaf-back {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    background: #0B6BBF;
+}
+.CentralTimer24 .bottom span, .CentralTimer24 .leaf-back span {
+    bottom: 2px;
+}
+.CentralTimer24 .leaf-back {
+    position: absolute;
+    top: 54px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .CentralTimer24 .leaf {
+        padding: 0 5px 0 0;
+        background-image: none;
+    }
+    .CentralTimer24 .leaf::before {
+        display: none;
+    }
+    .CentralTimer24 .leaf::after {
+        min-width: 35px;
+    }
+    
+    .CentralTimer24 .flipclock {
+        padding: 20px 10px 40px;
+    }
+    
+   .CentralTimer24 .leaf {
+        margin: 0 0.6666666667vw;
+   }
+   .CentralTimer24 .leaf::after {
+        margin-top: 1.3333333333vw;
+        font-size: 2.3333333333vw;
+   }
+   .CentralTimer24 .top, .CentralTimer24 .bottom, .CentralTimer24 .leaf-front, .CentralTimer24 .leaf-back {
+        height: 10.6666666667vw;
+        width: 20vw;
+   }
+   .CentralTimer24 .top span, .CentralTimer24 .bottom span, .CentralTimer24 .leaf-front span, .CentralTimer24 .leaf-back span {
+        height: 21.3333333333vw;
+        font-size: 40px;
+        line-height: 21.3333333333vw;
+   }
+   .CentralTimer24 .leaf._3-digits .top, .CentralTimer24 .leaf._3-digits .bottom, .CentralTimer24 .leaf._3-digits .leaf-front, .CentralTimer24 .leaf._3-digits .leaf-back {
+        width: 24.6666666667vw;
+   }
+   .CentralTimer24 .top, .CentralTimer24 .leaf-front {
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+   }
+   .CentralTimer24 .bottom, .CentralTimer24 .leaf-back {
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+   }
+   .CentralTimer24 .leaf-back {
+        top: 10.6666666667vw;
+   }
+}
+.CentralTimer24 .leaf-front {
+    transform-origin: bottom center;
+    transform: rotateX(0deg);
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+}
+.CentralTimer24 .leaf-back {
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    transition-delay: 0s;
+}
+.CentralTimer24 .bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(10px);
+}
+.CentralTimer24 .flip .leaf-front {
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0s;
+    color: #000;
+    background-color: #737373;
+}
+.CentralTimer24 .flip .leaf-back {
+    transform: rotateX(0deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0.3s;
+}
+.CentralTimer24 .flip .bottom::before {
+    transition: height 0.3s ease-in-out;
+    transition-delay: 0.15s;
+    height: 100%;
+}
+/* --------------- template24 end --------------------*/
+/* --------------- template25 start --------------------*/
+.cz_flip_timerbox.CentralTimer25 {
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+}
+.CentralTimer25 .flipclock {
+    display: flex;
+    justify-content: center;
+    padding: 45px 0 80px;
+    box-sizing: border-box;
+    background: #1D236D;
+}
+.CentralTimer25 .flipclock * {
+    box-sizing: inherit;
+}
+.CentralTimer25 .leaf {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px 0 0;
+    perspective: 300px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c25_dots.png);
+    background-position: top 38px right 9px;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+.CentralTimer25 .leaf:last-child {
+    background-image: none;
+}
+.CentralTimer25 .leaf::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.CentralTimer25 .leaf::before {
+    position: absolute;
+    content: "";
+    top: -15px;
+    left: -5px;
+    right: 20px;
+    bottom: -4px;
+    border-radius: 15px;
+    border: solid 5px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(60deg, #5dfca7, #824bb2, #824bb2);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #12153b inset;
+    z-index: 0;
+}
+.CentralTimer25 .top, .CentralTimer25 .bottom, .CentralTimer25 .leaf-front, .CentralTimer25 .leaf-back {
+    position: relative;
+    display: block;
+    height: 54px;
+    width: 100px;
+    background: #0B2083;
+    color: #ffffff;
+    overflow: hidden;
+    border-color: #0B2083;
+}
+.CentralTimer25 .top span, .CentralTimer25 .bottom span, .CentralTimer25 .leaf-front span, .CentralTimer25 .leaf-back span {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 108px;
+    text-align: center;
+    font-family: "Impact", sans serif;
+    font-size: 40px;
+    line-height: 115px;
+    transform: translateX(-50%);
+}
+.CentralTimer25 .top, .CentralTimer25 .leaf-front {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+}
+.CentralTimer25 .top span, .CentralTimer25 .leaf-front span {
+    top: -2px;
+}
+.CentralTimer25 .leaf-front {
+    position: absolute;
+    z-index: 10;
+}
+.CentralTimer25 .bottom, .CentralTimer25 .leaf-back {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    background: #0B6BBF;
+}
+.CentralTimer25 .bottom span, .CentralTimer25 .leaf-back span {
+    bottom: 2px;
+}
+.CentralTimer25 .leaf-back {
+    position: absolute;
+    top: 54px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .CentralTimer25 .leaf {
+        padding: 0 5px 0 0;
+        background-image: none;
+    }
+    .CentralTimer25 .leaf::before {
+        display: none;
+    }
+    .CentralTimer25 .leaf::after {
+        min-width: 35px;
+    }
+    
+    .CentralTimer25 .flipclock {
+        padding: 20px 10px 40px;
+    }
+    
+   .CentralTimer25 .leaf {
+        margin: 0 0.6666666667vw;
+   }
+   .CentralTimer25 .leaf::after {
+        margin-top: 1.3333333333vw;
+        font-size: 2.3333333333vw;
+   }
+   .CentralTimer25 .top, .CentralTimer25 .bottom, .CentralTimer25 .leaf-front, .CentralTimer25 .leaf-back {
+        height: 10.6666666667vw;
+        width: 20vw;
+   }
+   .CentralTimer25 .top span, .CentralTimer25 .bottom span, .CentralTimer25 .leaf-front span, .CentralTimer25 .leaf-back span {
+        height: 21.3333333333vw;
+        font-size: 35px;
+        line-height: 21.3333333333vw;
+   }
+   .CentralTimer25 .leaf._3-digits .top, .CentralTimer25 .leaf._3-digits .bottom, .CentralTimer25 .leaf._3-digits .leaf-front, .CentralTimer25 .leaf._3-digits .leaf-back {
+        width: 24.6666666667vw;
+   }
+   .CentralTimer25 .top, .CentralTimer25 .leaf-front {
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+   }
+   .CentralTimer25 .bottom, .CentralTimer25 .leaf-back {
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+   }
+   .CentralTimer25 .leaf-back {
+        top: 10.6666666667vw;
+   }
+}
+.CentralTimer25 .leaf-front {
+    transform-origin: bottom center;
+    transform: rotateX(0deg);
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+}
+.CentralTimer25 .leaf-back {
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    transition-delay: 0s;
+}
+.CentralTimer25 .bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(10px);
+}
+.CentralTimer25 .flip .leaf-front {
+    transform: rotateX(-90deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0s;
+    color: #000;
+    background-color: #737373;
+}
+.CentralTimer25 .flip .leaf-back {
+    transform: rotateX(0deg);
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in;
+    transition-delay: 0.3s;
+}
+.CentralTimer25 .flip .bottom::before {
+    transition: height 0.3s ease-in-out;
+    transition-delay: 0.15s;
+    height: 100%;
+}
+/* --------------- template25 end --------------------*/
+/* --------------- template26 start --------------------*/
+.circular_timer.CentralTimer26 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* background: #000000; */
+    max-width: 550px;
+    margin: auto;
+    padding: 30px;
+}
+.CentralTimer26 .circular_timer_box {
+  position: relative;
+}
+.CentralTimer26 .controlls {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CentralTimer26 .circle {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 30px;
+    color: #FFE048;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c26_back.png);
+    background-position: center top -0.4px;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+}
+.CentralTimer26 .circle svg {
+    width: 103px;
+}
+.CentralTimer26 .e-c-base {
+  fill: none;
+  stroke: #B6B6B6;
+  stroke-width: 4px
+}
+
+.CentralTimer26 .e-c-progress {
+  fill: none;
+  stroke: #FFE048;
+  stroke-width: 4px;
+  transition: stroke-dashoffset 0.7s;
+}
+
+.CentralTimer26 .e-c-pointer {
+  fill: #FFF;
+  stroke: #FFE048;
+  stroke-width: 2px;
+}
+
+.CentralTimer26 #e-pointere { transition: transform 0.7s; }
+.CentralTimer26 .controlls > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.CentralTimer26 .controlls > div span.display-remain-time {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.CentralTimer26 .controlls > div span {font-weight: 600;font-size: 14px;}
+/* --------------- template26 end --------------------*/
+/* --------------- template27 start --------------------*/
+.circular_timer.CentralTimer27  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#e7e7e7, #e1e1e1, #9d9d9d);
+    max-width: 550px;
+    margin: auto;
+    padding: 30px;
+}
+
+.CentralTimer27 .circular_timer_box {
+    position: relative;
+  }
+
+.CentralTimer27 .controlls {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CentralTimer27 .circle {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 30px;
+    color: #FF1302;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c27_back.png);
+    background-position: center right -10px;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+    padding: 10px;
+    width: 123px;
+    height: 126px;
+}
+.CentralTimer27 .circle svg {
+    transform: translate(8px, 9px);
+    width: 80px;
+}
+
+.CentralTimer27 .e-c-base {
+    fill: none;
+    stroke: #b6b6b600;
+    stroke-width: 15px
+}
+
+.CentralTimer27 .e-c-progress {
+    fill: none;
+    stroke: #ff5202;
+    stroke-width: 15px;
+    transition: stroke-dashoffset 0.7s;
+}
+
+.CentralTimer27 .e-c-pointer {
+    fill: #FFF;
+    stroke: #ff5202;
+    stroke-width: 2px;
+    display: none;
+}
+.CentralTimer27 .circular_timer_box .display-remain-time {
+    font-weight: 800;
+    font-size: 25px;
+}
+.CentralTimer27 #e-pointere { transition: transform 0.7s; }
+.CentralTimer27 .circular_timer_box span {
+    font-size: 11px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif !important;    line-height: 1.21;color: #212529;
+}
+
+.CentralTimer27 .controlls > div {
+    display: flex;
+    flex-direction: column;
+    transform: translate(-3px, -4px);
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:576px){
+    .circular_timer.CentralTimer27 {
+        max-width: 100%;
+        width: 100%;
+    }
+    .CentralTimer27 .circle {
+        width: 93px;
+        height: 106px;
+        background-size: 130px;
+    }
+    .CentralTimer27 .circle svg {
+        width: 70px;
+        transform: translate(-3px, 4px);
+    }
+}
+/* --------------- template27 end --------------------*/
+/* --------------- template28 start --------------------*/
+.circular_timer.CentralTimer28  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* background: linear-gradient(#e7e7e7, #e1e1e1, #9d9d9d); */
+    max-width: 550px;
+    margin: auto;
+    padding: 30px;
+}
+.CentralTimer28 .circular_timer_box {
+    position: relative;
+}
+.CentralTimer28 .controlls {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.CentralTimer28 .circle {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 30px;
+    color: #FF1302;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c28_back.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+    width: 101px;
+    height: 101px;
+}
+.CentralTimer28 .circle svg {
+    width: 95px;
+    transform: translate(3.5px, 3px);
+}
+
+.CentralTimer28 .e-c-base {
+  fill: none;
+  stroke: #b6b6b600;
+  stroke-width: 7px
+}
+
+.CentralTimer28 .e-c-progress {
+    fill: none;
+    stroke: #f2572e;
+    stroke-width: 7px;
+    transition: stroke-dashoffset 0.7s;
+}
+
+.CentralTimer28 .e-c-pointer {
+  fill: #FFF;
+  stroke: #FF1302;
+  stroke-width: 2px;
+  display: none;
+}
+
+.CentralTimer28 #e-pointere { transition: transform 0.7s; }
+.CentralTimer28 .circular_timer_box .display-remain-time {
+    font-weight: 800;
+    font-size: 35px;
+}
+.CentralTimer28 .circular_timer_box span {
+    font-size: 11px;
+    font-weight: 600;
+    font-family: "Exo", sans-serif !important;
+    line-height: 1.21;
+    color: #ffffff;
+}
+
+.CentralTimer28 .controlls > div {
+    display: flex;
+    flex-direction: column;
+    transform: translate(1px, -2px);
+    justify-content: center;
+    align-items: center;
+}
+/* --------------- template28 end --------------------*/
+/* --------------- template29 start --------------------*/
+.circular_timer.CentralTimer29  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* background: #3F294F; */
+    max-width: 550px;
+    margin: auto;
+    padding: 30px;
+}
+.CentralTimer29 .circular_timer_box {
+    position: relative;
+}
+.CentralTimer29 .controlls {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.CentralTimer29 .circle {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 30px;
+    color: #F048FF;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c29_back.png);
+    background-position: center  top 5px;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+}
+.CentralTimer29 .circle svg {
+    width: 100px;
+}
+
+.CentralTimer29 .e-c-base {
+  fill: none;
+  stroke: #B6B6B6;
+  stroke-width: 0
+}
+
+.CentralTimer29 .e-c-progress {
+  fill: none;
+  stroke: #F048FF;
+  stroke-width: 10px;
+  transition: stroke-dashoffset 0.7s;
+}
+
+.CentralTimer29 .e-c-pointer {
+  fill: #FFF;
+  stroke: #F048FF;
+  stroke-width: 2px;
+}
+
+.CentralTimer29 #e-pointere { transition: transform 0.7s; }
+.CentralTimer29 .circular_timer_box .display-remain-time {
+    font-weight: 800;
+    font-size: 35px;
+}
+.CentralTimer29 .circular_timer_box span {
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif !important;    line-height: 1.21;color: #212529;
+}
+.CentralTimer29 .controlls > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* --------------- template29 end --------------------*/
+/* --------------- template30 start --------------------*/
+.circular_timer.CentralTimer30 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* background: linear-gradient(#e7e7e7, #e1e1e1, #9d9d9d); */
+    max-width: 550px;
+    margin: auto;
+    padding: 20px 20px 40px;
+}
+.CentralTimer30 .circular_timer_box {
+    position: relative;
+}
+.CentralTimer30 .controlls {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.CentralTimer30 .circle {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 30px;
+    color: #775DFC;
+    background-image: url(http://d257yxqteot439.cloudfront.net/static/templateclub/ctbg/c30_back.png);
+    background-position: center  top 3px;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 90px;
+    height: 90px;
+}
+.CentralTimer30 .circle svg {
+    width: 78px;
+    transform: translate(6px, 6px);
+}
+.CentralTimer30 .e-c-base {
+    fill: none;
+    stroke: #B6B6B6;
+    stroke-width: 0px;
+}
+
+.CentralTimer30 .e-c-progress {
+    fill: none;
+    stroke: #02FFFF;
+    stroke-width: 7px;
+    transition: stroke-dashoffset 0.7s;
+}
+
+.CentralTimer30 .e-c-pointer {
+  fill: #FFF;
+  stroke: #775DFC;
+  stroke-width: 2px;
+  display: none;
+}
+
+.CentralTimer30 #e-pointere { transition: transform 0.7s; }
+.CentralTimer30 .circular_timer_box .display-remain-time {
+    font-weight: 800;
+    font-size: 29px;
+    transform: translateY(9px);
+}
+.CentralTimer30 .circular_timer_box span {
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif !important;    line-height: 1.21;color: #212529;
+    transform: translateY(37px);
+}
+.CentralTimer30 .controlls > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* --------------- template30 end --------------------*/
+.circular_timer_box span{
+    text-transform: uppercase;
+}
+@media(max-width:576px){
+    .CentralTimer {
+        transform: scale(0.8);
+    }
+    .circular_timer  {
+        transform: scale(0.8) !important;
+    }
+}

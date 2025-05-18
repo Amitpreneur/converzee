@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__dashboard" width="14" height="14" viewBox="0 0 14 14">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <path id="prefix__Path_22" d="M4.847 0H.917A.918.918 0 0 0 0 .917v2.358a.918.918 0 0 0 .917.917h3.93a.918.918 0 0 0 .917-.917V.917A.918.918 0 0 0 4.847 0zm0 0" class="prefix__cls-1" data-name="Path 22"/>
+    <path id="prefix__Path_23" d="M4.847 213.332H.917a.918.918 0 0 0-.917.917v5.5a.918.918 0 0 0 .917.917h3.93a.918.918 0 0 0 .917-.917v-5.5a.918.918 0 0 0-.917-.917zm0 0" class="prefix__cls-1" data-name="Path 23" transform="translate(0 -206.668)"/>
+    <path id="prefix__Path_24" d="M282.179 341.332h-3.93a.918.918 0 0 0-.917.917v2.358a.918.918 0 0 0 .917.917h3.93a.918.918 0 0 0 .917-.917v-2.358a.918.918 0 0 0-.917-.917zm0 0" class="prefix__cls-1" data-name="Path 24" transform="translate(-269.096 -331.524)"/>
+    <path id="prefix__Path_25" d="M282.179 0h-3.93a.918.918 0 0 0-.917.917v5.5a.918.918 0 0 0 .917.917h3.93a.918.918 0 0 0 .917-.917v-5.5a.918.918 0 0 0-.917-.917zm0 0" class="prefix__cls-1" data-name="Path 25" transform="translate(-269.096)"/>
+</svg>

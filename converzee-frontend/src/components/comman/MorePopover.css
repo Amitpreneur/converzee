@@ -1,0 +1,31 @@
+.more-popover {
+  position: relative;
+}
+.morepopup-more {
+  height: auto;
+  width: 200px;
+  opacity: unset !important;
+  visibility: unset !important;
+}
+.dropdown-toggle::after {
+  margin-left: 0;
+  visibility: hidden;
+}
+.dropdown-menu:after {
+  visibility: hidden;
+}
+.dropdown-menu:before {
+  visibility: hidden;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #16181b !important;
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none;
+}

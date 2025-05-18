@@ -1,0 +1,51 @@
+.element-div {
+  min-height: 300px;
+  width: 90%;
+  background-color: #fff;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  box-shadow: 0.1rem 0.1rem 0.7rem 0.1rem rgba(0.1, 0.1, 0.1, 0.1) !important;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.element-img {
+  margin-top: -30px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 4px 50px -17px rgba(0, 0, 0, 0.82);
+  box-shadow: 1px 11px 26px -15px rgba(0, 0, 0, 0.82);
+  transition: 0.5s;
+}
+.element-div:hover .element-img {
+  transition: 0.5s;
+  margin-top: -50px !important;
+  margin-bottom: 20px;
+}
+.disabledLink {
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: #d6d0d0;
+}
+.element-des {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  color: #3949ae;
+}
+
+.img100 img {
+  width: 100%;
+}
+
+.bottom-desc {
+  position: absolute;
+  bottom: 7px;
+  width: 80%;
+  padding-left: 9px;
+}

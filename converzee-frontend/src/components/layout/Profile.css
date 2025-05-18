@@ -1,0 +1,190 @@
+.profile-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #303030;
+}
+
+.profile-subText {
+  font-size: 12px;
+  font-weight: 500;
+  color: #303030;
+  margin-top: 3px;
+}
+
+.profile-avater {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.profile-userName {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #303030;
+}
+
+.profile-email {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #808080;
+  letter-spacing: 0.5px;
+}
+
+.logout-button {
+  border-radius: 4px;
+  background-color: #ed8a25 !important;
+  color: #ffffff !important;
+}
+
+.addAccountBtn {
+  width: 100%;
+  border-radius: 4px;
+  color: #ffffff !important;
+  background-color: #167bab !important;
+}
+
+.bottom-buttons {
+  position: absolute;
+  bottom: 20px;
+  background-color: #fff;
+  padding-bottom: 5px;
+  left: 4px;
+  right: 4px;
+}
+
+.profile-details {
+  height: auto;
+  background: #fff;
+  margin-bottom: 110px;
+}
+
+.profile-role {
+  font-family: "Exo", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.active-role {
+  width: 83px;
+  height: 24px;
+  color: #fff;
+  padding: 7px 23px;
+  background-color: #ed8a25;
+  margin-left: 6px;
+  border-radius: 24px;
+  background-color: #ed8a25;
+}
+.ant-drawer-close {
+  position: absolute;
+  top: 9px;
+  right: unset;
+  left: 6px;
+  z-index: 10;
+}
+
+.ant-drawer-close:focus {
+  outline: unset;
+}
+
+.ant-drawer-close svg path {
+  fill: #303030;
+}
+.filter-close {
+  border-bottom: 1px solid #eaeaea;
+  padding: 0;
+  padding-bottom: 15px;
+  margin-left: 16px;
+  margin-right: 16px;  margin-bottom: 30px !important;
+}
+.ant-drawer-body {
+  padding: 24px 20px;
+}
+.bottom_btn_box {
+  display: flex;
+  margin: 0 -3px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.bottom_btn_box .bottom_btns {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 3px;
+}
+
+.bottom_btn_box .bottom_btns .btn {
+  width: 100%;
+  font-size: 12px;
+  height: 34px;
+  line-height: 25px;
+}
+
+.bottom_btn_box .bottom_btns .btn.btn-light {
+  background: #f0f0f0;
+}
+.bottom-buttons .addAccountBtn {
+  height: 34px;
+  margin-bottom: 6px;
+}
+.bottom-buttons .addAccountBtn svg {
+  margin-right: 10px;
+}
+.mck_hide {
+  display: none;
+}
+.purchased_plan span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #baffca;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.purchased_plan span a.cz_btn {
+  background: #28a745 !important;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 6px 15px !important;
+  min-width: 100px;
+  text-align: center;
+  line-height: 20px;
+  pointer-events: none;
+}
+.upgrade_plan span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ceefff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.upgrade_plan span a {
+  background: #167bab !important;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 6px 15px !important;
+  min-width: 100px;
+  text-align: center;
+  line-height: 20px;
+}
+.profile_heading{
+  /* margin: -29px 0 15px !important; */
+}
+
+@media(max-width:575px){
+  .profile_heading {
+    margin: -13px 0 15px !important;
+  }
+}

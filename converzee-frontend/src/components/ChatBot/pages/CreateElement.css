@@ -1,0 +1,115 @@
+.element-div {
+  min-height: 300px;
+  width: 90%;
+  background-color: #fff;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  box-shadow: 0.1rem 0.1rem 0.7rem 0.1rem rgba(0.1, 0.1, 0.1, 0.1) !important;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.element-img {
+  margin-top: -30px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 4px 50px -17px rgba(0, 0, 0, 0.82);
+  box-shadow: 1px 11px 26px -15px rgba(0, 0, 0, 0.82);
+  transition: 0.5s;
+}
+.element-div:hover .element-img {
+  transition: 0.5s;
+  margin-top: -50px !important;
+  margin-bottom: 20px;
+}
+.disabledLink {
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: #d6d0d0;
+}
+.element-des {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  color: #3949ae;
+}
+.lock {
+  position: absolute;
+  background-color: #b6b6b6a6;
+  z-index: 1;
+  border-radius: 10px;
+  height: 92%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: flex;
+}
+
+.lock-div {
+  /* height: 153px; */
+  margin: auto;
+}
+
+.lock-login-btn {
+  color: #f0f0f0 !important;
+  background-color: #686868 !important;
+}
+.lock-salespage-btn {
+  background-color: #f0f0f0 !important;
+  color: #686868 !important;
+}
+
+.img100 img {
+  width: 100%;
+}
+
+.bottom-desc {
+  position: absolute;
+  bottom: 16px !important;
+  width: 80%;
+  padding-left: 16px !important;
+}
+
+.cz_create_pages_wrapper .lock-salespage-btn {
+  display: none;
+}
+.cz_create_pages_wrapper .lock-div .lock_icon {
+  width: 75px;
+  height: 75px; 
+  background: #dadada;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 7px 20px rgba(0,0,0,0.2);
+}
+.cz_agency_page_wrapper .lock-div .lock_icon {
+  display: none;
+}
+.cz_create_page {
+  padding: 0 30px;
+}
+@media (max-width:576px){
+  .lock{
+    height: unset !important;
+    top: 0;
+    bottom: 0;
+  }
+  .cz_create_pages_wrapper .rectangle .col-4 {
+    flex: 0 0 45%;
+    max-width: 45%;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cz_create_pages_wrapper .rectangle .masonry-title {
+    margin-top: 0 !important;
+}
+}

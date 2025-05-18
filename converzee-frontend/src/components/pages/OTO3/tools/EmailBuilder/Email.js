@@ -1,0 +1,293 @@
+import React from "react";
+
+export const Email = function (props) {
+  return (
+    <div>
+      <div class="container-fullscreen">
+        <div class="container-content hidden" id="mail-template">
+          Content
+        </div>
+        <div class="container-sidebar hidden" id="option-tabs">
+          <div id="get-options" class="text-center">
+            <h4>Drag and drop the elements below to the work area on the left</h4>
+            <div class="get-options choose" data-id="content" id="content">
+              <span class="glyphicon glyphicon-list-alt"></span>
+              <div>Text</div>
+            </div>
+            <div class="get-options choose" data-id="image" id="image">
+              <span class="glyphicon glyphicon-picture"></span>
+              <div>Image</div>
+            </div>
+            <div class="get-options choose" data-id="video" id="video">
+              <span class="glyphicon glyphicon-play"></span>
+              <div>Video</div>
+            </div>
+            <div class="get-options choose" data-id="link" id="link">
+              <span class="glyphicon glyphicon-link"></span>
+              <div>Link</div>
+            </div>
+            <div class="get-options choose" data-id="divider" id="divider">
+              <span class="glyphicon glyphicon-minus"></span>
+              <div>Divider</div>
+            </div>
+            <div id="editor"></div>
+            <ul id="attach-data" class="list-group"></ul>
+          </div>
+        </div>
+      </div>
+      <div id="modal" class="reset-this"></div>
+      <button
+        class="btn btn-lg btn-success btn-materialize btn-left-bottom btn-left-bottom-1 hidden"
+        type="button"
+        id="preview"
+        title="Preview"
+        data-toggle="tooltip"
+        data-placement="top"
+        data-trigger="hover"
+      >
+        <span class="glyphicon glyphicon-zoom-in"></span>
+      </button>
+
+      <form
+        method="post"
+        enctype="multipart/form-data"
+        class="btn btn-lg btn-primary btn-materialize btn-left-bottom btn-left-bottom-2 hidden"
+        type="button"
+        id="attachment"
+        title="Attachment 7Mb Max"
+        data-toggle="tooltip"
+        data-placement="top"
+        data-trigger="hover"
+      >
+        <span class="glyphicon glyphicon-paperclip"></span>
+        <input type="file" name="attachment[]" />
+      </form>
+
+      <button
+        class="btn btn-lg btn-default btn-materialize btn-left-bottom btn-left-bottom-3 hidden"
+        type="button"
+        id="setting"
+        title="Layout Options"
+        data-toggle="tooltip"
+        data-placement="top"
+        data-trigger="hover"
+      >
+        <span class="fa fa-cog fa-spin"></span>
+      </button>
+
+      <div id="alerts"></div>
+
+      <div class="tools tools-left" id="settings">
+        <div class="tools-header">
+          <button type="button" class="close" data-dismiss="tools" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+          <h4>
+            <span class="fa fa-cog fa-spin"></span> Settings
+          </h4>
+        </div>
+        <div class="tools-body">
+          <h5 class="text-left option-title">Layout</h5>
+          <div class="form-horizontal">
+            <div class="form-group">
+              <label for="body-layout-bkg-color-form" class="col-sm-6 control-label text-left">
+                Background Color:
+              </label>
+              <div class="col-sm-6">
+                <div id="body-layout-bkg-color" class="input-group colorpicker-component">
+                  <span class="input-group-addon">
+                    <i></i>
+                  </span>
+                  <input type="text" value="" class="form-control input-sm" id="body-layout-bkg-color-form" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="body-layout-bkg-color-form" class="col-sm-6 control-label text-left">
+                Body Color:
+              </label>
+              <div class="col-sm-6">
+                <div id="body-layout-bkg-color-body" class="input-group colorpicker-component">
+                  <span class="input-group-addon">
+                    <i></i>
+                  </span>
+                  <input type="text" value="" class="form-control input-sm" id="body-layout-bkg-color-body-form" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="text-left option-title">Header Section</h5>
+          <div class="form-horizontal">
+            <div class="form-group">
+              <label for="head-bkg-color-form" class="col-sm-6 control-label text-left">
+                Background Color:
+              </label>
+              <div class="col-sm-6">
+                <div id="head-bkg-color" class="input-group colorpicker-component">
+                  <span class="input-group-addon">
+                    <i></i>
+                  </span>
+                  <input type="text" value="" class="form-control input-sm" id="head-bkg-color-form" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="head-height" class="col-sm-4 control-label text-left">
+                Height:
+              </label>
+              <div class="col-sm-8 text-right">
+                <input type="text" class="form-control input-sm" id="head-height" data-slider-min="0" data-slider-max="1000" data-slider-step="10" data-slider-value="0" />
+                &nbsp;&nbsp;&nbsp;
+                <small>
+                  Height: <span id="head-height-val">auto</span>
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <div id="dd-body-exists">
+            <h5 class="text-left option-title">Content Section</h5>
+            <div class="form-horizontal">
+              <div class="form-group">
+                <label for="content-bkg-color-form" class="col-sm-6 control-label text-left">
+                  Background Color:
+                </label>
+                <div class="col-sm-6">
+                  <div id="content-bkg-color" class="input-group colorpicker-component">
+                    <span class="input-group-addon">
+                      <i></i>
+                    </span>
+                    <input type="text" value="" class="form-control input-sm" id="content-bkg-color-form" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="content-height" class="col-sm-4 control-label text-left">
+                  Height:
+                </label>
+                <div class="col-sm-8 text-right">
+                  <input type="text" class="form-control input-sm" id="content-height" data-slider-min="0" data-slider-max="1000" data-slider-step="10" data-slider-value="0" />
+                  &nbsp;&nbsp;&nbsp;
+                  <small>
+                    Height: <span id="content-height-val">auto</span>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="dd-sidebar-left-exists">
+            <h5 class="text-left option-title">Left Sidebar Section</h5>
+            <div class="form-horizontal">
+              <div class="form-group">
+                <label for="left-bkg-color-form" class="col-sm-6 control-label text-left">
+                  Background Color:
+                </label>
+                <div class="col-sm-6">
+                  <div id="left-bkg-color" class="input-group colorpicker-component">
+                    <span class="input-group-addon">
+                      <i></i>
+                    </span>
+                    <input type="text" value="" class="form-control input-sm" id="left-bkg-color-form" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="left-height" class="col-sm-4 control-label text-left">
+                  Height:
+                </label>
+                <div class="col-sm-8 text-right">
+                  <input type="text" class="form-control input-sm" id="left-height" data-slider-min="0" data-slider-max="1000" data-slider-step="10" data-slider-value="0" />
+                  &nbsp;&nbsp;&nbsp;
+                  <small>
+                    Height: <span id="left-height-val">auto</span>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="dd-sidebar-right-exists">
+            <h5 class="text-left option-title">Right Sidebar Section</h5>
+            <div class="form-horizontal">
+              <div class="form-group">
+                <label for="right-bkg-color-form" class="col-sm-6 control-label text-left">
+                  Background Color:
+                </label>
+                <div class="col-sm-6">
+                  <div id="right-bkg-color" class="input-group colorpicker-component">
+                    <span class="input-group-addon">
+                      <i></i>
+                    </span>
+                    <input type="text" value="" class="form-control input-sm" id="right-bkg-color-form" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="right-height" class="col-sm-4 control-label text-left">
+                  Height:
+                </label>
+                <div class="col-sm-8 text-right">
+                  <input type="text" class="form-control input-sm" id="right-height" data-slider-min="0" data-slider-max="1000" data-slider-step="10" data-slider-value="0" />
+                  &nbsp;&nbsp;&nbsp;
+                  <small>
+                    Height: <span id="right-height-val">auto</span>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="text-left option-title">Footer Section</h5>
+          <div class="form-horizontal">
+            <div class="form-group">
+              <label for="footer-bkg-color-form" class="col-sm-6 control-label text-left">
+                Background Color:
+              </label>
+              <div class="col-sm-6">
+                <div id="footer-bkg-color" class="input-group colorpicker-component">
+                  <span class="input-group-addon">
+                    <i></i>
+                  </span>
+                  <input type="text" value="" class="form-control input-sm" id="footer-bkg-color-form" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="footer-height" class="col-sm-4 control-label text-left">
+                Height:
+              </label>
+              <div class="col-sm-8 text-right">
+                <input type="text" class="form-control input-sm" id="footer-height" data-slider-min="0" data-slider-max="1000" data-slider-step="10" data-slider-value="0" />
+                &nbsp;&nbsp;&nbsp;
+                <small>
+                  Height: <span id="footer-height-val">auto</span>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tools-footer">
+          <div class="button-group text-center">
+            <button class="btn btn-success btn-sm" data-dismiss="tools" type="button" id="send-message">
+              <span class="glyphicon glyphicon-ok"></span> I'm Done
+            </button>
+            <button class="btn btn-warning btn-sm" type="button" id="test">
+              <span class="glyphicon glyphicon-envelope"></span> Send Test
+            </button>
+            <button class="btn btn-danger btn-sm" type="button" id="delete">
+              <span class="glyphicon glyphicon-remove-sign"></span> Delete Project
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

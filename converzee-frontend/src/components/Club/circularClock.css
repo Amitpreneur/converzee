@@ -1,0 +1,12 @@
+.App {
+    display: flex;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 680px;
+  }
+  
+  .time {
+    font-size: 20px;
+  }
+  

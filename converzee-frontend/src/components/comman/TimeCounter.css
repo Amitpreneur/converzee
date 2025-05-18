@@ -1,0 +1,10 @@
+.hellobartimer1-timer .blockTimer {
+  width: 60px;
+  background-color: hotpink;
+  height: 80%;
+  margin: 5px;
+}
+.hellobartimer1-timer .blockTimer div {
+  font-size: 12px;
+  font-weight: 500;
+}

@@ -1,0 +1,87 @@
+.main-Preview {
+  /* width: calc(100% - 135px); */
+  position: fixed;
+  background-color: rgb(16, 16, 206);
+  left: 0px;
+  z-index: 10000;
+  width: 100%;
+  /* margin-left: 135px; */
+}
+.previewDiv {
+  margin-left: 20%;
+}
+.btn-preview {
+  height: 40px;
+}
+.horDiv {
+  position: relative;
+}
+.image-popup {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+.sidebar {
+  z-index: 0;
+}
+.image-main-preview {
+  height: auto;
+  width: auto;
+  background-color: unset !important;
+}
+.image-main-preview > div{
+  position: relative;
+}
+.image-preview {
+  position: relative;
+  display: inherit;
+}
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+.popupCloseButton{
+  position: absolute !important;
+}
+
+.cz_autoplay_vidoe_box {
+  width: 700px;
+  height: 393.75px;
+  position: relative;
+  max-width: 100%;
+}
+
+.cz_autoplay_vidoe_box .cz_autoplay_overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000000b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cz_autoplay_vidoe_box .cz_autoplay_overlay svg path{
+  fill: #ffffff;
+}
+.cz_autoplay_vidoe_box .cz_autoplay_overlay h2{
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.autoplay_video_preview .popupCloseButton {
+  top: 15px;
+  right: 30px;
+}
+.video_icons_list ul li .play_icons img {
+  width: 100%;
+}
+.cz_autoplay_vidoe_box .cz_autoplay_overlay img {
+  width: 140px;
+}

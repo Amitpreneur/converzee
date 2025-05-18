@@ -1,0 +1,6 @@
+# Exclude all mp4 files
+*.mp4
+# Node modules (optional but recommended)
+node_modules/
+# Log files
+*.log

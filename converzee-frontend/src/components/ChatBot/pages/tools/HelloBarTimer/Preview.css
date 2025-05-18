@@ -1,0 +1,17 @@
+.main-Preview {
+  /* width: calc(100% - 135px);
+  position: fixed;
+  background-color: rgb(16, 16, 206);
+  left: 0px;
+  z-index: 1;
+  margin-left: 135px; */
+}
+.previewDiv {
+  margin-left: 20%;
+}
+.btn-preview {
+  height: 40px;
+}
+.horDiv {
+  position: relative;
+}

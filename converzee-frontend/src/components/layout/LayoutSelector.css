@@ -1,0 +1,221 @@
+.layoutSelector_img {
+  /* height: 32px; */
+  width: 90%;
+}
+.layoutSelector_img_height {
+  height: unset;
+  max-height: 100px;
+  width: auto;
+}
+
+.Icon-awesome-check-circle {
+  width: 14px;
+  height: 14px;
+  color: #3dbf74;
+}
+.cz_hellobar_timer_layout p {
+  color: #303030;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px !important;
+}
+.Icon-awesome-uncheck-circle {
+  width: 14px;
+  height: 14px;
+  color: #eaeaea;
+}
+
+.template_item {
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.layout-color-box {
+  width: 100%;
+  height: 48px;
+  margin-top: 8px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.layout-color-box-selected {
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.06);
+}
+
+.layout-color-selected {
+  color: #ed8a25;
+}
+
+.cz_club_exit_layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.cz_club_exit_layout p {
+  flex-basis: 100%;
+  padding: 0 10px;
+}
+
+.cz_club_exit_layout .template_item {margin: 0;padding: 0 10px;flex: 0 0 25%;margin-bottom: 20px;position: relative;}
+
+.cz_club_exit_layout .template_item span.Icon-awesome-check-circle {
+  color: #ed8a25;
+} 
+.cz_club_exit_layout .template_item span {
+  position: absolute;
+  right: 20px;
+  top: 9px;
+}
+
+.cz_club_exit_layout .template_item img {
+  border: 2px solid transparent;
+  width: 100%;
+  max-height: 120px;
+}
+
+.cz_club_exit_layout .template_item .Icon-awesome-check-circle ~ img {
+  border-color: #ed8a25;
+}
+
+.cz_hellobar_timer_layout img.layoutSelector_img {
+  width: 96%;
+  margin-bottom: 7px;
+}
+.cz_club_exit_layout.cz_hellobar_timer_layout img.layoutSelector_img {
+  width: 100%;
+}
+.cz_hellobar_timer_layout {
+  max-height: 550px;
+  overflow-x: hidden;
+}
+.cz_dynamic_layouts .template_item {flex: 0 0 12.5%;max-width: 12.5%;    height: 230px;}
+
+.cz_dynamic_layouts .template_item img {
+    max-height: 230px;
+    object-fit: contain;
+    border: 2px solid #f1f1f1;
+    height: 100%;
+}
+.cz_ct_layouts .template_item img {
+  border: 2px solid #f1f1f1;
+  height: 95px;
+  object-fit: contain;
+  padding: 10px;
+}
+.tox .tox-edit-area__iframe{
+  background-color: #e8e8e8;
+}
+.cz_ct_timer_row .col-md-6.mt-2 {
+  display: none;
+}
+
+/* .cz_ct_timer_row .col-md-6 {
+  flex: 0 0 100%;
+  max-width: 100%;
+} */
+.cz_timer_scale h3 {
+  font-size: 20px;
+}
+
+.cz_timer_scale ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.cz_timer_scale ul li {
+  width: 40px;
+  height: 40px;
+  background: #e8e8e8;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.cz_timer_scale ul li:hover,.cz_timer_scale ul li.active {
+  background: #ed8a25;
+  color: #ffffff;
+}
+.video_icons_list ul {
+  padding: 0;
+}
+
+.video_icons_list h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.video_icons_list ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.video_icons_list ul li {
+  padding: 0 10px;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+.video_icons_list ul li .play_icons {
+  border: 2px solid #f1f1f1;
+  padding: 10px;
+  position: relative;
+  background: #000000;
+}
+
+.video_icons_list ul li .play_icons span {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.cz_autoplay_script .cz_script_box h2 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.cz_autoplay_script .cz_script_box p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #707070;
+  margin-bottom: 10px !important;
+}
+.cz_autoplay_script .cz_script_box textarea {
+  width: 100%;
+  height: 60px;
+  resize: none;
+  border: 1px solid #bbbbbb;
+  background: #f1f1f1;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.cz_autoplay_script .cz_script_box {
+  margin-bottom: 20px;
+}
+.cz_responders_column {
+  width: 100%;
+}
+
+.ant-drawer-header{
+  padding-top: 0;
+}
+
+@media(max-width:576px){
+  .cz_club_exit_layout .template_item {
+    flex: 0 0 50%;
+  }
+  .cz_dynamic_layouts .template_item {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}

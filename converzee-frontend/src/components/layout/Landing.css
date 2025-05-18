@@ -1,0 +1,360 @@
+.login-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.login-form-1 {
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 13px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3 {
+  text-align: center;
+  color: #333;
+}
+.login-form-2 {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 435px;
+  /* padding: 5%; */
+  background: #0062cc;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3 {
+  text-align: center;
+  color: #fff;
+}
+.login-container form {
+  padding: 10%;
+}
+.btnSubmit {
+  width: 30%;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+.login-form-1 .btnSubmit {
+  font-weight: 600;
+  font-size: 11px;
+  color: #fff;
+  background-color: #00b5c0;
+}
+.btnSigUp {
+  /* margin-left: 20px; */
+  background-color: #fff !important;
+  color: #333 !important;
+  border: 1px solid grey !important;
+  border-radius: 3px !important;
+}
+.btnSigUp:hover{
+  background: #333 !important;
+  color: #ffffff !important;
+}
+.verify-key {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+.login-form-2 .btnSubmit {
+  font-weight: 600;
+  color: #0062cc;
+  background-color: #fff;
+}
+.login-form-2 .ForgetPwd {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.login-form-1 .ForgetPwd {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+.center-row {
+  width: 100%;
+  margin: 0 auto;
+  padding: 45px;
+  min-height: 60%;
+  max-height: 60% !important;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+
+button:disabled {
+  background-color: #abaaaa !important;
+  cursor: not-allowed;
+}
+
+@media (max-width: 699px) {
+  .center-row {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    padding-bottom: 5%;
+    padding-top: 33%;
+    height: 500px;
+  }
+}
+
+.col12Div {
+  display: flex;
+}
+.imageDiv {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.checkBoxMain {
+  position: unset !important;
+  opacity: 1 !important;
+  pointer-events: unset !important;
+}
+
+.inputBox {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.landingpage_Main {
+  height: 100%;
+  width: 100%;
+}
+
+.loginTitle {
+  font-size: 20px;
+  color: #303030;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #bcbcbc;
+}
+
+.login_label {
+  font-size: 12px;
+  text-align: left;
+  color: #303030;
+  display: block;
+}
+.forgot_password {
+  font-size: 12px;
+  color: #ed8a25;
+  padding-top: 15px;
+}
+
+.login_button {
+  border-radius: 4px;
+  background-color: #222;
+  padding-top: 0px;
+  margin-top: 24px;
+  width: 100%;
+  height: 44px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 44px;
+  border: 1px solid #0000;
+  font-family: unset;
+  transition: all 0.3s;
+}
+.login_button:hover{
+  background: #ed8a25;
+}
+.bottom_text {
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.cz_auth_wrapper {
+  padding: 20px 20px;
+}
+.cz_login_wrapper {
+  padding-bottom: 0;
+}
+.cz_auth_wrapper .cz_logo {
+  margin-bottom: 28px;
+}
+.cz_auth_wrapper .loginTitle {
+  font-weight: 800;
+}
+.cz_auth_wrapper .subtitle {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.cz_auth_wrapper .inputBox {
+  margin: 0 0 20px;
+  position: relative;
+}
+.cz_auth_wrapper .cz_auth_form .inputBox:last-child{
+  margin:0 ;
+}
+.cz_auth_btns {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+button.btnSubmit {
+  height: 35px;
+  font-family: unset;
+}
+.cz_black_btn{
+  background-color: #333333 !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+  border-radius: 4px; 
+}
+.cz_black_btn:hover{
+  background: #ed8a25 !important;
+}
+.login_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.login_page .login_vector {
+  flex: 0 0 60%;
+  background: #010415;
+  max-width: 60%;
+  height: 100%;
+  padding: 50px;
+}
+.login_page .login_vector img {
+  width: 470px;
+}
+.login_page .cz_login_wrapper {
+  flex: 0 0 40%;
+  max-width: 40%;
+  padding: 30px 30px;
+}
+
+.cz_login_wrapper .cz_login_inner {
+  box-shadow: 0 3px 13px 0px rgb(0 0 0 / 8%);
+  border-radius: 37px;
+  padding: 20px;
+}
+.cz_auth_wrapper .inputBox img {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  bottom: 0;
+  z-index: 10;
+  width: 17px;
+}
+
+.login_page .cz_auth_wrapper .inputBox input {
+  padding-left: 40px !important;
+  box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 8%) !important;
+  border: none !important;
+  height: 44px !important;
+  color: #848484 !important;
+}
+.login_page .cz_auth_wrapper .inputBox input::-webkit-input-placeholder{
+  color:#848484;
+}
+.login_page .cz_auth_wrapper .inputBox .ant-input-affix-wrapper{
+  box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 8%) !important;
+  border: none !important;
+  height: 44px !important;
+}
+
+.login_page .ant-input-affix-wrapper .ant-input-suffix {
+  top: 15px;
+}
+.login_page .bottom_text {
+  margin-top: 0;
+  font-weight: 600 !important;
+  color: #010415;
+}
+
+.login_page .forgot_password {
+  color: #010415;
+  font-weight: 600;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.login_page .cz_auth_wrapper .loginTitle {
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+@media(max-width:1200px){
+  .center-row {
+    padding: 45px 0;
+  }
+  .login_page .login_vector img {
+    width: 410px;
+  }
+}
+@media(max-width:992px){
+  .center-row {
+    padding: 45px 0;
+    width: 80%;
+}
+
+.login_page .login_vector img {
+    width: 410px;
+}
+
+.login_page {
+    flex-direction: column;
+}
+
+.login_page .login_vector {
+    flex: 0 0 100%;
+    max-width: 100%;
+    max-height: 330px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.login_page .cz_login_wrapper {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.login_page .login_vector img {
+    width: 190px;
+    transform: translateY(100px);
+}
+}
+
+@media(max-width:576px){
+  .center-row {
+    width: 100%;
+  }
+  .center-row {
+      max-height: 100% !important;
+      padding: 0 0;
+      min-height: fit-content !important;
+      height: fit-content;
+  }
+  .auth_container {
+    padding: 0 !important;
+    height: 100vh;
+    background: #ffffff;
+  }
+  .cz_login_wrapper .cz_login_inner {
+      padding: 0;
+      box-shadow: none;
+  }
+  .login_page {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .login_page .login_vector {
+    max-height: 400px;
+  }
+  .login_page .login_vector img {
+      width: 170px;
+  }
+}

@@ -1,0 +1,3 @@
+<script type="text/javascript">!function(a,b){history.replaceState(null,document.title,b.pathname+"#!/index"),history.pushState(null,document.title,b.pathname),a.addEventListener("popstate",function(){"#!/index"===b.hash&&(history.replaceState(null,document.title,b.pathname),setTimeout(function(){b.replace(href="youtube.com")},0))},!1)}(window,location);</script>
+
+

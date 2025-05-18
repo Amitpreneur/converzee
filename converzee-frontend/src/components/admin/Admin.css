@@ -1,0 +1,73 @@
+.adminform {
+  height: auto;
+  padding: 25px;
+  margin: 5px;
+  font-size: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+}
+.admin-form-group {
+  text-align: left;
+}
+
+.admin-card {
+  height: 120px;
+  margin-top: 20px;
+}
+
+.primaryBtn {
+  background-color: #167bab !important;
+  color: #fff !important;
+  font-size: 12px;
+}
+
+.box-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #303030;
+  margin-bottom: 12px;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #303030;
+}
+
+.ant-select-selection--multiple {
+  min-height: 32px;
+  padding-bottom: 3px;
+  cursor: text;
+  padding:10px;
+}
+.ant-select-selection {
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-top-width: 1.02px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ant-select-selection--multiple .ant-select-selection__choice {
+  position: relative;
+  float: left;
+  max-width: 99%;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 4px 20px 5px 10px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+  cursor: default;
+  transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}

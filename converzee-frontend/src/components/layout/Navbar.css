@@ -1,0 +1,101 @@
+[name="Navbar"] {
+  height: 60px;
+}
+.profile-icon {
+  width: 34px;
+  height: 34px;
+  background-color: #fafafa;
+  display: flex;
+  padding-left: 12px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.setting-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #fafafa;
+  display: flex;
+  padding-left: 9px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.username {
+  font-size: 12px;
+  display: flex;
+  cursor: pointer;
+}
+
+.toggle-bar {
+  color: #707070 !important;
+  font-family: "Exo", sans-serif;
+  font-size: 18px !important;
+  font-weight: 400;
+  text-align: left;
+}
+
+.setting-item {
+  font-weight: 600 !important;
+}
+button.cz_btn.cz_orange_btn {
+  background: #ed8a25 !important;
+}
+.nav-topmenu-list li .cz_btn {
+  border-radius: 100px;
+  margin-right: 10px;
+}
+/* .nav-list {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  color: #fff !important;
+}
+.nav-button {
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.setting-button {
+  display: flex;
+  position: relative;
+}
+.dropdown-button-padding {
+  padding-top: 6px;
+  padding-left: 5px;
+}
+.navbar-dropdown-list-setting {
+  overflow: hidden;
+  position: absolute;
+  background: #fff;
+  z-index: 2;
+  right: 0px;
+  top: 35px;
+  border-radius: 3px;
+  font-size: medium;
+  box-shadow: 0 0.5rem 1rem rgba(0.1, 0.1, 0.1, 0.1) !important;
+}
+.right-side-profile-panel {
+}
+.navTitle {
+  text-transform: uppercase;
+}
+
+.mobile-navMenu {
+  background-color: cornsilk;
+  border: 1px solid gray;
+  width: fit-content;
+}
+.mobile-navMenu li:hover {
+  background-color: gray;
+}
+
+.main-panel > .navbar {
+  margin-bottom: 0;
+  background: linear-gradient(45deg, #303f9f, #7b1fa2) !important;
+}
+
+.newNav {
+  height: 200px;
+  margin-bottom: -150px !important;
+} */

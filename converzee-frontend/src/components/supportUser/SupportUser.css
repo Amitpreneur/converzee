@@ -1,0 +1,20 @@
+.superAdimnMain {
+  padding: 50px;
+}
+
+.makeAdminBtn {
+  color: #167bab !important;
+}
+
+.editbtn {
+  color: #ed8a25 !important;
+}
+
+.userTable {
+  font-size: 12px;
+}
+.userTable tr {
+  border-radius: 4px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.06);
+  padding-bottom: 10px;
+}

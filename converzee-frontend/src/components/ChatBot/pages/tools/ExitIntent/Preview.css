@@ -1,0 +1,186 @@
+.main-Preview {
+  position: fixed;
+  background-color: rgb(16, 16, 206);
+  left: 0px;
+  z-index: 10000;
+  width: 100%;
+  height: min-content;
+}
+.previewDiv {
+  margin-left: 20%;
+}
+.btn-preview {
+  height: 40px;
+}
+.horDiv {
+  position: relative;
+}
+.image-popup {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  text-align: center;
+}
+.sidebar {
+  z-index: 0;
+}
+.image-main-preview {
+  /* height: 100%; */
+  /* width: 100%; */
+  background: rgb(255, 255, 255);
+  z-index: 3;
+  word-break: break-all;
+}
+.image-preview {
+  position: relative;
+}
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+.exit-default-popup {
+  /* height: 400px;
+  width: 700px; */
+  background-color: aqua;
+}
+.content-center {
+  width: fit-content;
+  border-radius: 10px;
+  height: fit-content;
+  /* background-color: blue; */
+
+  position: absolute; /*it can be fixed too*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+  /*this to solve "the content will not be cut when the window is smaller than the content": */
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  border: 1px solid black;
+}
+.popup-background {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.popup-button {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.Input-text {
+  width: 86%;
+  display: block;
+  height: 35px;
+  margin: 2px;
+  padding: var(--inputPaddingV) var(--inputPaddingH);
+  color: inherit;
+  width: 100%;
+  font-family: inherit;
+  font-size: var(--inputFontSize);
+  font-weight: inherit;
+  line-height: var(--inputLineHeight);
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow var(--transitionDuration);
+}
+
+.Input-text::placeholder {
+  color: #b0bec5;
+}
+
+.Input-text:focus {
+  outline: none;
+  box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+}
+
+.image-popup p {
+  margin-bottom: 0px;
+}
+.cz_exit_intent_pop .exit_intent_popup {
+  width: 50% !important;
+  height: fit-content !important;
+  padding-bottom: 40px;
+  background-color:rgb(7, 3, 54);
+  position: static;
+  max-height: unset;
+  min-height: unset;
+  border: none;
+  display: inline-block;
+    vertical-align: middle;
+}
+.cz_exit_intent_pop:before {
+  content: "";
+  width: 0.0001px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cz_exit_intent_pop .exit_intent_popup h2 {
+  color: #ff9c00;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cz_exit_intent_pop .exit_intent_popup p {
+  color: #ffffff;
+  margin: 0;
+}
+
+.cz_exit_intent_pop .exit_intent_popup button {
+  height: 50px;
+  background: #e71a1a;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 0 30px;
+  font-weight: 700;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.cz_exit_intent_pop .exit_intent_popup .nothanks p {
+  color: #ffe8e8;
+  margin-top: 20px;
+  display: inline-block;
+  border-bottom: 1px dashed #cfcece;
+  font-size: 12px;
+}
+
+.popupCloseButton{
+  width: 30px;
+  height: 30px;
+  top: -20px;
+}
+.popUpTitlebar{
+  height: 0;
+  margin-top: 0 !important;
+}
+.popupCloseButton > img{
+  margin-top: 0 !important;
+}
+
+@media(max-width:576px){
+  .exit_intent_popup {
+    width: 90% !important;
+  }
+  .cz_exit_intent_pop .exit_intent_popup {
+      width: 100% !important;
+  }
+
+  .cz_exit_intent_pop {
+      padding: 0 15px;
+  }
+}
+.nothanks {
+  display: none;
+}

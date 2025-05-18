@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__background" width="1366" height="768" viewBox="0 0 1366 768">
+    <g id="prefix__BACKGROUND-2" data-name="BACKGROUND">
+        <path id="prefix__Rectangle_395" d="M0 0H1366V768H0z" data-name="Rectangle 395"/>
+    </g>
+    <g id="prefix__OBJECTS" transform="translate(550.625 570.762)">
+        <g id="prefix__Group_165" data-name="Group 165">
+            <path id="prefix__Path_666" fill="#ed8a25" d="M1117.694 371.59c-1.566 1.521-3.151 3.026-4.772 4.485-31.728 28.57-77.042 47.831-123.413 46.019-55-2.166-108.916-32.778-161.643-19.4-49.34 12.5-76.806 59.059-124.579 75.326-46.152 15.713-97.86-.522-147.528-3.256-63.729-3.518-126.911 16.036-180.44 45.436-26.045 14.316-50.1 30.889-73 48.63h815.375z" data-name="Path 666" transform="translate(-302.32 -371.59)"/>
+        </g>
+    </g>
+</svg>

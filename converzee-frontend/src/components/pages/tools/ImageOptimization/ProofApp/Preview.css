@@ -1,0 +1,62 @@
+.proofapp_preview {
+  position: fixed;
+  bottom: 20px;
+}
+.proofapp_preview.proof_app_bottomLeft {
+  right: auto;
+  left: 20px;
+}
+.proofapp_preview.proof_app_bottomRight {
+  left: auto;
+  right: 20px;
+}
+.proofapp_preview .proofapp_preview_box {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 17px;
+  border-radius: 10px;
+  position: relative;
+  padding-left: 80px;
+  margin-bottom: 10px;
+}
+
+.proofapp_preview .proofapp_preview_box .proofapp_preview_logo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #292929;
+  color: #ffffff;
+  border-radius: 100px;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 20px;
+}
+
+.proofapp_preview .proofapp_preview_box .proofapp_preview_text h2 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ed8a25;
+  margin-bottom: 5px;
+}
+
+.proofapp_preview .proofapp_preview_box .proofapp_preview_text .proofapp_place {
+  color: #000000;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.proofapp_preview .proofapp_preview_box .proofapp_preview_text .proofapp_by {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ed8a25;
+  margin-top: 7px;
+}
+.proofapp_preview .proofapp_preview_box img.proof_close {
+  position: absolute;
+  top: -11px;
+  right: -16px;
+  width: 32px;
+  cursor: pointer;
+}

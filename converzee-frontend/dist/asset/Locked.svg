@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+    <g id="prefix__Locked" transform="translate(-746 -521)">
+        <circle id="prefix__Ellipse_56" cx="37.5" cy="37.5" r="37.5" data-name="Ellipse 56" transform="translate(746 521)" style="fill:#fff;opacity:.5"/>
+        <path id="prefix__Icon_awesome-lock" d="M17.188 9.625h-1.032V6.531a6.531 6.531 0 0 0-13.062 0v3.094H2.063A2.063 2.063 0 0 0 0 11.688v8.25A2.063 2.063 0 0 0 2.063 22h15.125a2.063 2.063 0 0 0 2.063-2.062v-8.25a2.063 2.063 0 0 0-2.063-2.063zm-4.469 0H6.531V6.531a3.094 3.094 0 0 1 6.188 0z" data-name="Icon awesome-lock" transform="translate(774 548)" style="opacity:.4"/>
+    </g>
+</svg>

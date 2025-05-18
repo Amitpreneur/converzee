@@ -1,0 +1,629 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  color: #000;
+  font-size: 14px;
+}
+.main-container {
+  padding: 0px;
+  margin: 0px auto;
+}
+.right {
+  text-align: right;
+  float: right;
+}
+.left {
+  text-align: left;
+  float: left;
+}
+.hellobartimer1 {
+  display: block;
+  background: #420068;
+  padding: 10px 0px;
+}
+.hellobartimer1-text1 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.hellobartimer1-code-box {
+  display: flex;
+  width: 100%;
+}
+.hellobartimer1-code {
+  background: #fffae1;
+  width: 100%;
+  text-align: center;
+  padding: 10px 5px;
+  display: inline-block;
+  border: dashed 3px #ff8000;
+  border-right: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.hellobartimer1-code p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #420068;
+}
+.hellobartimer1-copy-button {
+  cursor: pointer;
+  float: right;
+  background: #ff8000;
+  width: 100%;
+  padding: 12px 0px;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.hellobartimer1-copy-button p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.hellobartimer1-arrow {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  background: #210b45;
+  text-align: center;
+  padding: 7px;
+}
+.hellobartimer1-arrow:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.hellobartimer1-arrow:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #210b45;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.hellobartimer1-arrow p {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+}
+.hellobartimer1-timer li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.hellobartimer1-timer li span {
+  font-size: 13px;
+  font-weight: 400;
+}
+.hellobartimer1-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #ffcc00;
+  /* margin-top: 15px; */
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.hellobartimer1-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #420068;
+}
+
+.hellobartimer2 {
+  display: block;
+  background: #006820;
+  padding: 10px 0px;
+}
+.hellobartimer2-arrow {
+  margin-top: 5px;
+  height: 80px;
+  position: relative;
+  background: #002c0d;
+  padding: 5px 20px;
+}
+.hellobartimer2-arrow:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.hellobartimer2-arrow:before {
+  content: "";
+  position: absolute;
+  right: -40px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 40px solid #002c0d;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+}
+.hellobartimer2-arrow p {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+}
+.hellobartimer2-timer ul {
+  text-align: center;
+}
+.hellobartimer2-timer li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 25px;
+  font-weight: 700;
+  /* color: #fff; */
+}
+.hellobartimer2-timer li span {
+  font-size: 13px;
+  font-weight: 400;
+}
+.hellobartimer2-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #002c0d;
+  /* margin-top: 15px; */
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.hellobartimer2-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hellobartimer3 {
+  display: block;
+  background: #dc3545;
+}
+.hellobartimer3-text1 p {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.hellobartimer3-bg {
+  /* background: #000; */
+  height: 100%;
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+.hellobartimer3-timer {
+  padding-left: 0px;
+}
+.hellobartimer3-timer li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 25px;
+  font-weight: 700;
+  /* color: #fff; */
+}
+.hellobartimer3-timer li span {
+  font-size: 13px;
+  font-weight: 400;
+}
+.hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  /* margin-top: 15px; */
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hellobartimer4 {
+  display: block;
+  background: #6635dc;
+  padding: 10px 0px;
+}
+.hellobartimer4-text1 p {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+}
+.hellobartimer4-timer {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.hellobartimer4-timer li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 5px;
+  /* font-size: 25px; */
+  font-weight: 700;
+  /* color: #fff; */
+  margin-left: 20px;
+  /* background: #30039c; */
+  width: 80px;
+}
+.hellobartimer4-timer li span {
+  /* font-size: 13px; */
+  font-weight: 400;
+}
+
+.hellobartimer4-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #fff;
+  margin-top: 5px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.hellobartimer4-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #30039c;
+}
+
+.hellobartimer1 .cst_clock_2 {
+  width: max-content;
+}
+.hellobartimer1 .hellobartimer4-timer li {
+  width: unset;
+}
+.hellobartimer2 .hellobartimer4-timer li {
+  width: unset;
+}
+.hellobartimer3 .hellobartimer4-timer li {
+  width: unset;
+}
+.hellobartimer4 .hellobartimer4-timer li {
+  width: unset;
+}
+
+.hellobartimer2 .cst_clock_2 {
+  width: max-content;
+}
+.hellobartimer3 .cst_clock_2 {
+  width: max-content;
+}
+.hellobartimer4 .cst_clock_2 {
+  width: max-content;
+}
+/* 
+.text-center{
+  position: absolute;
+    bottom: 0px;
+    left: 30%;
+} */
+
+@media (max-width: 767px) {
+  .hellobartimer1 {
+    padding: 0px 0px 10px;
+  }
+  .hellobartimer1-copy-button p {
+    font-size: 16px;
+  }
+  .hellobartimer1-code p {
+    font-size: 16px;
+  }
+  .hellobartimer1-arrow p {
+    font-size: 12px;
+  }
+  .hellobartimer1-timer {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .hellobartimer1-timer li span {
+    font-size: 9px;
+  }
+  .hellobartimer1-button p {
+    font-size: 16px;
+  }
+
+  .hellobartimer2-arrow {
+    width: 80%;
+  }
+  .hellobartimer2-arrow p {
+    font-size: 15px;
+  }
+  .hellobartimer2-arrow p br {
+    display: none;
+  }
+  .hellobartimer2-arrow {
+    height: auto;
+  }
+  .hellobartimer2-arrow:before {
+    right: -15px;
+    border-left: 16px solid #002c0d;
+    border-top: 18px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+  .hellobartimer2-timer {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .hellobartimer2-timer li span {
+    font-size: 9px;
+  }
+  .hellobartimer2-button p {
+    font-size: 16px;
+  }
+
+  .hellobartimer3-text1 p {
+    font-size: 15px;
+  }
+  .hellobartimer3-text1 p br {
+    display: none;
+  }
+  .hellobartimer3-timer {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .hellobartimer3-timer li span {
+    font-size: 9px;
+  }
+  .hellobartimer3-button p {
+    font-size: 16px;
+  }
+
+  .hellobartimer4-text1 p {
+    font-size: 15px;
+  }
+  .hellobartimer4-text1 p br {
+    display: none;
+  }
+  .hellobartimer4-timer {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .hellobartimer4-timer li span {
+    font-size: 9px;
+  }
+  .hellobartimer4-button p {
+    font-size: 16px;
+  }
+  .hellobartimer4-timer li {
+    margin-left: 5px;
+    width: 45px;
+  }
+}
+
+.hellobar1 {
+  display: block;
+  background: #420068;
+  padding: 10px 0px;
+}
+.hellobar1-text1 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+}
+.hellobar1-code-box {
+  display: flex;
+  width: 80%;
+  margin-top: 10px;
+}
+.hellobar1-code {
+  background: #fffae1;
+  width: 100%;
+  text-align: center;
+  padding: 10px 5px;
+  display: inline-block;
+  border: dashed 3px #ff8000;
+  border-right: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.hellobar1-code p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #420068;
+}
+.hellobar1-copy-button {
+  cursor: pointer;
+  float: right;
+  background: #ff8000;
+  width: 100%;
+  padding: 12px 0px;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.hellobar1-copy-button p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.hellobar1-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #ffcc00;
+  margin-top: 10px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.hellobar1-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #420068;
+}
+
+.hellobar2 {
+  display: block;
+  background: #006820;
+  padding: 10px 0px;
+}
+.hellobar2-text1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.hellobar2 input {
+  width: 80%;
+  height: 40px;
+  margin-top: 5px;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.hellobar2-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #002c0d;
+  border-radius: 15px;
+  padding: 5px 20px;
+}
+.hellobar2-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hellobar3 {
+  display: block;
+  background: #dc3545;
+  padding-bottom: 10px;
+}
+.hellobar3-text1 p {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.hellobar3-text1 a {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.hellobar4 {
+  display: block;
+  background: #6635dc;
+  padding: 10px 0px;
+}
+.hellobar4-text1 p {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+}
+.hellobar4-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #fff;
+  margin-top: 5px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.hellobar4-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #30039c;
+}
+
+@media (max-width: 767px) {
+  .hellobar1 {
+    padding: 10px 0px;
+  }
+  .hellobar1-text1 p {
+    font-size: 15px;
+  }
+  .hellobar1-text1 p br {
+    display: none;
+  }
+  .hellobar1-code-box {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .hellobar1-copy-button p {
+    font-size: 16px;
+  }
+  .hellobar1-code p {
+    font-size: 16px;
+  }
+  .hellobar1-button p {
+    font-size: 16px;
+  }
+  .hellobar2-text1 p {
+    font-size: 15px;
+  }
+  .hellobar2-text1 p br {
+    display: none;
+  }
+  .hellobar2 input {
+    width: 100%;
+    height: 30px;
+  }
+  .hellobar2-button p {
+    font-size: 18px;
+  }
+
+  .hellobar3-text1 p {
+    font-size: 20px;
+  }
+
+  .hellobar4-text1 p {
+    font-size: 15px;
+  }
+  .hellobar4-text1 p br {
+    display: none;
+  }
+  .hellobar4-button {
+    margin-top: 0px;
+  }
+  .hellobar4-button p {
+    font-size: 16px;
+  }
+}
+
+.Input-text {
+  width: 86%;
+  display: block;
+  margin: 0;
+  padding: var(--inputPaddingV) var(--inputPaddingH);
+  color: inherit;
+  width: 100%;
+  font-family: inherit;
+  font-size: var(--inputFontSize);
+  font-weight: inherit;
+  line-height: var(--inputLineHeight);
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow var(--transitionDuration);
+}
+
+.Input-text::placeholder {
+  color: #b0bec5;
+}
+
+.Input-text:focus {
+  outline: none;
+  box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+}
+
+.leadengagr-button-url {
+  color: #000;
+}

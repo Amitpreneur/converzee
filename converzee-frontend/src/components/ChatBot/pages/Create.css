@@ -1,0 +1,351 @@
+.create-side-button {
+  /* height: 125px; */
+  /* width: 125px; */
+  width: 70px;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 0 0.5rem 1rem rgba(0.1, 0.1, 0.1, 0.1) !important;
+  border: 1px solid #9c9696;
+  border-radius: 12px;
+}
+
+.active-side-button {
+  color: #1c7387;
+  box-shadow: 0 0.5rem 1rem rgb(0.2, 0.2, 0.2, 0.2) !important;
+  border: 1px solid #1c7385;
+  border-radius: 12px;
+}
+
+.create-side-button div {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 0px;
+}
+
+.create-center-main {
+  margin-top: 8%;
+  height: auto;
+  border-radius: 10px;
+  width: 80%;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0.1, 0.1, 0.1, 0.1) !important;
+}
+.create-top-button {
+  background-color: #1c7387;
+  margin-right: 22px;
+  color: #fff;
+  /* width: 85px; */
+}
+.create-top-bar-button {
+  left: 80%;
+  position: relative;
+  display: flex;
+  right: 0px;
+}
+.dropdown-style {
+  width: 100%;
+}
+.quill {
+  height: 65%;
+}
+.layout-bar {
+  position: relative;
+  display: flex;
+  height: 25px;
+}
+.layout-round-item {
+  position: absolute;
+  left: 5px;
+  height: 17px;
+  border-radius: 25%;
+  width: 81px;
+  top: 4px;
+  background-color: #000;
+}
+.layout-block-item {
+  position: absolute;
+  left: 50%;
+}
+.block-item-pad {
+  padding-right: 5px;
+}
+.layout-line-item {
+  position: absolute;
+  right: 5px;
+}
+.layout-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background-color: aqua;
+}
+.code-dropdown-label {
+  display: flex;
+}
+.code-input-block {
+  display: flex;
+  padding-bottom: 10px;
+}
+.code-plusIcon {
+  padding: 5px;
+  cursor: pointer;
+}
+.layout-item {
+  height: 65px;
+}
+.form-element {
+  margin-top: 25px;
+}
+.element-list {
+  /* border: 1px solid black; */
+  padding-bottom: 15px;
+}
+.element-list-text {
+  text-align: left;
+}
+.element-div-active {
+  box-shadow: 0 0.5rem 1rem rgba(0.1, 0.1, 0.1, 0.1) !important;
+}
+.element-text-active {
+  font-weight: 600;
+}
+.element-list-div {
+  border: 1px solid black;
+  height: 20px;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+.uploadMain {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+.uploader-child {
+  width: 100%;
+  height: 100%;
+}
+.preview-image {
+  height: 100px;
+  width: 100px;
+}
+.rdt {
+  position: relative;
+}
+.rdtPicker {
+  display: none;
+  position: absolute;
+  width: 250px;
+  padding: 4px;
+  margin-top: 1px;
+  z-index: 99999 !important;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f9f9f9;
+}
+.rdtOpen .rdtPicker {
+  display: block;
+}
+.rdtStatic .rdtPicker {
+  box-shadow: none;
+  position: static;
+}
+
+.rdtPicker .rdtTimeToggle {
+  text-align: center;
+}
+
+.rdtPicker table {
+  width: 100%;
+  margin: 0;
+}
+.rdtPicker td,
+.rdtPicker th {
+  text-align: center;
+  height: 28px;
+}
+.rdtPicker td {
+  cursor: pointer;
+}
+.rdtPicker td.rdtDay:hover,
+.rdtPicker td.rdtHour:hover,
+.rdtPicker td.rdtMinute:hover,
+.rdtPicker td.rdtSecond:hover,
+.rdtPicker .rdtTimeToggle:hover {
+  background: #eeeeee;
+  cursor: pointer;
+}
+.rdtPicker td.rdtOld,
+.rdtPicker td.rdtNew {
+  color: #999999;
+}
+.rdtPicker td.rdtToday {
+  position: relative;
+}
+.rdtPicker td.rdtToday:before {
+  content: "";
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid #428bca;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+}
+.rdtPicker td.rdtActive,
+.rdtPicker td.rdtActive:hover {
+  background-color: #428bca;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.rdtPicker td.rdtActive.rdtToday:before {
+  border-bottom-color: #fff;
+}
+.rdtPicker td.rdtDisabled,
+.rdtPicker td.rdtDisabled:hover {
+  background: none;
+  color: #999999;
+  cursor: not-allowed;
+}
+
+.rdtPicker td span.rdtOld {
+  color: #999999;
+}
+.rdtPicker td span.rdtDisabled,
+.rdtPicker td span.rdtDisabled:hover {
+  background: none;
+  color: #999999;
+  cursor: not-allowed;
+}
+.rdtPicker th {
+  border-bottom: 1px solid #f9f9f9;
+}
+.rdtPicker .dow {
+  width: 14.2857%;
+  border-bottom: none;
+  cursor: default;
+}
+.rdtPicker th.rdtSwitch {
+  width: 100px;
+}
+.rdtPicker th.rdtNext,
+.rdtPicker th.rdtPrev {
+  font-size: 21px;
+  vertical-align: top;
+}
+
+.rdtPrev span,
+.rdtNext span {
+  display: block;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.rdtPicker th.rdtDisabled,
+.rdtPicker th.rdtDisabled:hover {
+  background: none;
+  color: #999999;
+  cursor: not-allowed;
+}
+.rdtPicker thead tr:first-child th {
+  cursor: pointer;
+}
+.rdtPicker thead tr:first-child th:hover {
+  background: #eeeeee;
+}
+
+.rdtPicker tfoot {
+  border-top: 1px solid #f9f9f9;
+}
+
+.rdtPicker button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.rdtPicker button:hover {
+  background-color: #eee;
+}
+
+.rdtPicker thead button {
+  width: 100%;
+  height: 100%;
+}
+
+td.rdtMonth,
+td.rdtYear {
+  height: 50px;
+  width: 25%;
+  cursor: pointer;
+}
+td.rdtMonth:hover,
+td.rdtYear:hover {
+  background: #eee;
+}
+
+.rdtCounters {
+  display: inline-block;
+}
+
+.rdtCounters > div {
+  float: left;
+}
+
+.rdtCounter {
+  height: 100px;
+}
+
+.rdtCounter {
+  width: 40px;
+}
+
+.rdtCounterSeparator {
+  line-height: 100px;
+}
+
+.rdtCounter .rdtBtn {
+  height: 40%;
+  line-height: 40px;
+  cursor: pointer;
+  display: block;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+.rdtCounter .rdtBtn:hover {
+  background: #eee;
+}
+.rdtCounter .rdtCount {
+  height: 20%;
+  font-size: 1.2em;
+}
+
+.rdtMilli {
+  vertical-align: middle;
+  padding-left: 8px;
+  width: 48px;
+}
+
+.rdtMilli input {
+  width: 100%;
+  font-size: 1.2em;
+  margin-top: 37px;
+}
+
+.rdtTime td {
+  cursor: default;
+}

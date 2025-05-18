@@ -1,0 +1,1870 @@
+.mck_club_HELLOBAR {
+  display: inline-flex;
+  height: 29px;
+  margin-bottom: 12px;
+  /* height: auto; */
+  align-items: center;
+  text-align: center;
+}
+.mck_clubPos-bottom .mck_club_exitbutton {
+  right: 30px;
+}
+.mck_club_HELLOBAR .timerClassdefault > * {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.mck_club_HELLOBAR .timerClassdefault > li > * {
+  font-size: 13px;
+}
+
+.mck_BuyNowBtn_HELLOBAR > p,
+.mck_club_HELLOBAR > p {
+  margin: unset !important;
+  padding: unset !important;
+  margin-block-start: unset !important;
+  margin-block-end: unset !important;
+}
+.mck_club_container_HELLOBAR {
+  background: #ed8a25;
+  height: 70px;
+  padding: 12px;
+  max-height: 65px;
+  margin-top: 20px;
+  display: flex !important;
+}
+.mck_BuyNowBtn_HELLOBAR {
+  /* height: 20px; */
+  height: auto;
+  background: #fff;
+  border: 1px;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+.mck--club-input_HELLOBAR {
+  width: 85%;
+  height: 29px;
+  margin-bottom: 12px;
+  /* height: auto; */
+  border: 1px transparent;
+  border-radius: 4px;
+}
+.mck_club_cta_HELLOBAR {
+  display: inline-flex;
+  height: 29px;
+  margin-bottom: 12px;
+  align-items: center;
+  text-align: center;
+}
+
+.mck_club_TOP {
+  position: fixed;
+  top: 40px;
+  width: 100%;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.06);
+}
+
+.mck_club_BOTTOM {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.06);
+}
+
+.mck_club_cta {
+  display: inline-block;
+}
+
+.clubItem p {
+  margin: unset !important;
+}
+
+@media screen and (min-width: 800px) {
+  .hide_MCKCLUBFORM {
+    visibility: hidden;
+  }
+
+  .mck_logoIcon {
+    width: 100%;
+    height: auto;
+  }
+  .mck_logodiv {
+    width: 136px;
+    position: absolute;
+    top: -75px;
+  }
+  /* .mck_align_item {
+    margin: auto;
+  } */
+}
+
+@media (max-width: 576px) {
+  .mck_club_cta {
+    float: unset !important;
+  }
+  .clubItem .timerClassdefault {
+    display: block;
+  }
+  .mck_logoIcon {
+    display: none;
+  }
+}
+
+/* ----HELLOBAR1---- */
+.cz_hellobar_inner {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  width: 1220px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.HELLOBAR-T1 {
+  min-height: 140px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/1.png");
+  background-size: cover;
+}
+.HELLOBAR-T1 .mck_logodiv {
+  left: -30px;
+  width: 200px;
+  top: -15px;
+}
+.HELLOBAR-T1 .cz_hellobar_inner {
+  padding-left: 220px;
+}
+.HELLOBAR-T1 .mck_align_item p {
+  color: #b8d9f1;
+  text-align: center;
+}
+.HELLOBAR-T1-TEXT {
+  font-size: 25px;
+  color: #fcf407;
+  font-weight: 600;
+  text-align: center;
+}
+.HELLOBAR-T1 .mck_align_item {
+  margin: 65px 0 20px;
+}
+.HELLOBAR-T1-CTA {
+  background-color: #ff3a65;
+  color: #fff !important;
+  display: block;
+  padding: 9px 20px;
+  font-size: 20px;
+  border-radius: 100px;
+  font-weight: 800;
+}
+.HELLOBAR-T1 .mck_club_cta {
+  float: left;
+}
+.clubItem.HELLOBAR-T1 .timerClassdefault li {
+  width: 70px;
+  height: 60px;
+  background: #65b8f4;
+  margin: 0 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #003963 !important;
+  font-weight: 900;
+}
+
+.clubItem.HELLOBAR-T1 .timerClassdefault li span {
+  font-weight: bold;
+}
+.HELLOBAR-T1 .mck_align_item.hellobar_text {
+  flex-basis: 380px;
+}
+@media(max-width:1200px){ 
+  .cz_hellobar_inner {
+    padding-right: 30px;
+  }
+  .HELLOBAR-T1 .mck_logodiv{
+    left: 0;
+  }
+}
+@media(max-width:991px){
+  .HELLOBAR-T1 .mck_logodiv {
+      display: none;
+  }
+
+  .HELLOBAR-T1 .cz_hellobar_inner {
+      padding-left: 10px;
+  }
+}
+@media(max-width:768px){ 
+  .HELLOBAR-T1 .cz_hellobar_inner {
+    padding-top: 100px;
+}
+
+.cz_hellobar_inner {
+    flex-direction: column;
+}
+
+.HELLOBAR-T1 .mck_align_item.hellobar_text {
+    flex-basis: unset;
+    margin: 0;
+}
+
+.HELLOBAR-T1 .mck_align_item {
+    margin: 10px;
+}
+}
+@media(max-width:576px){ 
+  .HELLOBAR-T1 {
+    background-position: center;
+    padding: 35px 0 15px;
+}
+
+.HELLOBAR-T1 .mck_align_item {
+    margin: 0;
+}
+
+.HELLOBAR-T1-TEXT {
+    margin: 10px;
+}
+
+.clubItem.HELLOBAR-T1 .timerClassdefault li {
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+}
+.HELLOBAR-T1 .cz_hellobar_inner {
+  padding: 0;
+}
+
+.HELLOBAR-T1 .mck_align_item {
+  margin: 10px 0;
+}
+}
+/* ------HELLOBAR1--------- */
+
+/* ----HELLOBAR1---- */
+.HELLOBAR-T2 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/2.png");
+  background-size: cover;
+  padding: 26px 0;
+}
+.HELLOBAR-TCLOCK2 .timerClassdefault li {
+  font-weight: 800;
+  margin: 0 8px;
+}
+
+.HELLOBAR-TCLOCK2 .timerClassdefault li span {
+  display: block;
+  font-weight: 600;
+}
+.HELLOBAR-T2 .mck_logodiv {
+
+  right: 0;
+  width: 240px;
+  top: -90px;
+
+}
+.HELLOBAR-T2-TEXT {
+  font-size: 23px;
+  color: #b34431;
+  font-weight: 800;
+  text-align: center;
+}
+
+.HELLOBAR-T2-CTA {
+  background-color: #ffb22e;
+  color: #722a1c !important;
+  display: block;
+  font-size: 20px;
+  border-radius: 9px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 10px 15px 8px;
+}
+.HELLOBAR-T2 .cz_hellobar_inner {
+  padding-right: 220px;
+}
+
+.HELLOBAR-T2 .hellobar_text p {
+  text-align: center;
+  color: #b34431;
+}
+
+.HELLOBAR-T2 .hellobar_text {
+  flex-basis: 270px;
+}
+.HELLOBAR-T2 .mck_club_cta {
+  /* float: left; */
+}
+@media(max-width:991px){
+  .HELLOBAR-T2 .mck_logodiv {
+    display: none;
+}
+
+.HELLOBAR-T2 .cz_hellobar_inner {
+    padding: 0;
+}
+}
+@media(max-width:768px){
+  .HELLOBAR-T2 .hellobar_text {
+    flex-basis: unset;
+}
+}
+/* ------HELLOBAR1--------- */
+
+/* ----HELLOBAR1---- */
+.HELLOBAR-T3 {
+  min-height: 130px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/3.png");
+  background-size: cover;
+}
+.HELLOBAR-T3 .mck_logodiv {
+  left: 0px;
+  width: 200px;
+  top: -50px;
+}
+.HELLOBAR-T3-TEXT {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+.HELLOBAR-T3-CTA {
+  background-color: #e69520;
+  color: #3e1907 !important;
+  display: block;
+  font-size: 20px;
+  border-radius: 7px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 10px 15px 8px;
+}
+.HELLOBAR-T3 .mck_club_cta {
+  float: left;
+}
+.HELLOBAR-TCLOCK3 .timerClassdefault li {
+  width: 80px;
+}
+
+.HELLOBAR-TCLOCK3 .timerClassdefault li span {
+  display: block;
+  font-weight: 400;
+}
+.HELLOBAR-T3 .cz_hellobar_inner {
+  padding-left: 210px;
+  width: 1000px;
+}
+
+.mck_no_thanks .HELLOBAR-T3-CTA {
+  background: transparent;
+  border: 1px solid #8f522b;
+  color: #8f522b !important;
+  margin-right: 20px;
+}
+@media(max-width:991px){
+  .HELLOBAR-T3 .mck_logodiv {
+    display: none;
+  }
+  .HELLOBAR-T3 .cz_hellobar_inner {
+      padding: 0;
+  }
+}
+@media(max-width:768px){
+  .HELLOBAR-T3 {
+    padding: 30px 15px;
+  }
+}
+/* ------HELLOBAR3--------- */
+
+/* ----HELLOBAR4---- */
+.HELLOBAR-T4 {
+  padding: 50px 0 20px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/4.png");
+  background-size: cover;
+}
+.HELLOBAR-T4 .mck_logodiv {
+  left: 0px;
+  width: 236px;
+  position: absolute;
+  top: -80px;
+}
+.HELLOBAR-T4-TEXT {
+  font-size: 25px;
+  color: #fff;
+}
+.HELLOBAR-T4-CTA {
+  background-color: #000;
+  color: #fff !important;
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 1px;
+  padding: 10px 20px 8px;
+  font-weight: 700;
+}
+.HELLOBAR-T4 .mck_club_cta {
+  float: left;
+}
+.HELLOBAR-T4 .cz_hellobar_inner {
+  padding-left: 240px;
+}
+.HELLOBAR-T4 .cz_hellobar_inner .HELLOBAR-T4-TEXT {
+  text-align: center;
+  color: #1c1c1c;
+  font-weight: 800;
+  font-size: 21px;
+}
+.HELLOBAR-T4 .cz_hellobar_inner .mck_align_item p {
+  text-align: center;
+}
+.HELLOBAR-T4 .timerClassdefault li {
+  font-weight: 800;
+  margin: 0 8px;
+}
+.HELLOBAR-T4 .timerClassdefault li span {
+  display: block;
+  font-weight: 600;
+  font-size: 10px;
+}
+@media(max-width:992px){
+  .HELLOBAR-T4 .mck_logodiv {
+    display: none;
+  }
+  .HELLOBAR-T4 .cz_hellobar_inner {
+    padding: 0;
+  }
+}
+@media(max-width:768px){
+  .HELLOBAR-T4-CTA {
+    margin: 10px 0;
+  }
+
+  .HELLOBAR-T4 {
+      padding: 60px 0 4px;
+  }
+}
+/* ------HELLOBAR4--------- */
+
+/* ----HELLOBAR5---- */
+.HELLOBAR-T5 {
+  padding: 50px 0 20px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/5.png");
+  background-size: cover;
+}
+.HELLOBAR-T5 .mck_logodiv {
+  right: 0px;
+  width: 215px;
+  position: absolute;
+  top: -71px;
+}
+.HELLOBAR-T5-TEXT {
+  font-size: 22px;
+  color: #ffe0a5;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.HELLOBAR-T5-CTA {
+  background-color: #f06f69;
+  color: #fff !important;
+  display: block;
+  padding: 10px 20px 8px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 10;
+
+}
+.HELLOBAR-T5 .mck_align_item p {
+  color: #cad5e6;
+}
+
+.HELLOBAR-T5 .timerClassdefault li {
+  margin: 0 13px;
+  font-weight: 800;
+}
+
+.HELLOBAR-T5 .timerClassdefault li span {
+  display: block;
+  font-weight: 300;
+}
+
+.HELLOBAR-T5 .cz_hellobar_inner {padding-right: 120px;}
+.HELLOBAR-T5 .mck_club_cta {
+  /* float: right; */
+}
+@media (max-width:992px){
+  .mck_logodiv {
+    display: none;
+  }
+  
+  .HELLOBAR-T5 .cz_hellobar_inner {
+    padding: 0 20px;
+  }
+}
+@media (max-width:768px){
+  .HELLOBAR-T5{
+    text-align: center;
+  }
+}
+/* ------HELLOBAR5--------- */
+
+/* ----HELLOBAR6---- */
+.HELLOBAR-T6 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/6.png");
+  background-size: cover;
+}
+.HELLOBAR-T6 .mck_logodiv {
+  left: 0px;
+  top: -63px;
+}
+.HELLOBAR-T6-TEXT {
+  font-size: 25px;
+  color: #ffcc01;
+  float: right;
+}
+.HELLOBAR-T6-CTA {
+  background-color: #ffcc01;
+  color: #dc3932;
+  display: block;
+  padding: 9px;
+  font-size: 20px;
+  border-radius: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.HELLOBAR-T6 .mck_club_cta {
+  /* float: left; */
+}
+/* ------HELLOBAR6--------- */
+
+/* ----HELLOBAR7---- */
+.HELLOBAR-T7 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/7.png");
+  background-size: cover;
+}
+.HELLOBAR-T7 .mck_logodiv {
+  right: 33%;
+  top: -73px;
+}
+.HELLOBAR-T7-TEXT {
+  font-size: 25px;
+  color: #ffe301;
+  float: right;
+}
+.HELLOBAR-T7-CTA {
+  background-color: #ffe301;
+  color: #83003d;
+  display: block;
+  padding: 9px;
+  font-size: 20px;
+  border-radius: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.HELLOBAR-T7 .mck_club_cta {
+  float: left;
+}
+/* ------HELLOBAR7--------- */
+
+/* ----HELLOBAR8---- */
+.HELLOBAR-T8 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/8.png");
+  background-size: cover;
+}
+.HELLOBAR-T8 .mck_logodiv {
+  right: 0px;
+  top: -73px;
+}
+.HELLOBAR-T8-TEXT {
+  font-size: 25px;
+  color: #fff;
+}
+.HELLOBAR-T8-CTA {
+  background-color: #ff3a65;
+  color: #fff;
+  display: block;
+  padding: 9px;
+  font-size: 20px;
+  border-radius: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.HELLOBAR-T8 .mck_club_cta {
+  float: left;
+}
+/* ------HELLOBAR8--------- */
+
+/* ----HELLOBAR9---- */
+.HELLOBAR-T9 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/9.png");
+  background-size: cover;
+}
+.HELLOBAR-T9 .mck_logodiv {
+  left: 0px;
+  top: -73px;
+}
+.HELLOBAR-T9-TEXT {
+  font-size: 25px;
+  color: #fff;
+  float: right;
+}
+.HELLOBAR-T9-CTA {
+  background-color: #f3ce3f;
+  color: #003188;
+  display: block;
+  padding: 9px;
+  font-size: 20px;
+  border-radius: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.HELLOBAR-T9 .mck_club_cta {
+  /* float: right; */
+}
+/* ------HELLOBAR9--------- */
+
+/* ----HELLOBAR10---- */
+.HELLOBAR-T10 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/10.png");
+  background-size: cover;
+}
+.HELLOBAR-T10 .mck_logodiv {
+  right: 0px;
+  top: -73px;
+}
+.HELLOBAR-T10-TEXT {
+  font-size: 25px;
+  color: #e72178;
+}
+.HELLOBAR-T10-CTA {
+  background-color: #3fbeb3;
+  color: #fff;
+  display: block;
+  padding: 9px;
+  font-size: 20px;
+  border-radius: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.HELLOBAR-T10 .mck_club_cta {
+  float: left;
+}
+/* ------HELLOBAR10--------- */
+
+.HELLOBAR-TCLOCK1 {
+  color: #64b8f4;
+  font-size: 22px;
+}
+.HELLOBAR-TCLOCK2 {
+  color: #2a5c8d;
+  font-size: 22px;
+}
+.HELLOBAR-TCLOCK3 {
+  color: #e89420;
+  font-size: 22px;
+  text-align:center;
+}
+.mck_l23 .mck_club_cta {
+  float: unset;
+}
+.HELLOBAR-TCLOCK4 {
+  color: #1c1c1c;
+  font-size: 22px;
+}
+.mck_l24 .mck_club_cta {
+  float: unset;
+}
+.HELLOBAR-TCLOCK5 {
+  color: #ffe0a7;
+  font-size: 22px;
+}
+.HELLOBAR-TCLOCK6 {
+  color: #fff;
+  font-size: 22px;
+}
+.HELLOBAR-TCLOCK7 {
+  color: #fff;
+  font-size: 22px;
+}
+.HELLOBAR-TCLOCK8 {
+  color: #ebab41;
+  font-size: 22px;
+}
+.mck_l28 .mck_club_cta {
+  float: unset;
+}
+.HELLOBAR-TCLOCK9 {
+  color: #fff;
+  font-size: 22px;
+}
+.HELLOBAR-TCLOCK10 {
+  color: #2388be;
+  font-size: 22px;
+}
+.mck_l20 .mck_club_cta {
+  float: unset;
+}
+
+.HELLOBAR-T11 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/11.png");
+  background-size: cover;
+  background-position-y: center;
+}
+
+.HELLOBAR-T12 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/12.png");
+  background-size: cover;
+  background-position-y: center;
+}
+
+.HELLOBAR-T13 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/13.png");
+  background-size: cover;
+  background-position-y: center;
+}
+
+.HELLOBAR-T14 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/14.png");
+  background-size: cover;
+  background-position-y: center;
+}
+
+.HELLOBAR-T15 {
+  min-height: 90px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/barbg/15.png");
+  background-size: cover;
+}
+
+.mckclub_exitIntent {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.mckclub_exitIntent:before {content: "";position: fixed;top: 0;right: 0;bottom: 0;left: 0;background: #000000cf;}
+.mckclub_exitIntent_wrapper {
+  display: inline-flex;
+  width: 500px;
+  background-color: whitesmoke;
+  min-height: 100px;
+  margin: auto;
+  position: relative;
+}
+.mck_club_exitbutton {
+  right: -25px;
+  top: -15px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+.mxk_exit_close {
+  height: 45px;
+  width: 45px;
+}
+
+.MCK_CLUB_EXIT_T1 {
+  width: 100%;
+  align-items: center;
+}
+.MCK_CLUB_EXIT_HEADER {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/1/Structure.png");
+  background-size: cover;
+}
+.MCK_CLUB_EXIT_HEADER img {
+  height: 60px;
+}
+.MCK_CLUB_EXIT_CONTAINER {
+}
+.MCK_CLUBEXIT_SUBTEXT {
+  text-align: center;
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+.MCK_CLUBEXIT_SUBTEXT_IMG img {
+  width: 60%;
+}
+.MCK_CLUBEXIT_SUBTEXT_IMG {
+  width: calc(100% - 20px);
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/1/Arrows01.png");
+  background-size: cover;
+  background-size: contain;
+  background-position-y: center;
+  display: inline-block;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.MCK_CLUBEXIT_CTA_T1 {
+  width: calc(100% - 20px);
+  padding-bottom: 10px;
+}
+.MCK_CLUBEXIT_CTA_T1 div {
+  padding: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 28px;
+  display: inline-flex;
+  background: #1db568;
+  color: #fff;
+  font-size: 16px;
+}
+.MCK_CLUB_EXIT_T1 .MCK_CLUB_EXIT_nothanks {
+  display: none;
+}
+.MCK_CLUB_EXIT_MAIN_T2 {
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/2/Structure.png");
+  background-size: cover;
+}
+.MCK_CLUB_EXIT_T2 {
+  width: 100%;
+  align-items: center;
+  display: grid;
+}
+.MCK_CLUB_EXIT_T2 img {
+  width: 60%;
+}
+.MCK_CLUB_EXIT_HEADER_T2 {
+  text-align: center;
+  padding-top: 30px;
+}
+.MCK_CLUBEXIT_CTA_T2 div {
+  padding: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 28px;
+  display: inline-flex;
+  background: #ffa800;
+  color: #070336;
+  font-size: 31px;
+}
+.MCK_CLUBEXIT_CTA_T2 {
+  width: 80%;
+  margin: auto;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/2/Arrows01.png");
+  background-size: cover;
+  background-size: contain;
+  display: inline-block;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding-bottom: 45px;
+}
+.mckclub_exitIntent_wrapper_T2 {
+  display: inline-flex;
+  width: 435px;
+  min-height: 452px;
+  margin: auto;
+  position: relative;
+}
+
+.MCK_CLUB_EXIT_MAIN_T3 {
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/3/Structure.png");
+  background-size: cover;
+  width: 560px;
+    max-width: 100%;
+}
+.MCK_CLUB_EXIT_T3 {
+  width: 100%;
+  align-items: center;
+  display: grid;
+}
+.MCK_CLUB_EXIT_T3 img {
+  width: 60%;
+}
+.MCK_CLUB_EXIT_HEADER_T3 {
+  text-align: center;
+  padding-top: 80px;
+}
+.MCK_CLUBEXIT_CTA_T3 div {
+
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin: 10px;
+  border-radius: 28px;
+  display: inline-flex;
+  background: #1db568;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+.MCK_CLUBEXIT_CTA_T3 {
+  width: 80%;
+  margin: auto;
+  /* background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/2/Arrows01.png");
+  background-size: cover; */
+  background-size: contain;
+  display: inline-block;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+.mckclub_exitIntent_wrapper_T3 {
+  display: inline-flex;
+  width: 435px;
+  min-height: 452px;
+  margin: auto;
+  position: relative;
+}
+
+.MCK_CLUB_EXIT_MAIN_T4 {
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/4/Structure.png");
+  background-size: cover;
+  width: 560px;
+}
+.MCK_CLUB_EXIT_T4 {
+  width: 100%;
+  align-items: center;
+  display: grid;
+}
+.MCK_CLUB_EXIT_T4 img {
+  width: 44%;
+}
+.MCK_CLUB_EXIT_HEADER_T4 {
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 50px;
+    padding-right: 50px;
+}
+.MCK_CLUBEXIT_CTA_T4 div {
+  padding-top: 9px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  border-radius: 28px;
+  display: inline-flex;
+  background: #ffbd2b;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.MCK_CLUBEXIT_SUBTEXT_T4 {
+  border: 2px solid #fa858d;
+  color: #fa858d;
+  border-radius: 13px;
+  text-align: center;
+  display: inline-flex;
+  padding: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.MCK_CLUB_EXIT_HEADER_T4 h2 {
+  color: #3d51a7;
+  font-weight: 700;
+  margin:0 ;
+  font-size: 20px;
+}
+
+.MCK_CLUB_EXIT_HEADER_T4 .MCK_CLUBEXIT_SUBTEXT {
+  width: 100%;
+  color: #f16871;
+  font-size: 17px;
+  padding: 0;
+}
+.MCK_CLUBEXIT_CTA_T4 {
+  width: 80%;
+  margin: auto;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/2/Arrows01.png");
+  background-size: cover;
+  background-size: contain;
+  display: inline-block;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding-bottom: 56px;
+}
+.mckclub_exitIntent_wrapper_T4 {
+  display: inline-flex;
+  width: 435px;
+  min-height: 452px;
+  margin: auto;
+  position: relative;
+}
+
+.MCK_CLUB_EXIT_MAIN_T5 {
+  background-color: whitesmoke;
+}
+.MCK_CLUB_EXIT_T5 {
+  width: 100%;
+  align-items: center;
+}
+.MCK_CLUB_EXIT_T5 img {
+  width: 60%;
+}
+.MCK_CLUB_EXIT_HEADER_T5 {
+  text-align: center;
+  padding-top: 15px;
+}
+.MCK_CLUBEXIT_CTA_T5 div {
+  padding: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 28px;
+  display: inline-flex;
+  background: #1db568;
+  color: #fff;
+  font-size: 25px;
+}
+.MCK_CLUBEXIT_SUBTEXT_T5 {
+}
+.MCK_CLUBEXIT_CTA_T5 {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
+}
+.mckclub_exitIntent_wrapper_T5 {
+  display: inline-flex;
+  width: 435px;
+  min-height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.MCK_CLUB_EXIT_MAIN_T6 {
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/6/Structure.png");
+  background-size: cover;
+}
+
+.MCK_CLUB_EXIT_CONTAINER_IMG_T6 {
+  width: 45%;
+  margin: auto;
+  margin-left: 32%;
+  margin-top: 28px;
+}
+
+.MCK_CLUB_EXIT_T6 {
+  width: 100%;
+  align-items: center;
+  display: grid;
+}
+.MCK_CLUB_EXIT_HEADER_T6 {
+  text-align: center;
+  /* padding-top: 30px; */
+}
+.MCK_CLUBEXIT_CTA_T6 div {
+  padding: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 28px;
+  display: inline-flex;
+  background: #e10624;
+  color: #fff;
+  font-size: 25px;
+}
+.MCK_CLUBEXIT_SUBTEXT_T6 {
+}
+.MCK_CLUBEXIT_CTA_T6 {
+  width: 80%;
+  margin: auto;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/6/Arrows01.png");
+  background-size: cover;
+  background-size: contain;
+  display: inline-block;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding-bottom: 56px;
+}
+.mckclub_exitIntent_wrapper_T6 {
+  display: inline-flex;
+  width: 435px;
+  min-height: 452px;
+  margin: auto;
+  position: relative;
+}
+
+.MCK_CLUB_EXIT_MAIN_T7 {
+  background-color: whitesmoke;
+}
+.MCK_CLUB_EXIT_T7 {
+  width: 100%;
+  align-items: center;
+  border: 1px solid gold;
+}
+.MCK_CLUB_EXIT_HEADER_T7 {
+  text-align: center;
+  padding-top: 15px;
+}
+.MCK_CLUBEXIT_CTA_T7 div {
+  padding: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 28px;
+  display: inline-flex;
+  background: #4067f2;
+  color: #fff;
+  font-size: 25px;
+}
+.MCK_CLUBEXIT_SUBTEXT_T7 {
+  padding-top: 10px;
+  font-size: 74px;
+  color: #fa7697;
+}
+.MCK_CLUBEXIT_CTA_T7 {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
+}
+.mckclub_exitIntent_wrapper_T7 {
+  display: inline-flex;
+  width: 435px;
+  min-height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.MCK_CLUB_EXIT_MAIN_T8 {
+  background-color: whitesmoke;
+}
+.MCK_CLUB_EXIT_CONTAINER_T8 {
+  width: 100%;
+  margin: auto;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/8/Structure.png");
+  background-size: cover;
+  padding: 45px 0 37px;
+  background-repeat-x: repeat;
+  background-position: bottom;
+}
+.MCK_CLUB_EXIT_T8 {
+  width: 100%;
+}
+.MCK_CLUB_EXIT_HEADER_T8 {
+  text-align: center;
+  padding: 35px;
+  display: inline-flex;
+}
+.MCK_CLUBEXIT_CTA_T8 div {
+  padding: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 28px;
+  display: inline-flex;
+  background: #ff832d;
+  color: #fff;
+  font-size: 25px;
+}
+.MCK_CLUBEXIT_SUBTEXT_T8 {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #fa7697;
+}
+.MCK_CLUB_EXIT_CONTAINER_ICON_T8 {
+  height: auto;
+  position: absolute;
+  width: 50px;
+  left: calc(55% - 50px);
+  top: -29px;
+}
+.MCK_CLUBEXIT_CTA_T8 {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
+}
+.mckclub_exitIntent_wrapper_T8 {
+  display: inline-flex;
+  width: 435px;
+  min-height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.MCK_CLUB_EXIT_MAIN_T9 {
+  background-color: whitesmoke;
+}
+.MCK_CLUB_EXIT_CONTAINER_T9 {
+  width: 100%;
+  margin: auto;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/9/Structure.png");
+  background-size: contain;
+  background-repeat-x: repeat;
+  padding: 40px 0 30px;
+}
+.MCK_CLUB_EXIT_T9 {
+  width: 100%;
+}
+.MCK_CLUB_EXIT_HEADER_T9 {
+  text-align: center;
+  padding-top: 35px;
+  width: 100%;
+  align-items: center;
+}
+.MCK_CLUBEXIT_CTA_T9 div {
+  padding: 10px 15px 8px;
+  margin: 10px;
+  border-radius: 28px;
+  display: inline-flex;
+  background: #ff832d;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+}
+.MCK_CLUBEXIT_SUBTEXT_T9 {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #fa7697;
+  text-align: center;
+  word-break: break-all;
+}
+.MCK_CLUB_EXIT_CONTAINER_ICON_T9 {
+  height: auto;
+  position: absolute;
+  width: 50px;
+  left: calc(55% - 50px);
+  top: -29px;
+}
+.MCK_CLUBEXIT_CTA_T9 {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+}
+.mckclub_exitIntent_wrapper_T9 {
+  display: inline-flex;
+  width: 435px;
+  min-height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.MCK_CLUB_EXIT_MAIN_T10 {
+  width: 820px;
+}
+.MCK_CLUB_EXIT_T10 {
+  width: 100%;
+  /* min-width: 80vw; */
+  background-color: #f3f3f3;
+  display: inline-flex;
+}
+.MCK_CLUB_EXIT_LEFT_T10 {
+  width: 40%;
+  display: inline-flex;
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/10/Structure.png");
+  background-size: cover;
+  align-items: center;
+  padding-right: 70px;
+  padding-left: 30px;
+  background-position: right;
+}
+.MCK_CLUB_EXIT_RIGHT_T10 {
+  width: 60%;
+  padding: 0 30px;
+  position: relative;
+}
+.MCK_CLUB_EXIT_HEADER_T10 {
+  text-align: center;
+  padding-top: 10px;
+  width: 100%;
+  align-items: center;
+}
+.MCK_CLUB_EXIT_CONTAINER_RIGHT_T10 {
+  padding-top: 30px;
+}
+.MCK_CLUB_EXIT_CONTAINER_T10 {
+  width: 100%;
+  text-align: center;
+}
+.MCK_CLUBEXIT_CTA_T10 div {
+  padding: 10px 22px 8px;
+  margin: 10px;
+  border-radius: 28px;
+  display: inline-flex;
+  background: #ff832d;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.MCK_CLUB_EXIT_10_nothanks {
+  left: 65%;
+}
+.MCK_CLUB_EXIT_nothanks {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  bottom: 0px;
+  position: absolute;
+  left: 45%;
+}
+.MCK_CLUB_EXIT_nothanks div {
+  color: #fff !important;
+}
+.MCK_CLUB_EXIT_nothanks_T6 {
+  bottom: 45px;
+}
+
+.MCK_CLUB_EXIT_nothanks_T4 {
+  bottom: 70px;
+  display: none;
+}
+.hide_club {
+  display: none !important;
+}
+
+.mck_exit_club_handler {
+}
+.mck_exit_club_handler a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.MCK_CLUB_EXIT_HEADER-11 {
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/11/1.png");
+}
+
+.MCK_CLUB_EXIT_MAIN_T12 {
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/12/2.png");
+  background-size: cover;
+}
+
+.MCK_CLUB_EXIT_MAIN_T13 {
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/13/3.png");
+  background-size: cover;
+}
+
+.MCK_CLUB_EXIT_MAIN_T14 {
+  background-image: url("http://d2xdmgqpa5567i.cloudfront.net/static/templateclub/exitbg/14/4.png");
+  background-size: cover;
+}
+
+
+/*-------- new css --------*/
+.MCK_CLUB_EXIT_T1 .mckclub_img {
+  position: absolute;
+  left: 30px;
+  top: 13px;
+}
+
+.MCK_CLUB_EXIT_T1 .MCK_CLUB_EXIT_HEADER {
+  position: relative;
+  display: block;
+  padding: 20px;
+  padding-left: 100px;
+  margin: 0;
+  width: 100%;
+}
+
+.MCK_CLUB_EXIT_T1 .MCK_CLUB_EXIT_HEADER h2 {
+  margin: 0;
+  color: #ffde00;
+  font-size: 24px;
+}
+
+.MCK_CLUB_EXIT_T1 .MCK_CLUB_EXIT_HEADER p {
+  padding: 0;
+  color: #ffffff;
+  width: 100%;
+  margin: 0;
+}
+.MCK_CLUB_EXIT_T1 .MCK_CLUB_EXIT_CONTAINER {
+  padding: 30px;
+  text-align: center;
+}
+
+.MCK_CLUB_EXIT_T1 .MCK_CLUB_EXIT_CONTAINER h2 {
+  color: #e42f36;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.MCK_CLUB_EXIT_T1 .MCK_CLUB_EXIT_CONTAINER p {
+  width: 100%;
+  padding: 0;
+  font-weight: 500;
+  margin-bottom: 18px !important;
+}
+.MCK_CLUB_EXIT_T1 .mck_exit_timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.MCK_CLUB_EXIT_T1 .mck_exit_timer .MCK_CLUBEXIT_CTA_T1 {
+  width: unset;
+  padding: 0;
+}
+
+.MCK_CLUB_EXIT_T1 .mck_exit_timer li {
+  background: #ffffff;
+  color: #e43948;
+  width: 60px;
+  margin: 0 3px;
+}
+
+.MCK_CLUB_EXIT_T1 .mck_exit_timer li br {
+  display: none;
+}
+
+.MCK_CLUB_EXIT_T1 .mck_exit_timer li span {
+  display: block;
+  font-weight: 600;
+}
+@media(max-width:576px){
+  .MCK_CLUB_EXIT_T1 .mck_exit_timer {
+    flex-direction: column;
+}
+}
+
+/*------------ template 2 css --------*/
+.MCK_CLUB_EXIT_MAIN_T2 .MCK_CLUB_EXIT_HEADER_T2 h2 {
+  color: #ffa800;
+  font-size: 23px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.MCK_CLUB_EXIT_MAIN_T2 .MCK_CLUB_EXIT_HEADER_T2 div {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.MCK_CLUB_EXIT_MAIN_T2 .MCK_CLUBEXIT_CTA_T2 div {
+  font-size: 19px;
+  font-weight: 800;
+  padding: 9px 27px;
+}
+
+.MCK_CLUBEXIT_CTA_T2 {padding-bottom: 50px;}
+
+.MCK_CLUB_EXIT_MAIN_T2 .MCK_CLUB_EXIT_nothanks_T6 {
+  margin-bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*------------ template 2 css --------*/
+/*------------ template 3 css --------*/
+.MCK_CLUB_EXIT_HEADER_T3 h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  color: #3d497c;
+}
+
+.MCK_CLUB_EXIT_HEADER_T3  .MCK_CLUBEXIT_SUBTEXT {
+  color: #d85f60;
+  padding: 0;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.MCK_CLUB_EXIT_MAIN_T3 .MCK_CLUBEXIT_TIMER_T3 {
+  text-align: center;
+  width: 100%;
+}
+
+.MCK_CLUB_EXIT_MAIN_T3 .MCK_CLUBEXIT_TIMER_T3 li {
+  color: #3d497c;
+  width: 65px;
+  font-weight: 700;
+}
+.MCK_CLUBEXIT_TIMER_T3 .timerClassdefault {
+  justify-content: center;
+}
+
+.MCK_CLUB_EXIT_MAIN_T3 .MCK_CLUBEXIT_TIMER_T3 li span {
+  display: block;
+  font-weight: 600;
+}
+/*------------ template 3 css --------*/
+/*------------ template 5 css --------*/
+.MCK_CLUB_EXIT_HEADER_T5 h2 {
+  color: #2b478b;
+  font-size: 23px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.MCK_CLUB_EXIT_HEADER_T5 .MCK_CLUBEXIT_SUBTEXT_T5 {
+  color: #ed7d2b;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 0;
+  margin-bottom: 17px;
+}
+.MCK_CLUBEXIT_TIMER_T5 {
+  margin-bottom: 9px;
+  text-align: center;
+}
+
+.MCK_CLUBEXIT_TIMER_T5 .hellobartimer3-timer li {
+  width: 70px;
+  background: #2b478b;
+  font-weight: 800;
+  margin: 0 4px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.MCK_CLUBEXIT_TIMER_T5 .hellobartimer3-timer li span {
+  display: block;
+}
+.MCK_CLUBEXIT_TIMER_T5 .hellobartimer3-timer li br{
+  display: none;
+} 
+
+.MCK_CLUBEXIT_TIMER_T5 .hellobartimer3-timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MCK_CLUBEXIT_CTA_T5 div {
+  background: #fa9b1a;
+  font-size: 18px;
+  padding: 10px 15px 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.MCK_CLUB_EXIT_MAIN_T5 .MCK_CLUB_EXIT_nothanks {
+  display: none;
+}
+/*------------ template 5 css --------*/
+/*------------ template 6 css --------*/
+.MCK_CLUB_EXIT_HEADER_T6 h2 {
+  color: #ffad0f;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.MCK_CLUB_EXIT_HEADER_T6 .MCK_CLUBEXIT_SUBTEXT_T6 {
+  color: #fcf6dd;
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.MCK_CLUB_EXIT_MAIN_T6 .MCK_CLUBEXIT_TIMER_T1 {
+  TEXT-ALIGN: CENTER;
+}
+
+.MCK_CLUB_EXIT_MAIN_T6 .MCK_CLUBEXIT_TIMER_T1 .hellobartimer3-timer li {
+  width: 70px;
+  height: 70px;
+  color: #11283d;
+  font-weight: 800;
+  background: #ffad0f;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 3px;
+}
+
+.MCK_CLUB_EXIT_MAIN_T6 .MCK_CLUBEXIT_TIMER_T1 .hellobartimer3-timer li span {
+  font-weight: 600;
+}
+
+.MCK_CLUBEXIT_CTA_T6 div {
+  font-size: 17px;
+  font-weight: 700;
+  padding: 11px 15px 8px;
+  cursor: pointer;
+}
+
+.MCK_CLUB_EXIT_MAIN_T6 .MCK_CLUB_EXIT_nothanks {
+  display: none;
+}
+/*------------ template 6 css --------*/
+/*------------ template 7 css --------*/
+.MCK_CLUB_EXIT_HEADER_T7 h2 {
+  color: #000;
+  font-weight: 800;
+  font-size: 22px;
+  margin: 0;
+}
+
+.MCK_CLUB_EXIT_HEADER_T7 .MCK_CLUBEXIT_SUBTEXT {
+  color: #000;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.MCK_CLUB_EXIT_HEADER_T7 .MCK_CLUBEXIT_SUBTEXT_T7 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #e1395d;
+}
+
+.MCK_CLUBEXIT_TIMER_T7 .hellobartimer3-timer li {
+  color: #e1395d;
+  margin: 0 10px;
+  font-weight: 700;
+}
+
+.MCK_CLUBEXIT_TIMER_T7 .hellobartimer3-timer li span {
+  display: block;
+  font-weight: 700;
+}
+
+.MCK_CLUBEXIT_CTA_T7 div {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 15px 8px;
+  cursor: pointer;
+}
+
+.MCK_CLUB_EXIT_CONTAINER_T7 img {
+  width: 80% !important;
+  margin: 0  auto;
+}
+
+.MCK_CLUB_EXIT_CONTAINER_T7 {
+  text-align: center;
+  margin-top: 20px;
+}
+/*------------ template 7 css --------*/
+/*------------ template 8 css --------*/
+.MCK_CLUB_EXIT_CONTAINER_T8 h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+.MCK_CLUB_EXIT_CONTAINER_T8 .MCK_CLUBEXIT_SUBTEXT {
+  width: 100%;
+  color: #adccdf;
+  padding: 0;
+  font-size: 18px;
+}
+
+.MCK_CLUB_EXIT_T8 > h2 {
+  color: #11344a;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-top: 30px;
+}
+
+.MCK_CLUB_EXIT_T8 > .MCK_CLUBEXIT_SUBTEXT {
+  width: 100%;
+  color: #11344a;
+  padding: 0;
+  font-size: 18px;
+}
+
+.MCK_CLUB_EXIT_MAIN_T8 {
+  width: 550px;
+}
+.mck_exit_form input {
+  width: 100%;
+  border-radius: 100px;
+  text-align: center;
+  border: 1px solid #c9c9c9 !important;
+  margin-bottom: 15px;
+  color: #f1f1f1;
+}
+
+.mck_exit_form {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.MCK_CLUBEXIT_CTA_T8 div {
+  margin: 0;
+  font-size: 18px;
+  padding: 10px 15px 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media (max-width:576px){
+  .MCK_CLUB_EXIT_HEADER_T8 {
+      flex-direction: column;
+  }
+}
+/*------------ template 8 css --------*/
+/*------------ template 9 css --------*/
+.MCK_CLUB_EXIT_CONTAINER_T9 h2 {
+  font-size: 26px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.MCK_CLUB_EXIT_CONTAINER_T9 .MCK_CLUBEXIT_SUBTEXT {
+  width: 100%;
+  padding: 0;
+  color: #008879;
+  font-size: 19px;
+}
+.MCK_CLUBEXIT_TIMER_T9 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.MCK_CLUBEXIT_TIMER_T9 .hellobartimer3-timer li {
+  color: #707070;
+  width: 70px;
+  font-weight: 800;
+}
+
+.MCK_CLUBEXIT_TIMER_T9 .hellobartimer3-timer li span {
+  display: block;
+}
+.MCK_CLUB_EXIT_MAIN_T9 .mck_exit_form {
+  padding: 20px 50px 0;
+}
+.MCK_CLUB_EXIT_MAIN_T9 .MCK_CLUB_EXIT_nothanks div{
+  color: #000 !important;
+  padding: 10px 0;
+}
+.MCK_CLUB_EXIT_MAIN_T9 .MCK_CLUB_EXIT_nothanks {
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*------------ template 9 css --------*/
+/*------------ template 10 css --------*/
+.MCK_CLUB_EXIT_RIGHT_T10 .mck_exit_form {
+  padding: 0;
+}
+
+.MCK_CLUB_EXIT_RIGHT_T10 .mck_exit_form input {
+  background-color: rgb(235, 235, 235);
+  box-shadow: inset 0px 5px 10px 0px rgba(4, 0, 6, 0.05);
+  border: none !important;
+  width: 80%;
+  max-width: 100%;
+}
+
+
+.MCK_CLUB_EXIT_10_nothanks div {
+  color: #959595 !important;
+  padding: 18px 0;
+  font-size: 14px;
+}
+
+.MCK_CLUB_EXIT_CONTAINER_T10 h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+
+.MCK_CLUB_EXIT_CONTAINER_T10 .MCK_CLUBEXIT_SUBTEXT {
+  font-size: 16px;
+  color: #b0aadc;
+  width: 100%;
+  padding: 0;
+  margin-top: 3px;
+}
+
+.MCK_CLUB_EXIT_T10 .MCK_CLUBEXIT_TIMER_T1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.MCK_CLUB_EXIT_T10 .MCK_CLUBEXIT_TIMER_T1 .hellobartimer3-timer li {
+  color: #433799;
+  font-weight: bold;
+  margin: 0 7px;
+}
+
+.MCK_CLUB_EXIT_T10 .MCK_CLUBEXIT_TIMER_T1 .hellobartimer3-timer li span {
+  display: block;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.MCK_CLUB_EXIT_10_nothanks {
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000;
+}
+@media(max-width:576px){
+  .MCK_CLUB_EXIT_T10 {
+    display: block;
+}
+.MCK_CLUB_EXIT_LEFT_T10 {
+    width: 100%;
+    padding: 30px;
+    background: #433799;
+}
+.MCK_CLUB_EXIT_RIGHT_T10 {
+    width: 100%;
+    padding: 0 15px 50px;
+}
+.MCK_CLUB_EXIT_T10 .MCK_CLUBEXIT_TIMER_T1 {
+    margin: 0;
+}
+.MCK_CLUB_EXIT_RIGHT_T10 .mck_exit_form input {
+    width: 100%;
+}
+}
+/*------------ template 10 css --------*/
+@media (max-width:576px){
+  .HELLOBAR-T2-TEXT,.HELLOBAR-T5-TEXT {
+    float: none;
+}
+.HELLOBAR-T5-TEXT{
+    padding-top: 20px;
+}
+
+.HELLOBAR-T6 {background-position: center;}
+
+.HELLOBAR-T6-TEXT {
+    float: none;
+}
+
+.HELLOBAR-T7-TEXT {
+    float: none;
+}
+
+.HELLOBAR-T9-TEXT {
+    float: none;
+}
+
+}

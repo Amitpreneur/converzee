@@ -1,0 +1,63 @@
+h1 {
+  /* color: #396; */
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv {
+  font-family: sans-serif;
+  /* color: #fff; */
+  display: inline-block;
+  /* font-weight: 100; */
+  text-align: center;
+  /* width: 350px; */
+  /* font-size: 30px; */
+}
+
+#clockdiv > div {
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  width: 70px;
+  display: inline-block;
+}
+
+.smalltext {
+  font-size: 13px;
+}
+.objdivTimer {
+  padding-right: 5px;
+}
+
+@media(max-width:576px){
+  .ct_preview {
+    padding: 13% !important;
+}
+
+.ct_preview .objdivTimer {
+    padding: 0;
+    transform: translateX(-10px);
+    width: 60px;
+}
+
+#clockdiv div > span {
+  padding: 0;
+  width: 60px;
+}
+.ct_preview .objdivTimer .days {
+    padding: 0 !important;
+}
+
+.ct_preview .objdivTimer .smalltext {
+    padding: 0;
+    font-size: 15px !important;
+}
+}
+@media(max-width:480px){
+  .ct_preview {
+    background: transparent !important;
+    padding: 0 !important;
+  }
+}

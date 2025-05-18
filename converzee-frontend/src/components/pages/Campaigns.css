@@ -1,0 +1,202 @@
+[name="Campaigns"] {
+  z-index: 1;
+  font-size: 12px;
+}
+
+.camp_filterItem1 {
+  width: 80% !important;
+}
+.camp_filterItem2 {
+  width: 20% !important;
+}
+
+.Camp_ListItem {
+  /* height: 138px; */
+  border-radius: 10px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+  margin-bottom: 12px;
+  padding: 6px;
+  color: #808080;
+}
+
+.Camp_ListItem_img {
+  padding: 12px;
+  height: 123px !important;
+  object-fit: contain;
+}
+
+.Camp_Details {
+  padding: 5px;
+}
+.Camp_label {
+  font-family: "Exo", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.camp_info {
+  height: 100% !important;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  height: 57px;
+  bottom: 12px;
+  margin: auto;
+  align-items: center;
+}
+
+.Camp_Button_Grp_row {
+  position: absolute;
+  bottom: 12px;
+  right: 5px;
+}
+
+.action-button {
+  /* width: 102px; */
+  margin-right: 10px;
+  font-size: 12px !important;
+  font-weight: bold;
+  height: 34px;
+  width: 102px;
+}
+
+.camp-Active {
+  color: #37c382;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+.camp-InActive {
+  color: #e4623a;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+.ant-switch-checked {
+  /* background-color: #e3e3e3; */
+  background-color: #37c382;
+}
+
+.ant-switch-checked::after {
+background-color: #37c382 !important;
+}
+
+.archive-btn {
+  /* background-color: #ffffff !important; */
+}
+
+.clone-btn {
+  background-color: #167bab !important;
+  color: #fff !important;
+}
+
+.edit-btn {
+  background-color: #ed8a25 !important;
+  color: #fff !important;
+  padding-top: 8px !important;
+}
+
+.camp_filterBar {
+  display: inline-flex;
+  /* width: 100%; */
+}
+
+.filter-btn {
+  color: #167bab !important;
+  right: 0px;
+  height: 34px;
+  background-color: transparent;
+  font-size: 12px !important;
+  border-color: #167bab !important;
+}
+
+.filter-btn:hover {
+  background-color: #167bab !important;
+  color: #fff !important;
+}
+
+.search-field {
+  height: 34px !important;
+  font-size: 12px !important;
+}
+
+.search-icon {
+  background-color: transparent !important;
+  cursor: pointer;
+}
+
+.Camp_ListItem_mob {
+}
+.Camp_ListItem_img_mob {
+  width: 60px;
+  height: auto;
+}
+
+.Camp_label_mob {
+}
+
+.camp_info_mob {
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+
+.camp_btn_mob {
+}
+
+@media(max-width:576px){
+  .Camp_ListItem_mob .d-flex > .m-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* text-align: center; */
+    margin-bottom: 20px !important;
+}
+.Camp_ListItem_mob .d-flex {
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 20px;
+}
+.Camp_ListItem_img_mob {
+    width: 120px;
+    text-align: center;
+}
+.Camp_ListItem_mob .d-flex >div {
+    flex: 0 0 100%;
+    max-width: 50%;
+}
+.Camp_ListItem_mob .d-flex >div>.pull-right {
+    float: none;
+    text-align: right;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Camp_ListItem_mob .d-flex > div .Camp_label_mob {margin-bottom: 5px;}
+.Camp_ListItem_mob  .camp_info_mob {
+    position: absolute;
+    bottom: 17px;
+    right: 20px;
+    padding: 0!important;
+    margin: 0 !important;
+    background: transparent;
+}
+.Camp_ListItem_mob .camp_info_mob .col {
+    padding: 4px 8px;
+    font-size: 13px;
+    background: #f0f0f0;
+    margin-left: 4px;
+    max-width: 46%;
+    flex: 0 0 46%;
+    font-weight: 600;
+}
+.Camp_ListItem_mob .camp_info_mob .col .Camp_label_mob {
+    font-size: 12px;
+    font-weight: 600;
+}
+.Camp_ListItem_mob {
+    background: #fff;
+}
+}

@@ -1,0 +1,6359 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@font-face {
+    font-family: "Brush Script MT";
+     src: url("//db.onlinewebfonts.com/t/33bc06ea126d3ff79886277122f1f510.eot"); 
+     src: url("//db.onlinewebfonts.com/t/33bc06ea126d3ff79886277122f1f510.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/33bc06ea126d3ff79886277122f1f510.svg#Brush Script MT") format("svg"); }
+*{
+    box-sizing: border-box;
+}
+/* ---------------Hello bar + timer template1 start --------------------*/
+.mck_clubPos-bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+  }
+  .HELLOBARFORM-T11 {
+      min-height: 130px;
+      background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 25px 30px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .HELLOBARFORM-T11 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #000000;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T11 .cz_close_btn span:after, .HELLOBARFORM-T11 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #ffffff;
+    height: 4px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T11 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T11 .cz_hellobar_inner {
+    padding-right: 240px;
+}
+.HELLOBARFORM-T11 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1220px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T11 .mck_logodiv {
+    position: absolute;
+    right: -20px;
+    top: auto;
+    bottom: -20px;
+}
+.HELLOBARFORM-T11 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T11 .mck_logodiv {
+    max-width: 240px;
+    width: 100%;
+}
+.HELLOBARFORM-T11 .HELLOBARFORM-T11-TEXT {
+    font-size: 23px;
+    color: #F7D923;
+    font-weight: 700;
+    text-align: center;
+}
+.HELLOBARFORM-T11 .HELLOBARFORM-T11-CTA {
+    background-color: #ffb22e;
+    color: #722a1c !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding: 15px 30px;
+    cursor: pointer;
+    text-align: center;
+    transition: 00.3s;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+}
+.HELLOBARFORM-T11 .HELLOBARFORM-T11-CTA:hover {
+    box-shadow: none;
+}
+.HELLOBARFORM-T11 .hellobar_text p {
+  text-align: center;
+  color: #ffffff;
+}
+.HELLOBARFORM-T11 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T11 .timerClassdefault li {
+    list-style: none;
+    min-width: 60px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 15px 16px 25px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000 !important;
+    margin: 0;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/timer-box1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.HELLOBARFORM-T11 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.HELLOBARFORM-T11 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T11 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T11 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T11 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T11 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T11 .HELLOBAR-TCLOCK2{
+    flex-direction: column;
+}
+.mck_hb_optin.HELLOBARFORM-T11 .mck_logodiv {
+    max-width: 200px;
+}
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T11 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T11 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+.HELLOBARFORM-T11 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T11 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T11 {
+    display: block;
+}
+.HELLOBARFORM-T11 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T11 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T11 {
+    padding: 25px 30px;
+}
+.HELLOBARFORM-T11 .HELLOBARFORM-T11-CTA {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 20px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T11 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T11 .HELLOBARFORM-T11-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T11 .timerClassdefault {
+    padding: 15px 0;
+}
+.HELLOBARFORM-T11 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T11 .timerClassdefault li {
+    padding: 5px 9px 13px 20px;
+	font-size: 24px;
+}
+.HELLOBARFORM-T11 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T11 {
+    padding: 10px 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T11 .mck_form_box {
+    margin: 5px auto 7px;
+}
+.HELLOBARFORM-T11 .timerClassdefault li span {
+    transform: translateY(10px);
+}
+
+.HELLOBARFORM-T11 .timerClassdefault li {
+    line-height: 15px;
+    padding-top: 19px;
+}
+.HELLOBARFORM-T11 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template1 end --------------------*/
+/* ---------------Hello bar + timer template2 start --------------------*/
+  .HELLOBARFORM-T12 {
+      min-height: 130px;
+      background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner2.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 25px 30px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .HELLOBARFORM-T12 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+	background: linear-gradient(90deg, #1AA8BD, #611a9d 51%, #1AA8BD) var(--x, 0)/ 200%;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T12 .cz_close_btn span:after, .HELLOBARFORM-T12 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #ffffff;
+    height: 4px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T12 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T12 .cz_hellobar_inner {
+    padding-right: 270px;
+}
+.HELLOBARFORM-T12 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T12 .mck_logodiv {
+    position: absolute;
+    right: -20px;
+    top: auto;
+    bottom: -20px;
+}
+.HELLOBARFORM-T12 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T12 .mck_logodiv {
+    max-width: 260px;
+    width: 100%;
+}
+.HELLOBARFORM-T12 .HELLOBARFORM-T12-TEXT {
+    font-size: 22px;
+    color: #50BCF9;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+.HELLOBARFORM-T12 .HELLOBARFORM-T12-CTA {
+    background: linear-gradient(180deg, #1AA8BD, #611a9d);
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 15px 30px;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 76%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: solid 2px #4b45a7;
+}
+.HELLOBARFORM-T12 .HELLOBARFORM-T12-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T12 .hellobar_text p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+.HELLOBARFORM-T12 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T12 .timerClassdefault li {
+    list-style: none;
+    width: 67px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px 10px 14px 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    margin: 0 5px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/timer-box2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.HELLOBARFORM-T12 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 19px;
+}
+.HELLOBARFORM-T12 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T12 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T12 .mck_form_box {
+    flex: 1;
+    padding: 0px 40px 0px 30px;
+}
+.HELLOBARFORM-T12 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T12 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T12 .HELLOBAR-TCLOCK2{
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T12 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T12 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+.HELLOBARFORM-T12 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T12 .timerClassdefault li {
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T12 {
+    display: block;
+}
+.HELLOBARFORM-T12 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T12 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T12 {
+    padding: 25px 30px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T12 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T12 .HELLOBARFORM-T12-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T12 .timerClassdefault {
+    padding: 15px 0;
+}
+.HELLOBARFORM-T12 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+    .HELLOBARFORM-T12 .timerClassdefault li {
+        font-size: 22px;
+        min-width: 68px;
+    }
+.HELLOBARFORM-T12 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T12 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T12 {
+    padding: 10px 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T12 .mck_form_box {
+    margin: 5px auto 7px;
+}
+.HELLOBARFORM-T12 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template2 end --------------------*/
+/* ---------------Hello bar + timer template3 start --------------------*/
+.HELLOBARFORM-T13 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner3.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+    padding: 25px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T13 .cz_close_btn span {
+    position: absolute;
+    top:0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(90deg, #E1B151, #B07135 51%, #B07135) var(--x, 0)/ 200%;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    box-shadow: 0px 0px 20px 0px rgb(92 92 92 / 40%);
+}
+.HELLOBARFORM-T13 .cz_close_btn span:after, .HELLOBARFORM-T13 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #ffffff;
+    height: 4px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T13 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T13 .cz_hellobar_inner {
+    padding-right: 280px;
+}
+.HELLOBARFORM-T13 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T13 .mck_logodiv {
+    position: absolute;
+    right: 0px;
+    top: auto;
+    bottom: -20px;
+}
+.HELLOBARFORM-T13 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T13 .mck_logodiv {
+    max-width: 250px;
+    width: 100%;
+}
+.HELLOBARFORM-T13 .HELLOBARFORM-T13-TEXT {
+    font-size: 19px;
+    color: #2D2C2C;
+    font-weight: 700;
+    text-align: center;
+}
+.HELLOBARFORM-T13 .HELLOBARFORM-T13-CTA {
+    background: linear-gradient(90deg, #E1B151, #B07135 51%, #B07135) var(--x, 0)/ 200%;
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 15px 30px;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 40%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T13 .HELLOBARFORM-T13-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T13 .hellobar_text p {
+    text-align: center;
+    color: #2D2C2C;
+    font-weight: 500;
+}
+.HELLOBARFORM-T13 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T13 .timerClassdefault li {
+    list-style: none;
+    min-width: 85px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 12px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #2D2C2C !important;
+    margin: 0;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/timer-box3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.HELLOBARFORM-T13 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+}
+.HELLOBARFORM-T13 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T13 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T13 .mck_form_box {
+    flex: 1;
+    padding: 0px 40px 0px 30px;
+}
+.HELLOBARFORM-T13 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T13 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T13 .HELLOBAR-TCLOCK2{
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T13 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T13 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+.HELLOBARFORM-T13 .mck_logodiv img {
+    max-width: 160px;
+}
+.HELLOBARFORM-T13 .timerClassdefault li {
+    min-width: 45px;
+    margin: 0;
+    padding: 12px;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T13 {
+    display: block;
+}
+.HELLOBARFORM-T13 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T13 .cz_hellobar_inner {
+    padding-right: 0;
+}
+
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T13 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T13 .HELLOBARFORM-T13-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T13 .timerClassdefault {
+    padding: 15px 0;
+}
+.HELLOBARFORM-T13 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T13 .timerClassdefault li {
+    padding: 10px 10px 15px 10px;
+	font-size: 24px;
+}
+.HELLOBARFORM-T13 .mck_form_box {
+    max-width: none;
+    width: auto;
+    padding: 0;
+}
+.HELLOBARFORM-T13 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T13 {
+    padding: 0 10px 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T13 .mck_form_box {
+    margin: 5px auto 7px;
+}
+.HELLOBARFORM-T13 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template3 end --------------------*/
+/* ---------------Hello bar + timer template4 start --------------------*/
+.HELLOBARFORM-T14 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner4.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+    padding: 25px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T14 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    background: #1c1c1c;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.HELLOBARFORM-T14 .cz_close_btn span:after, .HELLOBARFORM-T14 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    background: #ffffff;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T14 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T14 .cz_hellobar_inner {
+    padding-right: 260px;
+}
+.HELLOBARFORM-T14 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1170px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T14 .mck_logodiv {
+    position: absolute;
+    right: -40px;
+    top: auto;
+    bottom: -20px;
+}
+.HELLOBARFORM-T14 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T14 .mck_logodiv {
+    max-width: 260px;
+    width: 100%;
+}
+.HELLOBARFORM-T14 .HELLOBARFORM-T14-TEXT {
+    font-family: 'Brush Script MT', sans-serif;
+    font-size: 36px;
+    color: #562222;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+    line-height: 0.9;
+}
+.HELLOBARFORM-T14 .HELLOBARFORM-T14-CTA {
+    background: linear-gradient(90deg, #bd357a, #800528 51%, #7f0426) var(--x, 0)/ 200%;
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 15px 30px;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 20%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T14 .HELLOBARFORM-T14-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T14 .hellobar_text p {
+    text-align: center;
+    color: #282828;
+    font-weight: 500;
+}
+.HELLOBARFORM-T14 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T14 .timerClassdefault li {
+    list-style: none;
+    width: 75px;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 4px 22px 17px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    margin: 0;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/timer-box4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.HELLOBARFORM-T14 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.HELLOBARFORM-T14 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T14 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T14 .mck_form_box {
+    flex: 1;
+    padding: 0px 40px 0px 30px;
+}
+.HELLOBARFORM-T14 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T14 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T14 .HELLOBAR-TCLOCK2{
+    flex-direction: column;
+}
+
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T14 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T14 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+.HELLOBARFORM-T14 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T14 .timerClassdefault li {
+    min-width: 45px;
+    margin: 0;
+    padding: 5px 10px  5px 20px;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T14 {
+    display: block;
+}
+.HELLOBARFORM-T14 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T14 .cz_hellobar_inner {
+    padding-right: 0;
+}
+
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T14 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T14 .HELLOBARFORM-T14-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T14 .timerClassdefault {
+    padding: 15px 0;
+}
+.HELLOBARFORM-T14 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T14 .timerClassdefault li {
+    padding: 10px 5px 15px 15px;
+	font-size: 24px;
+}
+.HELLOBARFORM-T14 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T14 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T14 {
+    padding: 0 10px 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T14 .mck_form_box {
+    margin: 5px auto 7px;
+}
+.HELLOBARFORM-T14 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template4 end --------------------*/
+/* ---------------Hello bar + timer template5 start --------------------*/
+.HELLOBARFORM-T15 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner5.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+}
+.HELLOBARFORM-T15 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background: #1c1c1c;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.HELLOBARFORM-T15 .cz_close_btn span:after, .HELLOBARFORM-T15 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    background: #ffffff;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T15 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T15 .cz_hellobar_inner {
+    padding-right: 0px;
+}
+.HELLOBARFORM-T15 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1080px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T15 .HELLOBARFORM-T15-TEXT {
+    font-family: "Impact";
+    font-size: 28px;
+    color: #B22234;
+    font-weight: 400;
+    text-align: center;
+}
+.HELLOBARFORM-T15 .HELLOBARFORM-T15-CTA {
+    background: linear-gradient(90deg, #e57865, #d92f59 51%, #e57865) var(--x, 0)/ 200%;
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 20%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: auto;
+}
+.HELLOBARFORM-T15 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+    flex-direction: column;
+}
+.HELLOBARFORM-T15 .HELLOBARFORM-T15-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T15 .hellobar_text p {
+    text-align: center;
+    color: #282828;
+    font-weight: 600;
+}
+.HELLOBARFORM-T15 .timerClassdefault {
+    padding: 0px 0 10px;
+}
+.HELLOBARFORM-T15 .timerClassdefault li {
+    list-style: none;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    padding: 31px 13px 4px 12px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff !important;
+    margin: 0;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/timer-box5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.HELLOBARFORM-T15 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 91%;
+    height: 3px;
+    background: linear-gradient(#FFE9EE, #ffd5d5, #FFC2C2);
+    bottom: 22px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T15 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.HELLOBARFORM-T15 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T15 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T15 .mck_form_box {
+    flex: 1;
+    padding: 0px 40px 0px 30px;
+}
+.HELLOBARFORM-T15 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T15 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T15 {
+    display: block;
+}
+.HELLOBARFORM-T15 .cz_hellobar_inner {
+    padding-right: 0;
+}
+
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T15 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T15 .HELLOBARFORM-T15-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T15 .timerClassdefault {
+    padding: 15px 0;
+}
+.HELLOBARFORM-T15 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T15 .timerClassdefault li {
+	font-size: 24px;
+    padding: 30px 0px 10px;
+}
+.HELLOBARFORM-T15 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T15 .timerClassdefault li:after {
+    display: none;
+}
+.HELLOBARFORM-T15 .timerClassdefault {
+    padding: 0 0 10px;
+}
+.HELLOBARFORM-T15 .HELLOBARFORM-T15-TEXT {
+    margin-bottom: 10px;
+}
+.HELLOBARFORM-T15 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T15 {
+    padding: 10px 10px 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T15 .mck_form_box {
+    margin: 5px auto 7px;
+}
+.HELLOBARFORM-T15 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template5 end --------------------*/
+/* ---------------Hello bar + timer template6 start --------------------*/
+.HELLOBARFORM-T16 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner6.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+    padding: 25px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T16 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    box-shadow: 0px 0px 30px 0px #858585;
+}
+.HELLOBARFORM-T16 .cz_close_btn span:after, .HELLOBARFORM-T16 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    background: #95000c;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T16 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T16 .cz_hellobar_inner {
+    padding-right: 0px;
+}
+.HELLOBARFORM-T16 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1050px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T16 .HELLOBARFORM-T16-TEXT {
+    font-size: 30px;
+    color: #FF3053;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+}
+.HELLOBARFORM-T16 .HELLOBARFORM-T16-CTA {
+    background: linear-gradient(90deg, #fc5854, #d92f59 51%, #e57865) var(--x, 0)/ 200%;
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 12px 25px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 20%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: auto;
+}
+.HELLOBARFORM-T16 .HELLOBARFORM-T16-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T16 .hellobar_text p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+.HELLOBARFORM-T16 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T16 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+}
+.HELLOBARFORM-T16 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #FF3053;
+    border-radius: 50px;
+    top: -20px;
+    right: -10px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T16 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #FF3053;
+    border-radius: 50px;
+    top: 0;
+    right: -10px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T16 .timerClassdefault li:last-child:after, .HELLOBARFORM-T16 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T16 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 500;
+}
+.HELLOBARFORM-T16 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T16 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T16 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T16 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T16 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T16 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T16 .HELLOBAR-TCLOCK2{
+    flex-direction: column;
+}
+/* Responsive css */
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T16 {
+    display: block;
+}
+.HELLOBARFORM-T16 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T16 .timerClassdefault li {
+    font-size: 24px;
+    padding: 0px;
+    min-width: 60px;
+}
+.HELLOBARFORM-T16 .timerClassdefault li:after, .HELLOBARFORM-T16 .timerClassdefault li:before {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T16 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T16 .HELLOBARFORM-T16-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T16 .timerClassdefault {
+    padding: 15px 0;
+}
+.HELLOBARFORM-T16 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+    .HELLOBARFORM-T16 .mck_form_box {
+        max-width: none;
+        width: auto;
+    }
+    .HELLOBARFORM-T16 .mck_form_box {
+        max-width: none;
+        width: auto;
+    }
+    .HELLOBARFORM-T16 .HELLOBARFORM-T16-TEXT {
+        margin-bottom: 10px;
+    }
+    .HELLOBARFORM-T16 .timerClassdefault {
+        padding: 0 0 10px;
+    }
+    .HELLOBARFORM-T16 {
+        padding: 10px 10px 10px;
+        background-position: center;
+    }
+    .mck_align_item.HELLOBAR-TCLOCK2 {
+        padding: 0 !important;
+    }
+    .HELLOBARFORM-T16 .mck_form_box {
+        margin: 5px auto 7px;
+    }
+    .HELLOBARFORM-T16 .mck_form_box input {
+        height: 40px !important;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template6 end --------------------*/
+/* ---------------Hello bar + timer template7 start --------------------*/
+.HELLOBARFORM-T17 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner7.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+    padding: 5px 30px 17px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T17 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.HELLOBARFORM-T17 .cz_close_btn span:after, .HELLOBARFORM-T17 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    background: #ffffff;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T17 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T17 .cz_hellobar_inner {
+    padding-right: 0px;
+}
+.HELLOBARFORM-T17 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1070px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T17 .HELLOBARFORM-T17-TEXT {
+    font-family: 'Brush Script MT', sans-serif;
+    font-size: 40px;
+    color: #1E7217;
+    font-weight: 400;
+    text-align: center;
+}
+.HELLOBARFORM-T17 .HELLOBARFORM-T17-CTA {
+    background: #1E7217;
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 12px 30px;
+    width: fit-content;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: auto;
+}
+.HELLOBARFORM-T17 .HELLOBARFORM-T17-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T17 .hellobar_text p {
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.HELLOBARFORM-T17 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T17 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000 !important;
+    position: relative;
+    text-shadow: 0px 4px 2px #cfcfcf;
+}
+.HELLOBARFORM-T17 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #1E7217;
+    border-radius: 50px;
+    top: -20px;
+    right: -10px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T17 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #1E7217;
+    border-radius: 50px;
+    top: 0;
+    right: -10px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T17 .timerClassdefault li:last-child:after, .HELLOBARFORM-T17 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T17 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 500;
+}
+.HELLOBARFORM-T17 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T17 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T17 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T17 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T17 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T17 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T17 .HELLOBAR-TCLOCK2{
+    flex-direction: column;
+}
+/* Responsive css */
+@media screen and (max-width: 1199px){
+
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T17 {
+    display: block;
+}
+.HELLOBARFORM-T17 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T17 .timerClassdefault li {
+	font-size: 24px;
+	padding: 0px 0 10px;
+    min-width: 60px;
+}
+.HELLOBARFORM-T17 .timerClassdefault li:after, .HELLOBARFORM-T17 .timerClassdefault li:before {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T17 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T17 .HELLOBARFORM-T17-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T17 .timerClassdefault {
+    padding: 15px 0;
+}
+.HELLOBARFORM-T17 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+    .HELLOBARFORM-T17 .mck_form_box {
+        max-width: none;
+        width: auto;
+    }
+    .HELLOBARFORM-T17 .timerClassdefault {
+        padding: 0 0 10px;
+    }
+    .HELLOBARFORM-T17 .timerClassdefault li {
+        width: 60px;
+    }
+    .HELLOBARFORM-T17 {
+        padding: 10px 10px 10px;
+        background-position: center;
+    }
+    .mck_align_item.HELLOBAR-TCLOCK2 {
+        padding: 0 !important;
+    }
+    .HELLOBARFORM-T17 .mck_form_box {
+        margin: 5px auto 7px;
+    }
+    .HELLOBARFORM-T17 .mck_form_box input {
+        height: 40px !important;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template7 end --------------------*/
+/* ---------------Hello bar + timer template8 start --------------------*/
+.HELLOBARFORM-T18 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner8.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T18 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #000000;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T18 .cz_close_btn span:after, .HELLOBARFORM-T18 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #ffffff;
+    height: 4px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T18 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T18 .cz_hellobar_inner {
+    padding-right: 300px;
+}
+.HELLOBARFORM-T18 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1300px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T18 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: -20px;
+}
+.HELLOBARFORM-T18 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T18 .mck_logodiv {
+    max-width: 250px;
+    width: 100%;
+}
+.HELLOBARFORM-T18 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T18 .HELLOBARFORM-T18-TEXT {
+    font-family: 'Brush Script MT', sans-serif;
+    font-size: 34px;
+    color: #F7D923;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.21;
+}
+.HELLOBARFORM-T18 .HELLOBARFORM-T18-CTA {
+    background-color: #F9DB43;
+    color: #000000 !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding: 12px 30px;
+    width: fit-content;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+    margin: auto;
+}
+.HELLOBARFORM-T18 .hellobar_text p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.HELLOBARFORM-T18 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T18 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+}
+.HELLOBARFORM-T18 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #FFDE1D;
+    border-radius: 50px;
+    top: -20px;
+    right: -10px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T18 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #FFDE1D;
+    border-radius: 50px;
+    top: 0;
+    right: -10px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T18 .timerClassdefault li:last-child:after, .HELLOBARFORM-T18 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T18 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #FFDE1D;
+}
+.HELLOBARFORM-T18 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T18 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T18 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T18 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T18 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T18 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T18 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T18 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T18 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T18 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T18 {
+    display: block;
+}
+.HELLOBARFORM-T18 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T18 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T18 {
+    padding: 25px 20px;
+}
+.HELLOBARFORM-T18 .timerClassdefault li:after, .HELLOBARFORM-T18 .timerClassdefault li:before {
+    display: none;
+}
+}
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T18 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T18 .HELLOBARFORM-T18-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T18 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.HELLOBARFORM-T18 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T18 .timerClassdefault li {
+    padding: 10px 5px 15px 15px;
+	font-size: 24px;
+}
+.HELLOBARFORM-T18 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+
+.HELLOBARFORM-T18 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T18 .timerClassdefault li {
+    width: 80px;
+}
+.HELLOBARFORM-T18 {
+    padding: 10px 10px 10px;
+    background-position: center;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T18 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T18 .mck_form_box input {
+    height: 40px !important;
+}
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template8 end --------------------*/
+/* ---------------Hello bar + timer template9 start --------------------*/
+.HELLOBARFORM-T19 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T19 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #AFF731;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T19 .cz_close_btn span:after, .HELLOBARFORM-T19 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    background: #000000;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T19 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T19 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1140px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T19 .mck_logodiv {
+    position: absolute;
+    right: -20px;
+    top: -50px;
+}
+.HELLOBARFORM-T19 .mck_logodiv img {
+    max-width: 260px;
+    width: 100%;
+}
+.HELLOBARFORM-T19 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T19 .HELLOBARFORM-T19-TEXT {
+    font-family: 'Brush Script MT', sans-serif;
+    font-size: 40px;
+    color: #AFF731;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.21;
+}
+.HELLOBARFORM-T19 .HELLOBARFORM-T19-CTA {
+    background-color: #AFF731;
+    color: #000000 !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding: 12px 30px;
+    width: fit-content;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+    margin: auto;
+}
+.HELLOBARFORM-T19 .hellobar_text p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.HELLOBARFORM-T19 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T19 .timerClassdefault li {
+    list-style: none;
+    min-width: 60px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+}
+.HELLOBARFORM-T19 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #FFDE1D;
+    border-radius: 50px;
+    top: -20px;
+    right: -10px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T19 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #FFDE1D;
+    border-radius: 50px;
+    top: 0;
+    right: -10px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T19 .timerClassdefault li:last-child:after, .HELLOBARFORM-T19 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T19 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #FFDE1D;
+    line-height: 16px;
+}
+.HELLOBARFORM-T19 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T19 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T19 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T19 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T19 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T19 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T19 .HELLOBAR-TCLOCK2{
+    flex-direction: column;
+}
+/* Responsive css */
+@media screen and (max-width: 1199px){
+
+.HELLOBARFORM-T19 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T19 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T19 .timerClassdefault li {
+	min-width: 60px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T19 {
+    display: block;
+}
+.HELLOBARFORM-T19 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T19 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T19 .timerClassdefault li::after, .HELLOBARFORM-T19 .timerClassdefault li::before {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T19 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T19 .HELLOBARFORM-T19-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T19 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.HELLOBARFORM-T19 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T19 .timerClassdefault li {
+    padding: 10px 8px;
+	font-size: 24px;
+}
+.HELLOBARFORM-T19 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+
+.HELLOBARFORM-T19 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T19 .timerClassdefault li {
+    width: 80px;
+}
+.HELLOBARFORM-T19 {
+    padding: 10px 10px 10px;
+    background-position: center;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T19 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T19 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template9 end --------------------*/
+/* ---------------Hello bar + timer template10 start --------------------*/
+.HELLOBARFORM-T20 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner10.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+	margin-bottom: -2px;
+}
+.HELLOBARFORM-T20 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #BA2739;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T20 .cz_close_btn span:after, .HELLOBARFORM-T20 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    background: #ffffff;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T20 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T20 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T20 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1170px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T20 .mck_logodiv {
+    position: absolute;
+    right: 0px;
+    top: auto;
+    bottom: -10px;
+}
+.HELLOBARFORM-T20 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T20 .mck_logodiv {
+    max-width: 200px;
+    width: 100%;
+}
+.HELLOBARFORM-T20 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T20 .HELLOBARFORM-T20-TEXT {
+    font-family: 'Brush Script MT', sans-serif;
+    font-size: 40px;
+    color: #BA2739;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+}
+.HELLOBARFORM-T20 .HELLOBARFORM-T20-CTA {
+    background-color: #BA2739;
+    color: #FFFF04 !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 12px 30px;
+    width: fit-content;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+    margin: auto;
+}
+.HELLOBARFORM-T20 .hellobar_text p {
+    text-align: center;
+    color: #333132;
+    font-weight: 600;
+}
+.HELLOBARFORM-T20 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T20 .timerClassdefault li {
+    list-style: none;
+    /* min-width: 60px; */
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333132 !important;
+    position: relative;
+}
+.HELLOBARFORM-T20 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #BA2739;
+    border-radius: 50px;
+    top: -20px;
+    right: -10px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T20 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #BA2739;
+    border-radius: 50px;
+    top: 0;
+    right: -10px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T20 .timerClassdefault li:last-child:after, .HELLOBARFORM-T20 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T20 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #333132;
+}
+.HELLOBARFORM-T20 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T20 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T20 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T20 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T20 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T20 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T20 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T20 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T20 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T20 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T20 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T20 {
+    display: block;
+}
+.HELLOBARFORM-T20 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T20 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T20 .timerClassdefault li::after, .HELLOBARFORM-T20 .timerClassdefault li::before {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T20 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T20 .HELLOBARFORM-T20-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T20 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.HELLOBARFORM-T20 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T20 .timerClassdefault li {
+    padding: 10px 5px 15px 10px;
+	font-size: 24px;
+}
+.HELLOBARFORM-T20 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+
+.HELLOBARFORM-T20 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T20 .timerClassdefault li {
+    width: 80px;
+}
+.HELLOBARFORM-T20 {
+    padding: 10px 10px 10px;
+    background-position: center;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T20 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T20 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template10 end --------------------*/
+/* ---------------Hello bar + timer template11 start --------------------*/
+.HELLOBARFORM-T21 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner11.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px 30px;
+    display: flex;
+    flex-wrap: wrap;
+	margin-bottom: -2px;
+}
+.HELLOBARFORM-T21 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #1CBBB4;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T21 .cz_close_btn span:after, .HELLOBARFORM-T21 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    background: #ffffff;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T21 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T21 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1170px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T21 .mck_logodiv {
+    position: absolute;
+    right: -20px;
+    top: -50px;
+}
+.HELLOBARFORM-T21 .mck_logodiv img {
+    max-width: 260px;
+    width: 100%;
+}
+.HELLOBARFORM-T21 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T21 .HELLOBARFORM-T21-TEXT {
+    font-size: 30px;
+    color: #AFF731;
+    font-weight: 600;
+    text-align: center;
+    font-family: monospace;
+    line-height: 1.21;
+}
+.HELLOBARFORM-T21 .HELLOBARFORM-T21-TEXT span {
+    color: #1cbbb4;
+}
+.HELLOBARFORM-T21 .HELLOBARFORM-T21-CTA {
+    background: linear-gradient(180deg, #D06DAB, #5B53A3);
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 12px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+    margin: auto;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T21 .HELLOBARFORM-T21-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T21 .hellobar_text p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+.HELLOBARFORM-T21 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T21 .timerClassdefault li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+}
+.HELLOBARFORM-T21 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #40C1F4;
+    border-radius: 50px;
+    top: -20px;
+    right: -10px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T21 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #40C1F4;
+    border-radius: 50px;
+    top: 0;
+    right: -10px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T21 .timerClassdefault li:last-child:after, .HELLOBARFORM-T21 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T21 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #40C1F4;
+}
+.HELLOBARFORM-T21 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T21 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T21 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T21 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T21 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T21 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T21 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T21 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T21 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T21 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T21 {
+    display: block;
+}
+.HELLOBARFORM-T21 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T21 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T21 .timerClassdefault li::after, .HELLOBARFORM-T21 .timerClassdefault li::before {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T21 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T21 .HELLOBARFORM-T21-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T21 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.HELLOBARFORM-T21 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T21 .timerClassdefault li {
+    padding: 10px 5px 15px 5px;
+	font-size: 24px;
+}
+.HELLOBARFORM-T21 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+
+.HELLOBARFORM-T21 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T21 .timerClassdefault li {
+    width: 80px;
+}
+.HELLOBARFORM-T21 {
+    padding: 10px 10px 10px;
+    background-position: center;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T21 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T21 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template11 end --------------------*/
+/* ---------------Hello bar + timer template12 start --------------------*/
+.HELLOBARFORM-T22 { 
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner12.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px 30px;
+    display: flex;
+    flex-wrap: wrap;
+	margin-bottom: -2px;
+}
+.HELLOBARFORM-T22 .cz_close_btn span {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #1CBBB4;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T22 .cz_close_btn span:after, .HELLOBARFORM-T22 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    background: #ffffff;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T22 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T22 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1340px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T22 .cz_hellobar_inner {
+    padding-right: 300px;
+}
+.HELLOBARFORM-T22 .mck_logodiv {
+    position: absolute;
+    right: 0px;
+    top: auto;
+    bottom: -20px;
+}
+.HELLOBARFORM-T22 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T22 .mck_logodiv {
+    max-width: 250px;
+    width: 100%;
+}
+.HELLOBARFORM-T22 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T22 .HELLOBARFORM-T22-TEXT {
+    font-size: 30px;
+    color: #3BCB7A;
+    font-weight: 600;
+    text-align: center;
+}
+.HELLOBARFORM-T22 .HELLOBARFORM-T22-CTA {
+    background: #7BC795;
+    color: #282828 !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 12px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+    margin: auto;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T22 .HELLOBARFORM-T22-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T22 .hellobar_text p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+.HELLOBARFORM-T22 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T22 .timerClassdefault li {
+    list-style: none;
+    /* min-width: 60px; */
+    display: inline-block;
+    text-align: center;
+    padding: 10px 2px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+}
+.HELLOBARFORM-T22 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #AFF731;
+    border-radius: 50px;
+    top: -20px;
+    right: -10px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T22 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #AFF731;
+    border-radius: 50px;
+    top: 0;
+    right: -10px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T22 .timerClassdefault li:last-child:after, .HELLOBARFORM-T22 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T22 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #40C1F4;
+    line-height: 13px;
+}
+.HELLOBARFORM-T22 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T22 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T22 .mck_form_box {
+    flex: 1;
+    padding: 0px 70px 0px 30px;
+}
+.HELLOBARFORM-T22 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T22 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T22 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T22 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T22 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T22 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T22 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T22 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T22 {
+    display: block;
+}
+.HELLOBARFORM-T22 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T22 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T22 {
+    padding: 25px 20px;
+}
+.HELLOBARFORM-T22 .timerClassdefault li::after, .HELLOBARFORM-T22 .timerClassdefault li::before {
+    display: none;
+}
+.HELLOBARFORM-T22 .timerClassdefault li {
+    padding: 5px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T22 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T22 .HELLOBARFORM-T22-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T22 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.HELLOBARFORM-T22 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T22 .timerClassdefault li {
+    padding: 10px 5px 15px 15px;
+	font-size: 24px;
+}
+.HELLOBARFORM-T22 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+
+.HELLOBARFORM-T22 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T22 .timerClassdefault li {
+    width: 80px;
+}
+.HELLOBARFORM-T22 {
+    padding: 10px 10px 10px;
+    background-position: center;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T22 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T22 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template12 end --------------------*/
+/* ---------------Hello bar + timer template13 start --------------------*/
+.HELLOBARFORM-T23 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner13.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px 30px;
+    display: flex;
+    flex-wrap: wrap;
+	margin-bottom: -2px;
+}
+.HELLOBARFORM-T23 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #232321;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T23 .cz_close_btn span:after, .HELLOBARFORM-T23 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #ffffff;
+    height: 4px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T23 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T23 .cz_hellobar_inner {
+    padding-right: 300px;
+}
+.HELLOBARFORM-T23 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.HELLOBARFORM-T23 .mck_logodiv {
+    position: absolute;
+    right: 0px;
+    top: auto;
+    bottom: -20px;
+}
+.HELLOBARFORM-T23 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T23 .mck_logodiv {
+    max-width: 260px;
+    width: 100%;
+}
+.HELLOBARFORM-T23 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T23 .HELLOBARFORM-T23-TEXT {
+    font-size: 20px;
+    color: #232321;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.HELLOBARFORM-T23 .HELLOBARFORM-T23-CTA {
+    background: linear-gradient(90deg, #232321, #232321 51%, #4a4a4a) var(--x, 0)/ 200%;
+    color: #FFE700 !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 12px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(249 102 125 / 50%);
+    margin-left: 30px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 10px auto 0;
+}
+.HELLOBARFORM-T23 .HELLOBARFORM-T23-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T23 .hellobar_text p {
+    text-align: center;
+    color: #232321;
+    font-weight: 600;
+}
+.HELLOBARFORM-T23 .timerClassdefault {
+    background: #B74D7C;
+    padding: 0 5px;
+}
+.HELLOBARFORM-T23 .timerClassdefault li {
+    list-style: none;
+    min-width: 70px;
+    display: inline-block;
+    margin: 0 4px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+    background: #F9667D;
+    box-shadow: 0px 10px 10px 0px rgb(92 24 35 / 66%);
+}
+.HELLOBARFORM-T23 .timerClassdefault li:nth-child(even) {
+    background: #FFE700;
+    color: #232321 !important;
+}
+.HELLOBARFORM-T23 .timerClassdefault li:nth-child(even) span {
+    color: #232321 !important;
+}
+.HELLOBARFORM-T23 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #ffffff;
+}
+.HELLOBARFORM-T23 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T23 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T23 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T23 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T23 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T23 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T23 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T23 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T23 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T23 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T23 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T23 {
+    display: block;
+}
+.HELLOBARFORM-T23 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T23 .cz_hellobar_inner {
+    padding-right: 0;
+}
+
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T23 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T23 .HELLOBARFORM-T23-CTA {
+    margin: 20px auto 0;
+}
+.HELLOBARFORM-T23 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    display: inline-block;
+    text-align: center;
+}
+.HELLOBARFORM-T23 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+.HELLOBARFORM-T23 .HELLOBARFORM-T23-TEXT {
+    margin-left: 0px;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T23 .timerClassdefault li {
+	font-size: 24px;
+}
+.HELLOBARFORM-T23 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T23 .timerClassdefault {
+    background: transparent;
+    padding: 0;
+}
+
+.HELLOBARFORM-T23 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T23 .timerClassdefault li {
+    width: 80px;
+}
+.HELLOBARFORM-T23 {
+    padding: 10px 10px 10px;
+    background-position: center;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T23 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T23 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+    .HELLOBARFORM-T23 .timerClassdefault li {
+        min-width: 45px;
+    }
+    .HELLOBARFORM-T23 .HELLOBARFORM-T23-TEXT {
+        margin-left: 0px;
+    }
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template13 end --------------------*/
+/* ---------------Hello bar + timer template14 start --------------------*/
+.HELLOBARFORM-T24 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner14.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T24 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #232321;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T24 .cz_close_btn span:after, .HELLOBARFORM-T24 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #ffffff;
+    height: 4px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T24 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T24 .cz_hellobar_inner {
+    padding: 13px 300px 13px 95px;
+}
+.HELLOBARFORM-T24 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    background: rgb(0 0 0 / 70%);
+    border-radius: 100px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    display: flex;
+    align-items: center;
+}
+.HELLOBARFORM-T24 .mck_logodiv {
+    position: absolute;
+    right: 50px;
+    top: auto;
+    bottom: -10px;
+}
+.HELLOBARFORM-T24 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T24 .mck_logodiv {
+    max-width: 210px;
+    width: 100%;
+}
+.HELLOBARFORM-T24 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T24 .HELLOBARFORM-T24-TEXT {
+    font-size: 22px;
+    color: #FFE700;
+    font-weight: 600;
+    text-align: center;
+}
+.HELLOBARFORM-T24 .HELLOBARFORM-T24-CTA {
+    background: #5289C8;
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 6px 5px 0px rgb(0 0 0 / 50%);
+    margin: 10px auto 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T24 .HELLOBARFORM-T24-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T24 .hellobar_text p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+.HELLOBARFORM-T24 .timerClassdefault li {
+    list-style: none;
+    min-width: 60px;
+    display: inline-block;
+    margin: 0 4px;
+    text-align: center;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+    background: #F9667D;
+    box-shadow: 0px 6px 5px 0px rgb(0 0 0 / 50%);
+}
+.HELLOBARFORM-T24 .timerClassdefault li:nth-child(even) {
+    background: #FFE700;
+    color: #232321 !important;
+}
+.HELLOBARFORM-T24 .timerClassdefault li:nth-child(even) span {
+    color: #232321 !important;
+}
+.HELLOBARFORM-T24 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #ffffff;
+}
+.HELLOBARFORM-T24 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T24 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T24 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T24 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #FFE8B6;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T24 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T24 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T24 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T24 .cz_hellobar_inner {
+    padding-right: 150px;
+}
+.HELLOBARFORM-T24 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T24 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T24 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T24 {
+    display: block;
+	margin-right: 0;
+	padding: 20px 15px 20px 30px;
+}
+.HELLOBARFORM-T24 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T24 .cz_hellobar_inner {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.HELLOBARFORM-T24 .timerClassdefault li {
+    min-width: 50px;
+}
+.HELLOBARFORM-T24 .mck_align_item.hellobar_text {
+    margin-left: 15px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T24 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T24 .HELLOBARFORM-T24-CTA {
+    margin: 20px auto 0;
+}
+.HELLOBARFORM-T24 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+}
+.HELLOBARFORM-T24 .cz_hellobar_inner {
+    border-radius: 20px;
+}
+.HELLOBARFORM-T24 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+.HELLOBARFORM-T24 .mck_align_item.hellobar_text {
+    margin-left: 0;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T24 .timerClassdefault li {
+	font-size: 24px;
+}
+.HELLOBARFORM-T24 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+
+.HELLOBARFORM-T24 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T24 .timerClassdefault li {
+    width: 80px;
+}
+.HELLOBARFORM-T24 {
+    padding: 10px 10px 10px;
+    background-position: center;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T24 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T24 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template14 end --------------------*/
+/* ---------------Hello bar + timer template15 start --------------------*/
+.HELLOBARFORM-T25 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner15.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T25 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #232321;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T25 .cz_close_btn span:after, .HELLOBARFORM-T25 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #ffffff;
+    height: 4px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T25 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T25 .cz_hellobar_inner {
+    padding-right: 250px;
+}
+.HELLOBARFORM-T25 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1350px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    display: flex;
+    align-items: center;
+}
+.HELLOBARFORM-T25 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: -20px;
+}
+.HELLOBARFORM-T25 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T25 .mck_logodiv {
+    max-width: 245px;
+    width: 100%;
+}
+.HELLOBARFORM-T25 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T25 .HELLOBARFORM-T25-TEXT {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    font-family: monospace;
+}
+.HELLOBARFORM-T25 .HELLOBARFORM-T25-CTA {
+    background: linear-gradient(180deg, #40B049,#70C282 70%, #C47D3B);
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 6px 5px 0px rgb(0 0 0 / 50%);
+    margin: 10px auto 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T25 .HELLOBARFORM-T25-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T25 .hellobar_text p {
+    text-align: center;
+    color: #C4C4C4;
+    font-weight: 600;
+}
+.HELLOBARFORM-T25 .timerClassdefault li {
+    list-style: none;
+    min-width: 65px;
+    display: inline-block;
+    margin: 0 4px;
+    text-align: center;
+    padding: 10px 10px 7px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1C1C1C !important;
+    position: relative;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/timer-box15.png);
+    box-shadow: 0px 6px 5px 0px rgb(0 0 0 / 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HELLOBARFORM-T25 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 500;
+    padding-top: 13px;
+    color: #ffffff;
+}
+.HELLOBARFORM-T25 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T25 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T25 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T25 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T25 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T25 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T25 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T25 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T25 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T25 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T25 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T25 {
+    display: block;
+	margin-right: 0;
+	padding: 25px 20px;
+}
+.HELLOBARFORM-T25 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T25 .cz_hellobar_inner {
+    padding-right: 0;
+}
+
+.HELLOBARFORM-T25 .cz_hellobar_inner {
+    justify-content: center;
+}
+.HELLOBARFORM-T25 .mck_align_item.hellobar_text {
+    flex: none;
+    margin-right: 12px;
+}
+.HELLOBARFORM-T25 .timerClassdefault li {
+    min-width: 40px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T25 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T25 .HELLOBARFORM-T25-CTA {
+    margin: 20px auto 0;
+}
+.HELLOBARFORM-T25 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+}
+.HELLOBARFORM-T25 .cz_hellobar_inner {
+    border-radius: 20px;
+}
+.HELLOBARFORM-T25 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T25 .timerClassdefault li {
+	font-size: 24px;
+}
+.HELLOBARFORM-T25 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T25 .timerClassdefault li {
+    min-width: 65px;
+}
+
+.HELLOBARFORM-T25 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T25 .timerClassdefault li {
+    width: 80px;
+}
+.HELLOBARFORM-T25 {
+    padding: 10px 10px 10px;
+    background-position: center;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T25 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T25 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template15 end --------------------*/
+/* ---------------Hello bar + timer template16 start --------------------*/
+.HELLOBARFORM-T26 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner16.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T26 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #232321;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T26 .cz_close_btn span:after, .HELLOBARFORM-T26 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #ffffff;
+    height: 4px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T26 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T26 .cz_hellobar_inner {
+    padding-right: 300px;
+}
+.HELLOBARFORM-T26 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1350px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.HELLOBARFORM-T26 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: -10px;
+}
+.HELLOBARFORM-T26 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T26 .mck_logodiv {
+    max-width: 240px;
+    width: 100%;
+}
+.HELLOBARFORM-T26 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T26 .HELLOBARFORM-T26-TEXT {
+    font-size: 30px;
+    color: #45681D;
+    font-weight: 700;
+    text-align: center;
+    font-family: system-ui;
+}
+.HELLOBARFORM-T26 .HELLOBARFORM-T26-CTA {
+    background: linear-gradient(90deg, #2a6a73, #2a6a73 51%, #51E18A) var(--x, 0)/ 200%;
+    color: #ffffff !important;
+    display: block;
+    font-size: 16px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 30%);
+    margin: 10px auto 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T26 .HELLOBARFORM-T26-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T26 .hellobar_text p {
+    text-align: center;
+    color: #1C1C1C;
+    font-weight: 600;
+}
+.HELLOBARFORM-T26 .timerClassdefault li {
+    list-style: none;
+    min-width: 65px;
+    min-height: 70px;
+    display: inline-block;
+    margin: 0 3px;
+    text-align: center;
+    padding: 2px 0 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #CAE267 !important;
+    background-color: #2A6A73;
+    box-shadow: 0px 6px 8px 0px rgb(42 106 115 / 35%);
+}
+.HELLOBARFORM-T26 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 500;
+    color: #ffffff;
+    border-top: solid 4px #FFC235;
+    padding-top: 6px;
+}
+.HELLOBARFORM-T26 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T26 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T26 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T26 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #FFE8B6;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T26 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T26 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T26 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T26 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T26 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+.HELLOBARFORM-T26 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T26 .timerClassdefault li {
+	min-width: 60px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T26 {
+    display: block;
+	margin-right: 0;
+}
+.HELLOBARFORM-T26 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T26 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T26 .HELLOBARFORM-T26-CTA {
+    margin-left: 10px;
+}
+.HELLOBARFORM-T26 .cz_hellobar_inner {
+    justify-content: center;
+}
+.HELLOBARFORM-T26 .mck_align_item.hellobar_text {
+    flex: none;
+    margin-right: 12px;
+}
+.HELLOBARFORM-T26 .timerClassdefault li {
+    min-width: 58px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T26 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T26 .HELLOBARFORM-T26-CTA {
+    margin: 20px auto 0;
+}
+.HELLOBARFORM-T26 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+    margin-right: 0;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+}
+.HELLOBARFORM-T26 .cz_hellobar_inner {
+    border-radius: 20px;
+}
+.HELLOBARFORM-T26 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+    .HELLOBARFORM-T26 .mck_form_box {
+        max-width: none;
+        width: auto;
+    }
+
+    .HELLOBARFORM-T26 .timerClassdefault {
+        padding: 0 ;
+    }
+    .HELLOBARFORM-T26 {
+        padding: 10px 10px 10px;
+        background-position: center;
+    }
+    .mck_align_item.HELLOBAR-TCLOCK2 {
+        padding: 0 !important;
+    }
+    .HELLOBARFORM-T26 .mck_form_box {
+        margin: 10px auto 7px;
+    }
+    .HELLOBARFORM-T26 .mck_form_box input {
+        height: 40px !important;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template16 end --------------------*/
+/* ---------------Hello bar + timer template17 start --------------------*/
+.HELLOBARFORM-T27 {
+    min-height: 75px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner17.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T27 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #232321;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T27 .cz_close_btn span:after, .HELLOBARFORM-T27 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #ffffff;
+    height: 4px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T27 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+
+.HELLOBARFORM-T27 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.HELLOBARFORM-T27 .mck_logodiv {
+    position: absolute;
+    right: 0px;
+    top: -50px;
+}
+.HELLOBARFORM-T27 .mck_logodiv {
+    max-width: 235px;
+    width: 100%;
+}
+.HELLOBARFORM-T27 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T27 .HELLOBARFORM-T27-TEXT {
+    font-family: 'Brush Script MT', sans-serif;
+    font-size: 40px;
+    color: #ba201c;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+}
+.HELLOBARFORM-T27 .HELLOBARFORM-T27-CTA {
+    background: linear-gradient(180deg, #dc5a5c, #b32746);
+    color: #ffffff !important;
+    display: block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 15px 0px rgb(0 0 0 / 10%);
+    margin: 10px auto 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T27 .HELLOBARFORM-T27-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T27 .hellobar_text p {
+    text-align: center;
+    color: #232321;
+    font-weight: 600;
+}
+
+.HELLOBARFORM-T27 .timerClassdefault li {
+    list-style: none;
+    min-width: 60px;
+    display: inline-block;
+    margin: 0 2px;
+    text-align: center;
+    padding: 2px 6px 6px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff !important;
+    position: relative;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/timer-box17.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 8px 6px 0px rgb(92 24 35 / 24%);
+}
+
+.HELLOBARFORM-T27 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #ffffff;
+}
+.HELLOBARFORM-T27 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T27 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T27 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T27 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T27 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T27 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T27 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T27 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T27 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T27 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T27 {
+    display: block;
+}
+.HELLOBARFORM-T27 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T27 .cz_hellobar_inner {
+    padding-right: 0;
+}
+
+.HELLOBARFORM-T27 .HELLOBARFORM-T27-CTA {
+    margin-left: 10px;
+}
+.HELLOBARFORM-T27 .HELLOBARFORM-T27-TEXT {
+    font-size: 28px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T27 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T27 .HELLOBARFORM-T27-CTA {
+    margin: 20px auto 0;
+}
+.HELLOBARFORM-T27 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    display: inline-block;
+    text-align: center;
+}
+.HELLOBARFORM-T27 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T27 .timerClassdefault li {
+	font-size: 24px;
+}
+.HELLOBARFORM-T27 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+
+.HELLOBARFORM-T27 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T27 {
+    padding: 10px 10px 10px;
+    background-position: center;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T27 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T27 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template17 end --------------------*/
+/* ---------------Hello bar + timer template18 start --------------------*/
+.HELLOBARFORM-T28 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner18.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T28 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #1CBBB4;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T28 .cz_close_btn span:after, .HELLOBARFORM-T28 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    background: #ffffff;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T28 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+/* .HELLOBARFORM-T28 .cz_hellobar_inner {
+    padding-right: 300px;
+} */
+.HELLOBARFORM-T28 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1150px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T28 .mck_logodiv {
+    position: absolute;
+    right: 0px;
+    top: -50px;
+}
+.HELLOBARFORM-T28 .mck_logodiv img {
+    max-width: 250px;
+    width: 100%;
+}
+.HELLOBARFORM-T28 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T28 .HELLOBARFORM-T28-TEXT {
+    font-family: 'Brush Script MT', sans-serif;
+    font-size: 40px;
+    color: #D6476A;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+}
+.HELLOBARFORM-T28 .HELLOBARFORM-T28-CTA {
+    background: linear-gradient(90deg, #d6476a, #d6476a 51%, #850b29) var(--x, 0)/ 200%;
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 12px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+    margin: auto;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T28 .HELLOBARFORM-T28-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T28 .hellobar_text p {
+    text-align: center;
+    color: #233E78;
+    font-weight: 600;
+}
+.HELLOBARFORM-T28 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T28 .timerClassdefault li {
+    list-style: none;
+    /* min-width: 80px; */
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #233E78 !important;
+    position: relative;
+}
+.HELLOBARFORM-T28 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #233E78;
+    border-radius: 50px;
+    top: -20px;
+    right: -10px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T28 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #233E78;
+    border-radius: 50px;
+    top: 0;
+    right: -10px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T28 .timerClassdefault li:last-child:after, .HELLOBARFORM-T28 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T28 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #233E78;
+}
+.HELLOBARFORM-T28 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T28 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T28 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T28 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T28 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+
+.HELLOBARFORM-T28 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T28 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T28 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T28 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T28 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T28 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T28 {
+    display: block;
+}
+.HELLOBARFORM-T28 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T28 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T28 {
+    padding: 25px 20px;
+}
+.HELLOBARFORM-T28 .timerClassdefault li::after, .HELLOBARFORM-T28 .timerClassdefault li::before {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T28 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T28 .HELLOBARFORM-T28-CTA {
+    margin: auto;
+}
+.HELLOBARFORM-T28 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.HELLOBARFORM-T28 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T28 .timerClassdefault li {
+    padding: 10px 5px 15px 15px;
+	font-size: 24px;
+}
+.HELLOBARFORM-T28 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+
+.HELLOBARFORM-T28 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T28 {
+    padding: 10px 10px 10px;
+    background-position: center;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T28 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T28 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template18 end --------------------*/
+/* ---------------Hello bar + timer template19 start --------------------*/
+.HELLOBARFORM-T29 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner19.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T29 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #ad9055;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T29 .cz_close_btn span:after, .HELLOBARFORM-T29 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    background: #0a0b0d;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T29 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+
+.HELLOBARFORM-T29 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1140px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T29 .mck_logodiv {
+    position: absolute;
+    right: -20px;
+    top: -50px;
+}
+.HELLOBARFORM-T29 .mck_logodiv {
+    max-width: 260px;
+    width: 100%;
+}
+.HELLOBARFORM-T29 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T29 .HELLOBARFORM-T29-TEXT {
+    font-size: 40px;
+    color: #FFC353;
+    font-weight: 500;
+    text-align: center;
+    font-family: monospace;
+}
+.HELLOBARFORM-T29 .HELLOBARFORM-T29-CTA {
+    background: linear-gradient(#785a26, #f1cd91, #785a26);
+    color: #0a0b0d !important;
+    display: block;
+    font-size: 16px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+    margin: 10px auto 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T29 .HELLOBARFORM-T29-CTA:hover {
+	--x: 100%;
+	box-shadow: none;
+}
+.HELLOBARFORM-T29 .hellobar_text p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+.HELLOBARFORM-T29 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T29 .timerClassdefault li {
+    list-style: none;
+    min-width: 65px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+    background: #AF7314;
+    text-shadow: 0px 0px 15px rgb(7 8 10 / 45%);
+}
+.HELLOBARFORM-T29 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #939393;
+    border-radius: 50px;
+    top: -20px;
+    right: -9px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T29 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #939393;
+    border-radius: 50px;
+    top: 0;
+    right: -9px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T29 .timerClassdefault li:last-child:after, .HELLOBARFORM-T29 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T29 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #ffffff;
+}
+.HELLOBARFORM-T29 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T29 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T29 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T29 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T29 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T29 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T29 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T29 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T29 .mck_logodiv img {
+    max-width: 170px;
+}
+
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T29 {
+    display: block;
+}
+.HELLOBARFORM-T29 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T29 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T29 {
+    padding: 20px;
+}
+.HELLOBARFORM-T29 .HELLOBARFORM-T29-TEXT {
+    font-size: 28px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T29 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+
+.HELLOBARFORM-T29 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.HELLOBARFORM-T29 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+    .HELLOBARFORM-T29 .mck_form_box {
+        max-width: none;
+        width: auto;
+    }
+        
+.HELLOBARFORM-T29 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T29 {
+    padding: 10px 10px 10px;
+    background-position: center;
+    margin-bottom: -1px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T29 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T29 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+    .HELLOBARFORM-T29 .timerClassdefault li {
+        margin: 0 0px;
+    }
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template19 end --------------------*/
+/* ---------------Hello bar + timer template20 start --------------------*/
+.HELLOBARFORM-T30 {
+    min-height: 75px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner20.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T30 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #c8ab6d;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T30 .cz_close_btn span:after, .HELLOBARFORM-T30 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    background: #000000;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T30 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+
+.HELLOBARFORM-T30 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1350px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding-right: 300px;
+}
+
+.HELLOBARFORM-T30 .mck_logodiv {
+    position: absolute;
+    right: 0px;
+    top: auto;
+    bottom: -10px;
+}
+.HELLOBARFORM-T30 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T30 .mck_logodiv {
+    max-width: 250px;
+    width: 100%;
+}
+.HELLOBARFORM-T30 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T30 .HELLOBARFORM-T30-TEXT {
+    font-size: 40px;
+    color: #FFC353;
+    font-weight: 500;
+    text-align: center;
+    font-family: cursive;
+}
+.HELLOBARFORM-T30 .HELLOBARFORM-T30-CTA {
+    background: linear-gradient(#916a11, #ffe0ab, #916a29);
+    color: #020100 !important;
+    display: block;
+    font-size: 16px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+    margin: 10px auto 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T30 .HELLOBARFORM-T30-CTA:hover {
+	--x: 100%;
+	box-shadow: none;
+}
+.HELLOBARFORM-T30 .hellobar_text p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.HELLOBARFORM-T30 .timerClassdefault li {
+    list-style: none;
+    min-width: 65px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+    background: #AF7314;
+    text-shadow: 0px 0px 15px rgb(7 8 10 / 45%);
+}
+.HELLOBARFORM-T30 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: -20px;
+    right: -9px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T30 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: 0;
+    right: -9px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T30 .timerClassdefault li:last-child:after, .HELLOBARFORM-T30 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T30 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #ffffff;
+}
+.HELLOBARFORM-T30 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T30 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T30 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T30 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T30 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+
+.HELLOBARFORM-T30 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T30 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T30 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+.HELLOBARFORM-T30 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T30 .cz_hellobar_inner {
+    padding-right: 180px;
+}
+.HELLOBARFORM-T30 .HELLOBARFORM-T30-TEXT {
+    font-size: 28px;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T30 {
+    display: block;
+}
+.HELLOBARFORM-T30 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T30 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T30 {
+    padding: 25px 20px;
+}
+.HELLOBARFORM-T30 .HELLOBARFORM-T30-CTA {
+    margin-left: 10px;
+}
+.HELLOBARFORM-T30 .HELLOBARFORM-T30-TEXT {
+    font-size: 28px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T30 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T30 .HELLOBARFORM-T30-CTA {
+    margin: 20px auto 0;
+}
+.HELLOBARFORM-T30 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    display: inline-block;
+    text-align: center;
+}
+.HELLOBARFORM-T30 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T30 .timerClassdefault li {
+	font-size: 24px;
+}
+.HELLOBARFORM-T30 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+
+.HELLOBARFORM-T30 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T30 {
+    padding: 10px 10px 10px;
+    background-position: center;
+    margin-bottom: -10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T30 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T30 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+    .HELLOBARFORM-T30 .timerClassdefault li {
+        margin: 0;
+    }
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template20 end --------------------*/
+/* ---------------Hello bar + timer template21 start --------------------*/
+.HELLOBARFORM-T31 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner21.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T31 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #b29559;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T31 .cz_close_btn span:after, .HELLOBARFORM-T31 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #070809;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T31 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T31 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1140px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.HELLOBARFORM-T31 .mck_logodiv {
+    position: absolute;
+    right: 0px;
+    top: -50px;
+}
+.HELLOBARFORM-T31 .mck_logodiv {
+    max-width: 200px;
+    width: 100%;
+}
+.HELLOBARFORM-T31 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T31 .HELLOBARFORM-T31-TEXT {
+    font-family: "Segoe Script";
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+.HELLOBARFORM-T31 .HELLOBARFORM-T31-CTA {
+    background: linear-gradient(#916a11, #ffe0ab, #916a29);
+    color: #020100 !important;
+    display: block;
+    font-size: 16px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 12px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+    margin: 10px auto 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T31 .HELLOBARFORM-T31-CTA:hover {
+	--x: 100%;
+	box-shadow: none;
+}
+.HELLOBARFORM-T31 .hellobar_text p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.HELLOBARFORM-T31 .timerClassdefault li {
+    list-style: none;
+    min-width: 65px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+    background: #AF7314;
+    text-shadow: 0px 0px 15px rgb(7 8 10 / 45%);
+}
+.HELLOBARFORM-T31 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: -20px;
+    right: -9px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T31 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: 0;
+    right: -9px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T31 .timerClassdefault li:last-child:after, .HELLOBARFORM-T31 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T31 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #ffffff;
+}
+.HELLOBARFORM-T31 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T31 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T31 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T31 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T31 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T31 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T31 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T31 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+.HELLOBARFORM-T31 .mck_logodiv img {
+    max-width: 170px;
+}
+
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T31 {
+    display: block;
+}
+.HELLOBARFORM-T31 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T31 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T31 {
+    padding: 15px 20px;
+}
+.HELLOBARFORM-T31 .HELLOBARFORM-T31-CTA {
+    margin-left: 10px;
+}
+
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T31 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T31 .HELLOBARFORM-T31-CTA {
+    margin: 20px auto 0;
+}
+.HELLOBARFORM-T31 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    display: inline-block;
+    text-align: center;
+}
+.HELLOBARFORM-T31 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T31 .timerClassdefault li {
+	font-size: 24px;
+}
+.HELLOBARFORM-T31 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+
+.HELLOBARFORM-T31 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T31 {
+    padding: 10px 10px 10px;
+    background-position: center;
+    margin-bottom: -1px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T31 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T31 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+    .HELLOBARFORM-T31 .timerClassdefault li {
+        margin: 0;
+    }
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template21 end --------------------*/
+/* ---------------Hello bar + timer template22 start --------------------*/
+.HELLOBARFORM-T32 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner22.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T32 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #b99236;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T32 .cz_close_btn span:after, .HELLOBARFORM-T32 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    background: #232321;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T32 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T32 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1350px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding-right: 300px;
+}
+
+.HELLOBARFORM-T32 .mck_logodiv {
+    position: absolute;
+    right: 0px;
+    top: auto;
+    bottom: -20px;
+}
+.HELLOBARFORM-T32 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T32 .mck_logodiv {
+    max-width: 245px;
+    width: 100%;
+}
+.HELLOBARFORM-T32 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T32 .HELLOBARFORM-T32-TEXT {
+    font-family: "Segoe Script";
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+.HELLOBARFORM-T32 .HELLOBARFORM-T32-CTA {
+    background: linear-gradient(#916a11, #ffe0ab, #916a29);
+    color: #232321 !important;
+    display: block;
+    font-size: 18px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 34%);
+    margin: 10px auto 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T32 .HELLOBARFORM-T32-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T32 .hellobar_text p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.HELLOBARFORM-T32 .timerClassdefault li {
+    list-style: none;
+    min-width: 65px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #AD1E1E !important;
+    position: relative;
+    background: #ffffff;
+    text-shadow: 0px 0px 15px rgb(7 8 10 / 30%);
+}
+.HELLOBARFORM-T32 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: -20px;
+    right: -9px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T32 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: 0;
+    right: -9px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T32 .timerClassdefault li:last-child:after, .HELLOBARFORM-T32 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T32 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #232321;
+}
+.HELLOBARFORM-T32 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T32 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T32 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T32 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #ffffff;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T32 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+
+.HELLOBARFORM-T32 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T32 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T32 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+.HELLOBARFORM-T32 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T32 .cz_hellobar_inner {
+    padding-right: 180px;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T32 {
+    display: block;
+}
+.HELLOBARFORM-T32 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T32 .cz_hellobar_inner {
+    padding-right: 0;
+}
+.HELLOBARFORM-T32 {
+    padding: 25px 20px;
+}
+
+.HELLOBARFORM-T32 .HELLOBARFORM-T32-TEXT {
+    font-size: 28px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T32 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T32 .HELLOBARFORM-T32-CTA {
+    margin: 20px auto 0;
+}
+.HELLOBARFORM-T32 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    display: inline-block;
+    text-align: center;
+}
+.HELLOBARFORM-T32 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+.HELLOBARFORM-T32 .timerClassdefault li {
+	font-size: 24px;
+}
+.HELLOBARFORM-T32 .mck_form_box {
+    max-width: none;
+    width: auto;
+}
+.HELLOBARFORM-T32 .HELLOBARFORM-T32-TEXT {
+    font-size: 24px;
+}
+
+.HELLOBARFORM-T32 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T32 {
+    padding: 10px 10px 10px;
+    background-position: center;
+    margin-bottom: -1px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T32 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T32 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+    .HELLOBARFORM-T32 .timerClassdefault li {
+        margin: 0;
+    }
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template22 end --------------------*/
+/* ---------------Hello bar + timer template23 start --------------------*/
+.HELLOBARFORM-T33 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner23.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T33 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #1CBBB4;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T33 .cz_close_btn span:after, .HELLOBARFORM-T33 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    background: #ffffff;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T33 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T33 .cz_hellobar_inner {
+    padding-right: 240px;
+}
+.HELLOBARFORM-T33 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1350px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T33 .mck_logodiv {
+    position: absolute;
+    right: -20px;
+    top: auto;
+    bottom: -10px;
+}
+.HELLOBARFORM-T33 .mck_logodiv  img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T33 .mck_logodiv  {
+    max-width: 245px;
+    width: 100%;
+}
+.HELLOBARFORM-T33 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T33 .HELLOBARFORM-T33-TEXT {
+    font-family: "Brush Script MT";
+    font-size: 40px;
+    color: #FF7356;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+}
+.HELLOBARFORM-T33 .HELLOBARFORM-T33-CTA {
+    background: linear-gradient(90deg, #ff7356, #ff7356 51%, #af3117) var(--x, 0)/ 200%;
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 12px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(165 133 1 / 40%);
+    margin: 10px auto 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T33 .HELLOBARFORM-T33-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T33 .hellobar_text p {
+    text-align: center;
+    color: #14100f;
+    font-weight: 600;
+}
+.HELLOBARFORM-T33 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T33 .timerClassdefault li {
+    list-style: none;
+    min-width: 70px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 0 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #233E78 !important;
+    position: relative;
+    background-color: #FFD115;
+}
+.HELLOBARFORM-T33 .timerClassdefault li:nth-child(even) {
+    background-color: #FF9315;
+}
+.HELLOBARFORM-T33 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #233E78;
+    border-radius: 50px;
+    top: -20px;
+    right: -9px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T33 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #233E78;
+    border-radius: 50px;
+    top: 0;
+    right: -9px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T33 .timerClassdefault li:last-child:after, .HELLOBARFORM-T33 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T33 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #233E78;
+}
+.HELLOBARFORM-T33 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T33 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T33 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T33 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #FFE8B6;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T33 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T33 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T33 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T33 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T33 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T33 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T33 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T33 {
+    display: block;
+}
+.HELLOBARFORM-T33 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T33 .cz_hellobar_inner {
+    padding-right: 0;
+}
+
+.HELLOBARFORM-T33 .HELLOBARFORM-T33-TEXT {
+    font-size: 28px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T33 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T33 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+.HELLOBARFORM-T33 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 575px){
+    .HELLOBARFORM-T33 .mck_form_box {
+        max-width: none;
+        width: auto;
+    }
+    
+.HELLOBARFORM-T33 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T33 {
+    padding: 10px 10px 10px;
+    background-position: center;
+    margin-bottom: -1px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T33 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T33 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+
+}
+/* Responsive css */
+/* ---------------Hello bar + timer template23 end --------------------*/
+/* ---------------Hello bar + timer template24 start --------------------*/
+.HELLOBARFORM-T34 {
+    min-height: 100px;
+    background-image: url(http://d257yxqteot439.cloudfront.net/app/asset/optin/hbt/banner24.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HELLOBARFORM-T34 .cz_close_btn span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #e53341;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	z-index: 99;
+}
+.HELLOBARFORM-T34 .cz_close_btn span:after, .HELLOBARFORM-T34 .cz_close_btn span:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    background: #ffffff;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.HELLOBARFORM-T34 .cz_close_btn span:before {
+    transform: rotate(-45deg);
+}
+.HELLOBARFORM-T34 .cz_hellobar_inner {
+    padding-right: 300px;
+}
+.HELLOBARFORM-T34 .cz_hellobar_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1350px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.HELLOBARFORM-T34 .mck_logodiv {
+    position: absolute;
+    right: -20px;
+    top: auto;
+    bottom: -20px;
+}
+.HELLOBARFORM-T34 .mck_logodiv img{
+    height: 170px;
+    object-fit: contain;
+}
+.HELLOBARFORM-T34 .mck_logodiv {
+    max-width: 250px;
+    width: 100%;
+}
+.HELLOBARFORM-T34 .mck_align_item.hellobar_text {
+    flex: 1;
+}
+.HELLOBARFORM-T34 .HELLOBARFORM-T34-TEXT {
+    font-family: 'Shrikhand', cursive;
+    font-size: 26px;
+    color: #e53341;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0px 5px 2px rgb(0 0 0 / 10%);
+}
+.HELLOBARFORM-T34 .HELLOBARFORM-T34-CTA {
+    background: linear-gradient(90deg, #ae3341, #ae3341 51%, #ff243d) var(--x, 0)/ 200%;
+    color: #ffffff !important;
+    display: block;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 12px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px rgb(255 190 194);
+    margin: 10px auto 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.HELLOBARFORM-T34 .HELLOBARFORM-T34-CTA:hover {
+	--x: 100%;
+	color: #ffffff;
+}
+.HELLOBARFORM-T34 .hellobar_text p {
+    text-align: center;
+    color: #14100f;
+    font-weight: 600;
+}
+.HELLOBARFORM-T34 .timerClassdefault {
+  padding-left: 0px;
+}
+.HELLOBARFORM-T34 .timerClassdefault li {
+    list-style: none;
+    min-width: 60px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 0 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff !important;
+    position: relative;
+    background-color: #E53341;
+}
+
+.HELLOBARFORM-T34 .timerClassdefault li:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #101113;
+    border-radius: 50px;
+    top: -20px;
+    right: -9px;
+    bottom: 0;
+    margin: auto;
+}
+.HELLOBARFORM-T34 .timerClassdefault li:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #101113;
+    border-radius: 50px;
+    top: 0;
+    right: -9px;
+    bottom: -20px;
+    margin: auto;
+}
+.HELLOBARFORM-T34 .timerClassdefault li:last-child:after, .HELLOBARFORM-T34 .timerClassdefault li:last-child:before {
+    display: none;
+}
+.HELLOBARFORM-T34 .timerClassdefault li span {
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 0px;
+    color: #ffffff;
+}
+.HELLOBARFORM-T34 .hellobartimer3-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.HELLOBARFORM-T34 .hellobartimer3-button p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.HELLOBARFORM-T34 .mck_form_box {
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.HELLOBARFORM-T34 .mck_form_box input {
+    width: 100%;
+    height: 50px !important;
+    background-color: #FFF7D2;
+    color: #1C1C1C;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+}
+.HELLOBARFORM-T34 .mck_form_box input::placeholder {
+    color: #1C1C1C;
+}
+.HELLOBARFORM-T34 .HELLOBAR-TCLOCK2 {
+    text-align: center;
+}
+.HELLOBARFORM-T34 .mck_align_item.HELLOBAR-TCLOCK2 {
+    flex-direction: column;
+}
+
+/* Responsive css */
+@media screen and (max-width: 1199px){
+.HELLOBARFORM-T34 .cz_hellobar_inner {
+    padding-right: 200px;
+}
+.HELLOBARFORM-T34 .mck_logodiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.HELLOBARFORM-T34 .mck_logodiv img {
+    max-width: 170px;
+}
+.HELLOBARFORM-T34 .timerClassdefault li {
+	min-width: 50px;
+    margin: 0;
+}
+}
+
+
+@media screen and (max-width: 991px){
+.HELLOBARFORM-T34 {
+    display: block;
+}
+.HELLOBARFORM-T34 .mck_logodiv {
+    display: none;
+}
+.HELLOBARFORM-T34 .cz_hellobar_inner {
+    padding-right: 0;
+}
+
+.HELLOBARFORM-T34 .mck_form_box {
+    margin: 15px auto;
+    max-width: 400px;
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width: 767px){
+.HELLOBARFORM-T34 .cz_hellobar_inner {
+    display: block;
+    text-align: center;
+}
+.HELLOBARFORM-T34 .mck_align_item.hellobar_text {
+    margin-top: 10px;
+}
+}
+
+@media screen and (max-width: 575px){
+    .HELLOBARFORM-T34 .mck_form_box {
+        max-width: none;
+        width: auto;
+    }
+           
+.HELLOBARFORM-T34 .timerClassdefault {
+    padding: 0 ;
+}
+.HELLOBARFORM-T34 {
+    padding: 10px 10px 10px;
+    background-position: center;
+    margin-bottom: -1px;
+}
+.mck_align_item.HELLOBAR-TCLOCK2 {
+    padding: 0 !important;
+}
+.HELLOBARFORM-T34 .mck_form_box {
+    margin: 10px auto 7px;
+}
+.HELLOBARFORM-T34 .mck_form_box input {
+    height: 40px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+    .HELLOBARFORM-T34 .HELLOBARFORM-T34-TEXT {
+        font-size: 28px;;
+    }
+}
+/* Responsive css */
+
+.mck_hb_optin.HELLOBARFORM-T12 .mck_logodiv {
+    max-width: 210px;
+}
+.mck_hb_optin.HELLOBARFORM-T13 .mck_logodiv {
+    max-width: 170px;
+}
+.mck_hb_optin.HELLOBARFORM-T14 .mck_logodiv {
+    max-width: 170px;
+}
+.mck_hb_optin.HELLOBARFORM-T18 .mck_logodiv {
+    max-width: 170px;
+}
+.mck_hb_optin.HELLOBARFORM-T22 .mck_logodiv {
+    max-width: 170px;
+}
+.mck_hb_optin.HELLOBARFORM-T24 .mck_logodiv {
+    max-width: 150px;
+}
+.mck_hb_optin.HELLOBARFORM-T23 .mck_logodiv {
+    max-width: 210px;
+}
+.mck_hb_optin.HELLOBARFORM-T25 .mck_logodiv {
+    max-width: 170px;
+}
+.mck_hb_optin.HELLOBARFORM-T26 .mck_logodiv {
+    max-width: 170px;
+}
+.mck_hb_optin.HELLOBARFORM-T32 .mck_logodiv {
+    max-width: 170px;
+}
+.mck_hb_optin.HELLOBARFORM-T33 .mck_logodiv {
+    max-width: 170px;
+}
+.mck_hb_optin.HELLOBARFORM-T34 .mck_logodiv {
+    max-width: 170px;
+}
