@@ -7,26 +7,7 @@ const cors = require('cors');
 const path = require('path');
 
 
-//app.use(cors());
-
-const allowedOrigins = [
-  'https://app.converzee.com',
-  'https://api.converzee.com',
-  'https://converzee-ecru.vercel.app/', // Optional: fallback to Vercel domain
-];
-
-app.use(cors({
-  origin: function (origin, callback) {
-    // Allow requests with no origin (like mobile apps or curl)
-    if (!origin) return callback(null, true);
-    if (allowedOrigins.includes(origin)) {
-      return callback(null, true);
-    } else {
-      return callback(new Error('Not allowed by CORS'));
-    }
-  },
-  credentials: true,
-}));
+app.use(cors());
 
 // Body Parser config...
 app.use(bodyParser.urlencoded({ extended: false }));
