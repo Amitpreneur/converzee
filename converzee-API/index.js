@@ -12,12 +12,12 @@ const path = require('path');
 app.use(cors({
   origin: [
     'https://app.converzee.com',
-    'https://oi.converzee.com',
+    'https://api.converzee.com',
     'https://converzee-astro.vercel.app'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true // Only if you need cookies or authentication headers
+  credentials: true // Only if you use cookies or authentication headers
 }));
 
 // Body Parser config...
